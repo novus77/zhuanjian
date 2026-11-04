@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>转间 · 三关布景预览</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; overflow: hidden; background: #0b0806; color: #f4ead8; font-family: "Songti SC", "Noto Serif CJK SC", Georgia, serif; }
+      #app { position: fixed; inset: 0; }
+      canvas { display: block; }
+      #hud { position: fixed; inset: 0; pointer-events: none; }
+      #title-block { position: absolute; top: 26px; left: 30px; }
+      #room-title { font-size: 22px; letter-spacing: 0.14em; font-weight: 600; color: #f0c987; }
+      #room-subtitle { margin-top: 5px; font-size: 12px; letter-spacing: 0.14em; color: #b9a98e; }
+      #legend { position: absolute; right: 26px; bottom: 26px; width: 380px; background: rgba(22,15,11,0.86); border: 1px solid rgba(214,168,95,0.3); border-radius: 10px; padding: 14px 16px; }
+      .legend-title { font-size: 11px; letter-spacing: 0.24em; color: #d6a85f; margin-bottom: 10px; }
+      .legend-row { display: flex; gap: 9px; align-items: flex-start; font-size: 12px; line-height: 1.55; color: #eadcc4; margin-bottom: 6px; }
+      .legend-num { flex: 0 0 18px; height: 18px; border-radius: 50%; border: 1px solid #d6a85f; color: #f0c987; font-size: 11px; line-height: 16px; text-align: center; }
+      body.fp #legend { display: none; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="hud">
+      <div id="title-block">
+        <div id="room-title">三关布景</div>
+        <div id="room-subtitle"></div>
+      </div>
+      <div id="legend"></div>
+    </div>
+    <script type="module" src="/src/preview.ts"></script>
+  </body>
+</html>

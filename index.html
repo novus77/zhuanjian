@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>转间 · M1 灰盒</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="ui">
+      <header class="hud-top">
+        <div class="brand">
+          <span class="brand-mark">◈</span>
+          <div>
+            <h1>转间 <small>M1 灰盒 · 第一人称</small></h1>
+            <p>把门转到北侧，走出去。</p>
+          </div>
+        </div>
+        <div id="compass" class="compass">当前地面：地板 · 重力 ↓</div>
+      </header>
+
+      <div class="hud-left">
+        <div class="hint-card">
+          <h2>操作</h2>
+          <p><b>WASD</b> 移动 · <b>鼠标</b> 360° 环视 · <b>V</b> 切换第一/第三人称</p>
+          <p><b>← →</b> 左右旋转房间（任何视角都可） · <b>E</b> 互动 · <b>R</b> 重置</p>
+          <p class="muted">目标：在房间里探索；需要看全局时按 V，把东墙的门转到北侧。</p>
+        </div>
+      </div>
+
+      <div class="crosshair"></div>
+
+      <div class="hud-right">
+        <div class="gizmo">
+          <div class="gizmo-title">旋转房间</div>
+          <div class="gizmo-grid">
+            <button id="btn-y-minus" title="绕 Y 轴 -90°">↺ 左转</button>
+            <button id="btn-y-plus" title="绕 Y 轴 +90°">右转 ↻</button>
+          </div>
+          <button id="btn-view" class="view">切换视角 (V)</button>
+          <button id="btn-reset" class="reset">重置房间</button>
+          <button id="btn-sound" class="ghost">声音：开</button>
+        </div>
+      </div>
+
+      <div id="prompt" class="prompt hidden">按 <b>E</b> 开门</div>
+      <div id="toast" class="toast hidden"></div>
+      <div id="look-hint" class="look-hint hidden"></div>
+
+      <div id="win" class="overlay hidden">
+        <div class="overlay-card">
+          <span class="eyebrow">M1 灰盒</span>
+          <h2>门开了。</h2>
+          <p>你转动房间，把东墙上的门转到了北侧。</p>
+          <button id="btn-again">再转一次</button>
+        </div>
+      </div>
+
+      <div id="start" class="overlay">
+        <div class="overlay-card">
+          <span class="eyebrow">灰盒原型 · 第一人称机制测试</span>
+          <h2>转间</h2>
+          <p>你是一个发条小人。转动房间，改变门的位置。</p>
+          <p class="muted">点击开始后，点击画面锁定鼠标；按 V 切换全景视角。建议戴耳机。</p>
+          <button id="btn-start">进入房间</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,361 @@
+:root {
+  --ink: #f4ead8;
+  --muted: #b9a98e;
+  --brass: #d6a85f;
+  --brass-bright: #f0c987;
+  --wood: #2a1d13;
+  --panel: rgba(24, 17, 12, 0.78);
+  --line: rgba(214, 168, 95, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0b0806;
+  color: var(--ink);
+  font-family: "Songti SC", "Noto Serif CJK SC", Georgia, serif;
+}
+
+#app,
+canvas {
+  position: fixed;
+  inset: 0;
+  display: block;
+}
+
+#ui {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+button {
+  pointer-events: auto;
+  font-family: inherit;
+}
+
+.hud-top {
+  position: absolute;
+  top: 22px;
+  left: 26px;
+  right: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.brand-mark {
+  font-size: 30px;
+  color: var(--brass);
+  text-shadow: 0 0 18px rgba(214, 168, 95, 0.5);
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+}
+
+h1 small {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 2px 7px;
+  border-radius: 999px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.brand p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.compass {
+  font-size: 12px;
+  color: var(--brass-bright);
+  border: 1px solid var(--line);
+  background: var(--panel);
+  padding: 8px 12px;
+  border-radius: 8px;
+  letter-spacing: 0.08em;
+  backdrop-filter: blur(8px);
+}
+
+.hud-left {
+  position: absolute;
+  left: 26px;
+  bottom: 26px;
+}
+
+.hint-card {
+  max-width: 420px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+}
+
+.hint-card h2 {
+  margin: 0 0 8px;
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  color: var(--brass);
+  font-weight: 600;
+}
+
+.hint-card p {
+  margin: 4px 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.hint-card b {
+  color: var(--brass-bright);
+  font-weight: 600;
+}
+
+.muted {
+  color: var(--muted) !important;
+}
+
+.hud-right {
+  position: absolute;
+  right: 26px;
+  bottom: 26px;
+}
+
+.gizmo {
+  width: 196px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+}
+
+.gizmo-title {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--brass);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.gizmo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.gizmo button {
+  border: 1px solid var(--line);
+  background: rgba(70, 48, 28, 0.55);
+  color: var(--ink);
+  border-radius: 7px;
+  padding: 9px 6px;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.gizmo button:hover {
+  background: rgba(214, 168, 95, 0.22);
+  border-color: var(--brass);
+}
+
+.gizmo button:active {
+  transform: translateY(1px);
+}
+
+.gizmo button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.gizmo .reset,
+.gizmo .view,
+.gizmo .ghost {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px 6px;
+}
+
+.gizmo .view {
+  background: rgba(214, 168, 95, 0.22);
+  border-color: var(--brass);
+  color: var(--brass-bright);
+}
+
+.gizmo .ghost {
+  background: transparent;
+  color: var(--muted);
+}
+
+.prompt {
+  position: absolute;
+  left: 50%;
+  bottom: 16%;
+  transform: translateX(-50%);
+  background: rgba(214, 168, 95, 0.92);
+  color: #24170d;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  box-shadow: 0 0 40px rgba(214, 168, 95, 0.35);
+  transition: opacity 0.2s ease;
+}
+
+.look-hint {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  background: rgba(24, 17, 12, 0.82);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  transition: opacity 0.2s ease;
+}
+
+.toast {
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  transform: translateX(-50%);
+  background: rgba(24, 17, 12, 0.9);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  transition: opacity 0.2s ease;
+}
+
+.crosshair {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  margin: -3px 0 0 -3px;
+  border-radius: 50%;
+  background: rgba(255, 231, 190, 0.7);
+  box-shadow: 0 0 10px rgba(255, 210, 140, 0.5);
+  pointer-events: none;
+}
+
+.hidden {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.hidden * {
+  pointer-events: none !important;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 50% 40%, rgba(32, 21, 12, 0.7), rgba(5, 4, 3, 0.92));
+  transition: opacity 0.35s ease;
+  pointer-events: auto;
+}
+
+.overlay-card {
+  width: min(440px, calc(100vw - 48px));
+  padding: 30px 32px 26px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(48, 33, 20, 0.92), rgba(18, 12, 8, 0.96));
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  color: var(--brass);
+  border: 1px solid var(--line);
+  padding: 4px 9px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+.overlay-card h2 {
+  margin: 0 0 10px;
+  font-size: 34px;
+  letter-spacing: 0.22em;
+  font-weight: 500;
+  color: var(--brass-bright);
+}
+
+.overlay-card p {
+  margin: 6px 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.overlay-card button {
+  margin-top: 18px;
+  border: 1px solid var(--brass);
+  background: var(--brass);
+  color: #24170d;
+  padding: 11px 26px;
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.overlay-card button:hover {
+  background: var(--brass-bright);
+}
+
+@media (max-width: 720px) {
+  .hud-left {
+    display: none;
+  }
+  .hud-right {
+    right: 16px;
+    bottom: 16px;
+  }
+  .hud-top {
+    left: 16px;
+    right: 16px;
+  }
+}
