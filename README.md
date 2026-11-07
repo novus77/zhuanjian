@@ -4,11 +4,23 @@
 
 **当前制作管线：Lux3D + Blender + Unity。**
 
-**第一关整屋模型已接入 Unity，并输出独立 Web 美术试玩版；实际工程位于 unity-graybox 开发工作区。**
+**第一关整屋模型已接入 Unity，并输出独立 Web 美术试玩版；完整工程和已完成资产已汇总到本仓库。**
 
-[打开本机书房试玩](http://127.0.0.1:18769/) · [Unity/Web 接入说明与验收](docs/production/validation/2026-11-07-unity-web-art-preview.md)
+[下载试玩与交付包](https://github.com/novus77/zhuanjian/releases) · [资产目录](docs/asset-catalog.md) · [开发过程](docs/development-log.md) · [发布记录](docs/releases.md)
 
-[第一关整屋模型与检查图](models/blender/study-room-v1/README.md) · [整屋及九类源件离线预览](models/blender/study-room-v1/delivery-v2/preview.html)
+开发主线：`dev`。大型模型、贴图和字体由 Git LFS 管理，克隆后需获取 LFS 内容；Unity 工程位于 `unity/Roomturn`，版本固定在 ProjectSettings/ProjectVersion.txt。持续上传规则见 [GitHub 工作流](docs/github-workflow.md)。
+
+```sh
+git lfs install
+git clone --branch dev https://github.com/novus77/zhuanjian.git
+cd zhuanjian
+git lfs pull
+python3 tools/repository_archive.py check
+```
+
+试玩可下载 Releases 中的 `roomturn-web-art.zip`，解压后按包内说明启动 Python 服务。本机已有服务时也可访问 [127.0.0.1:18769](http://127.0.0.1:18769/)。
+
+[第一关整屋模型与检查图](models/blender/study-room-v1/README.md) · [Unity/Web 接入验收](docs/production/validation/2026-11-07-unity-web-art-preview.md)。离线预览位于 Releases 的 `roomturn-delivery-history.zip`。
 
 ## 从这里开始
 
@@ -55,7 +67,7 @@
 | 三关欧式概念图、多视角板 | 已生成，局部一致性需统一模型校准 |
 | 第一关 S01–S09 外观 | 已从 unity-graybox 工作区恢复全部源件及整理文件 |
 | 旧网页机制原型、布景预览 | 已有源文件，不代表新规则验收通过 |
-| Unity/Web 美术试玩版 | unity-graybox 工作区内 StudyArt.unity / Builds/WebArt，保留旧灰盒 |
+| Unity/Web 美术试玩版 | unity/Roomturn 中的 StudyArt.unity；WebArt 构建通过 Releases 提供，保留旧灰盒 |
 | 第一关整屋美术模型 | Blender/完整 FBX/GLB、剖切预览与细节图已输出，见模型说明 |
 | 第一关运行时美术切片 | 已接入并构建，测试/浏览器范围见最新验收说明 |
 | 三关成品 | 第二、三关与整体打磨待后续制作 |
