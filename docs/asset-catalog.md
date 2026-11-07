@@ -12,10 +12,10 @@
 | AGENTS.md | 1 | 0.00 |
 | README.md | 1 | 0.01 |
 | _knowledge_base | 1 | 0.00 |
-| docs | 116 | 58.78 |
+| docs | 120 | 59.73 |
 | experiments | 38 | 46.29 |
 | index.html | 1 | 0.00 |
-| models | 295 | 746.38 |
+| models | 434 | 1055.68 |
 | package-lock.json | 1 | 0.04 |
 | package.json | 1 | 0.00 |
 | preview.html | 1 | 0.00 |
@@ -24,7 +24,7 @@
 | tsconfig.json | 1 | 0.00 |
 | unity | 415 | 199.42 |
 
-Git LFS 去重后的当前内容大小：767.41 MiB。历史版本另计。
+Git LFS 去重后的当前内容大小：1077.56 MiB。历史版本另计。
 
 ## 模型文件
 
@@ -38,6 +38,33 @@ Git LFS 去重后的当前内容大小：767.41 MiB。历史版本另计。
 | [models/blender/study-room-v1/StudyRoom.fbx](../models/blender/study-room-v1/StudyRoom.fbx) | 51.66 | git-lfs |
 | [models/blender/study-room-v1/scene.glb](../models/blender/study-room-v1/scene.glb) | 64.46 | git-lfs |
 | [models/blender/study-room-v1/unity-import/StudyExterior.fbx](../models/blender/study-room-v1/unity-import/StudyExterior.fbx) | 0.13 | git-lfs |
+| [models/lux3d/B01/export/B01SewingMachineHead.fbx](../models/lux3d/B01/export/B01SewingMachineHead.fbx) | 6.06 | git-lfs |
+| [models/lux3d/B01/source/B01SewingMachineHead_glb.glb](../models/lux3d/B01/source/B01SewingMachineHead_glb.glb) | 9.66 | git-lfs |
+| [models/lux3d/B01/work/B01SewingMachineHead_clean.blend](../models/lux3d/B01/work/B01SewingMachineHead_clean.blend) | 9.58 | git-lfs |
+| [models/lux3d/B02/export/B02CassetteRadio.fbx](../models/lux3d/B02/export/B02CassetteRadio.fbx) | 4.14 | git-lfs |
+| [models/lux3d/B02/source/B02CassetteRadio_glb.glb](../models/lux3d/B02/source/B02CassetteRadio_glb.glb) | 6.27 | git-lfs |
+| [models/lux3d/B02/work/B02CassetteRadio_clean.blend](../models/lux3d/B02/work/B02CassetteRadio_clean.blend) | 6.26 | git-lfs |
+| [models/lux3d/B03/export/B03DressingTableLeg.fbx](../models/lux3d/B03/export/B03DressingTableLeg.fbx) | 3.47 | git-lfs |
+| [models/lux3d/B03/export/B03OvalMirrorFrame.fbx](../models/lux3d/B03/export/B03OvalMirrorFrame.fbx) | 3.85 | git-lfs |
+| [models/lux3d/B03/source/B03DressingTableLeg_glb.glb](../models/lux3d/B03/source/B03DressingTableLeg_glb.glb) | 4.34 | git-lfs |
+| [models/lux3d/B03/source/B03OvalMirrorFrame_glb.glb](../models/lux3d/B03/source/B03OvalMirrorFrame_glb.glb) | 4.99 | git-lfs |
+| [models/lux3d/B03/work/B03DressingTableLeg_clean.blend](../models/lux3d/B03/work/B03DressingTableLeg_clean.blend) | 4.40 | git-lfs |
+| [models/lux3d/B03/work/B03OvalMirrorFrame_clean.blend](../models/lux3d/B03/work/B03OvalMirrorFrame_clean.blend) | 4.93 | git-lfs |
+| [models/lux3d/B04/export/B04UpholsteredStool.fbx](../models/lux3d/B04/export/B04UpholsteredStool.fbx) | 4.94 | git-lfs |
+| [models/lux3d/B04/source/B04UpholsteredStool_glb.glb](../models/lux3d/B04/source/B04UpholsteredStool_glb.glb) | 6.46 | git-lfs |
+| [models/lux3d/B04/work/B04UpholsteredStool_clean.blend](../models/lux3d/B04/work/B04UpholsteredStool_clean.blend) | 6.47 | git-lfs |
+| [models/lux3d/B05/export/B05LeafHandle.fbx](../models/lux3d/B05/export/B05LeafHandle.fbx) | 3.88 | git-lfs |
+| [models/lux3d/B05/export/B05WardrobeCrest.fbx](../models/lux3d/B05/export/B05WardrobeCrest.fbx) | 4.70 | git-lfs |
+| [models/lux3d/B05/source/B05LeafHandle_glb.glb](../models/lux3d/B05/source/B05LeafHandle_glb.glb) | 5.17 | git-lfs |
+| [models/lux3d/B05/source/B05WardrobeCrest_glb.glb](../models/lux3d/B05/source/B05WardrobeCrest_glb.glb) | 6.00 | git-lfs |
+| [models/lux3d/B05/work/B05LeafHandle_clean.blend](../models/lux3d/B05/work/B05LeafHandle_clean.blend) | 5.24 | git-lfs |
+| [models/lux3d/B05/work/B05WardrobeCrest_clean.blend](../models/lux3d/B05/work/B05WardrobeCrest_clean.blend) | 5.95 | git-lfs |
+| [models/lux3d/B06/export/B06BedOrnament.fbx](../models/lux3d/B06/export/B06BedOrnament.fbx) | 4.84 | git-lfs |
+| [models/lux3d/B06/source/B06BedOrnament_glb.glb](../models/lux3d/B06/source/B06BedOrnament_glb.glb) | 6.14 | git-lfs |
+| [models/lux3d/B06/work/B06BedOrnament_clean.blend](../models/lux3d/B06/work/B06BedOrnament_clean.blend) | 6.18 | git-lfs |
+| [models/lux3d/B10/export/B10CeramicCup.fbx](../models/lux3d/B10/export/B10CeramicCup.fbx) | 3.97 | git-lfs |
+| [models/lux3d/B10/source/B10CeramicCup_glb.glb](../models/lux3d/B10/source/B10CeramicCup_glb.glb) | 4.50 | git-lfs |
+| [models/lux3d/B10/work/B10CeramicCup_clean.blend](../models/lux3d/B10/work/B10CeramicCup_clean.blend) | 4.59 | git-lfs |
 | [models/lux3d/S01/export/S01Gramophone.fbx](../models/lux3d/S01/export/S01Gramophone.fbx) | 4.62 | git-lfs |
 | [models/lux3d/S01/export/S01Gramophone_before_capped_split.fbx](../models/lux3d/S01/export/S01Gramophone_before_capped_split.fbx) | 4.61 | git-lfs |
 | [models/lux3d/S01/source/S01Gramophone_glb.glb](../models/lux3d/S01/source/S01Gramophone_glb.glb) | 6.07 | git-lfs |

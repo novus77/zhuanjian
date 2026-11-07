@@ -1,0 +1,43 @@
+{
+  "asset": "B06",
+  "name": "B06BedOrnament",
+  "attemptId": "b06-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one decorative metal bed ornament for a cream-painted iron bed, symmetrical Art Nouveau botanical motif with two curling leaves and a small flower bud, aged warm brass with soft cream metal edges, flat mounting back, approximately 0.30 m high 0.15 m wide, complete front and back, no bed frame, no thin rods, no mattress, no room, one isolated ornament, static game prop.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 10000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 300
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_8725a89a44be4ab084ee8fb82a86b61b",
+  "reviewId": "review_8725a89a44be4ab084ee8fb82a86b61b",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:44:00.187341+00:00",
+  "taskId": "4828746",
+  "submittedAt": "2026-11-07T09:44:00.786505+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:49:38.417709+00:00",
+  "downloadedAt": "2026-11-07T09:49:38.417709+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B06/source/B06BedOrnament_zip.zip",
+      "bytes": 8664101
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B06/source/B06BedOrnament_glb.glb",
+      "bytes": 6437068
+    }
+  ]
+}

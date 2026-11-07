@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-07",
+  "batch": "room2-bedroom-lux3d",
+  "budgetAuthorizedCredits": 500,
+  "quotedCredits": 180,
+  "remainingCredits": 320,
+  "items": [
+    {
+      "path": "models/lux3d/B01/inspection/inspection.json",
+      "asset": "B01",
+      "triangles": 20394,
+      "dimensionsMeters": [
+        0.551473081111908,
+        0.2445322871208191,
+        0.41999998688697815
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B02/inspection/inspection.json",
+      "asset": "B02",
+      "triangles": 13732,
+      "dimensionsMeters": [
+        0.2110028862953186,
+        0.088248111307621,
+        0.18000000715255737
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B03/inspection/frame/inspection.json",
+      "asset": "B03",
+      "triangles": 22544,
+      "dimensionsMeters": [
+        0.6911152601242065,
+        0.02885761484503746,
+        0.8199999332427979
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B03/inspection/leg/inspection.json",
+      "asset": "B03",
+      "triangles": 12828,
+      "dimensionsMeters": [
+        0.2089998424053192,
+        0.22577226161956787,
+        0.7199999690055847
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B04/inspection/inspection.json",
+      "asset": "B04",
+      "triangles": 16100,
+      "dimensionsMeters": [
+        0.5459585189819336,
+        0.4806210994720459,
+        0.46000000834465027
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B05/inspection/crest/inspection.json",
+      "asset": "B05",
+      "triangles": 17206,
+      "dimensionsMeters": [
+        0.8580979704856873,
+        0.03295590355992317,
+        0.2199999988079071
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B05/inspection/handle/inspection.json",
+      "asset": "B05",
+      "triangles": 8346,
+      "dimensionsMeters": [
+        0.06891028583049774,
+        0.09298767149448395,
+        0.1599999964237213
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B06/inspection/inspection.json",
+      "asset": "B06",
+      "triangles": 10090,
+      "dimensionsMeters": [
+        0.22424590587615967,
+        0.033998921513557434,
+        0.30000001192092896
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    },
+    {
+      "path": "models/lux3d/B10/inspection/inspection.json",
+      "asset": "B10",
+      "triangles": 8902,
+      "dimensionsMeters": [
+        0.10242705047130585,
+        0.08779271692037582,
+        0.07999999821186066
+      ],
+      "materials": [
+        "Designer_Logic_PBR"
+      ]
+    }
+  ],
+  "sourceTasks": {
+    "B01": 4828529,
+    "B02": 4828534,
+    "B03L": 4828539,
+    "B03M": 4828544,
+    "B04": 4828549,
+    "B05C": 4828723,
+    "B05H": 4828742,
+    "B06": 4828746,
+    "B10": 4828771
+  },
+  "excluded": [
+    "B07 local Blender box + 2D texture",
+    "B08 reuse S06",
+    "B09 reuse S09"
+  ],
+  "fbxRoundtrip": "models/lux3d/_plans/room2-batch/fbx-roundtrip.json"
+}

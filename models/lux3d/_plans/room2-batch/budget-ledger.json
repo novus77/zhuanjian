@@ -1,0 +1,74 @@
+{
+  "mode": "automatic",
+  "authorizedTotalCredits": 500,
+  "origin": "User authorized 500 Lux3D credits for generating all second-level models on 2026-11-07",
+  "createdAt": "2026-11-07T09:38:35.318021+00:00",
+  "entries": [
+    {
+      "asset": "B01",
+      "name": "B01SewingMachineHead",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828529"
+    },
+    {
+      "asset": "B02",
+      "name": "B02CassetteRadio",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828534"
+    },
+    {
+      "asset": "B03L",
+      "name": "B03DressingTableLeg",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828539"
+    },
+    {
+      "asset": "B03M",
+      "name": "B03OvalMirrorFrame",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828544"
+    },
+    {
+      "asset": "B04",
+      "name": "B04UpholsteredStool",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828549"
+    },
+    {
+      "asset": "B05C",
+      "name": "B05WardrobeCrest",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828723"
+    },
+    {
+      "asset": "B05H",
+      "name": "B05LeafHandle",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828742"
+    },
+    {
+      "asset": "B06",
+      "name": "B06BedOrnament",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828746"
+    },
+    {
+      "asset": "B10",
+      "name": "B10CeramicCup",
+      "quotedCredits": 20,
+      "state": "committed",
+      "taskId": "4828771"
+    }
+  ],
+  "committedCredits": 180,
+  "reservedCredits": 0,
+  "remainingCredits": 320
+}

@@ -1,0 +1,43 @@
+{
+  "asset": "B03M",
+  "name": "B03OvalMirrorFrame",
+  "attemptId": "b03-frame-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one oval wooden dressing-table mirror frame only, light walnut with gently carved Art Nouveau botanical rim, oval opening roughly 0.62 m wide and 0.82 m high, flat back mounting surface, no mirror glass, no reflections, no table, no drawer, no room, no other props, one isolated oval frame, static game asset.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 15000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 820
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_df0ddb9c7c9e437187daa4fab0d76e13",
+  "reviewId": "review_df0ddb9c7c9e437187daa4fab0d76e13",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "taskId": "4828544",
+  "submittedAt": "2026-11-07T09:38:36.820300+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:44:22.793477+00:00",
+  "downloadedAt": "2026-11-07T09:44:22.793477+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03OvalMirrorFrame_zip.zip",
+      "bytes": 6967361
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03OvalMirrorFrame_glb.glb",
+      "bytes": 5234612
+    }
+  ]
+}

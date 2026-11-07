@@ -1,0 +1,41 @@
+{
+  "asset": "B02",
+  "dimensionsMeters": [
+    0.2110028862953186,
+    0.088248111307621,
+    0.18000000715255737
+  ],
+  "boundsMeters": [
+    [
+      -0.1055014431476593,
+      -0.0441240556538105,
+      0.0
+    ],
+    [
+      0.1055014431476593,
+      0.0441240556538105,
+      0.18000000715255737
+    ]
+  ],
+  "triangles": 13732,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B02CassetteRadio": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B02/export/textures/B02CassetteRadio_BaseColor.png",
+    "models/lux3d/B02/export/textures/B02CassetteRadio_MetallicRoughness.png",
+    "models/lux3d/B02/export/textures/B02CassetteRadio_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

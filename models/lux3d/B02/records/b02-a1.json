@@ -1,0 +1,43 @@
+{
+  "asset": "B02",
+  "name": "B02CassetteRadio",
+  "attemptId": "b02-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one portable 1970s cassette radio, black and dark grey plastic body with brushed silver trim, rectangular speaker grille with woven fabric texture, clear cassette tape door, row of mechanical push buttons, carry handle, small folded telescopic antenna, complete front back sides top and underside, no modern screen, no digital display, no room, no table, no other props, no text, one freestanding static game prop, approximately 0.34 m wide 0.12 m deep 0.18 m high.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 15000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 180
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_df0ddb9c7c9e437187daa4fab0d76e13",
+  "reviewId": "review_df0ddb9c7c9e437187daa4fab0d76e13",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "taskId": "4828534",
+  "submittedAt": "2026-11-07T09:38:36.073260+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:44:21.285682+00:00",
+  "downloadedAt": "2026-11-07T09:44:21.285682+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B02/source/B02CassetteRadio_zip.zip",
+      "bytes": 7876246
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B02/source/B02CassetteRadio_glb.glb",
+      "bytes": 6573004
+    }
+  ]
+}

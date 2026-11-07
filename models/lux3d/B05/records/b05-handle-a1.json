@@ -1,0 +1,43 @@
+{
+  "asset": "B05H",
+  "name": "B05LeafHandle",
+  "attemptId": "b05-handle-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one aged brass Art Nouveau leaf-shaped cabinet pull handle, two gently curved brass leaves meeting at a central stem, solid flat backplate for mounting on a wardrobe or drawer door, approximately 0.16 m long, tarnished warm brass with subtle wear, one handle only, no door, no drawer, no furniture, no room, no copy of a full wardrobe, isolated game hardware asset.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 10000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 160
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_8725a89a44be4ab084ee8fb82a86b61b",
+  "reviewId": "review_8725a89a44be4ab084ee8fb82a86b61b",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:44:00.187341+00:00",
+  "taskId": "4828742",
+  "submittedAt": "2026-11-07T09:44:00.530183+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:49:36.834320+00:00",
+  "downloadedAt": "2026-11-07T09:49:36.834320+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B05/source/B05LeafHandle_zip.zip",
+      "bytes": 8006815
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B05/source/B05LeafHandle_glb.glb",
+      "bytes": 5425936
+    }
+  ]
+}

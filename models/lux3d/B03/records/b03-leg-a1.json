@@ -1,0 +1,43 @@
+{
+  "asset": "B03L",
+  "name": "B03DressingTableLeg",
+  "attemptId": "b03-leg-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one solid carved light walnut dressing-table leg, English country-house furniture with restrained Art Nouveau acanthus-leaf carving at the upper knee, slender curved cabriole profile, tapered ankle and small pad foot, flat square attachment block at the top, warm light walnut grain, complete all sides, no tabletop, no drawer, no mirror, no other legs, no room, one isolated single leg, static game asset.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 15000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 720
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_df0ddb9c7c9e437187daa4fab0d76e13",
+  "reviewId": "review_df0ddb9c7c9e437187daa4fab0d76e13",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "taskId": "4828539",
+  "submittedAt": "2026-11-07T09:38:36.403009+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:44:24.866576+00:00",
+  "downloadedAt": "2026-11-07T09:44:24.866576+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03DressingTableLeg_zip.zip",
+      "bytes": 6444603
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03DressingTableLeg_glb.glb",
+      "bytes": 4549920
+    }
+  ]
+}

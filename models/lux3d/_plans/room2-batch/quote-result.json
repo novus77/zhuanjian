@@ -1,0 +1,41 @@
+{
+  "account": {
+    "availableCredits": 3419,
+    "trialCountMap": {
+      "meshgen": 5
+    },
+    "member": false,
+    "memberType": 0,
+    "snapshotAt": "2026-11-07T17:37:38.640543372+08:00",
+    "uniqueId": "ctx_5d8bb537005b4dceaa81d479fec30220",
+    "uniqueIdExpiresAt": "2026-11-07T20:35:48.115753872+08:00",
+    "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+    "source": 100,
+    "region": "cn"
+  },
+  "quote": {
+    "uniqueId": "ctx_5d8bb537005b4dceaa81d479fec30220",
+    "quoteId": "quote_df0ddb9c7c9e437187daa4fab0d76e13",
+    "source": 100,
+    "pricingScope": "BEFORE_ACCOUNT_BENEFITS",
+    "quotedAt": "2026-11-07T17:37:38.77979217+08:00",
+    "expiresAt": "2026-11-07T17:42:38.77979217+08:00",
+    "estimatedCreditsTotal": 180,
+    "details": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20
+    },
+    "review": {
+      "reviewId": "review_df0ddb9c7c9e437187daa4fab0d76e13",
+      "status": "OK",
+      "reason": "Collection only; no substantive quality review in this release"
+    }
+  }
+}

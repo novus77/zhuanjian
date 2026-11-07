@@ -1,0 +1,43 @@
+{
+  "asset": "B10",
+  "name": "B10CeramicCup",
+  "attemptId": "b10-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one small antique cream glazed ceramic teacup, simple tapered cylindrical body with one curved handle, delicate muted rose and gold botanical motif, slight irregular handmade rim and fine glaze crazing, complete outside inside base and handle, approximately 0.09 m diameter and 0.08 m high, no saucer, no liquid, no table, no room, no other props, one isolated static game prop.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 10000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 80
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_8725a89a44be4ab084ee8fb82a86b61b",
+  "reviewId": "review_8725a89a44be4ab084ee8fb82a86b61b",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:44:25.664486+00:00",
+  "taskId": "4828771",
+  "submittedAt": "2026-11-07T09:44:25.989754+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:50:10.328578+00:00",
+  "downloadedAt": "2026-11-07T09:50:10.328578+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B10/source/B10CeramicCup_zip.zip",
+      "bytes": 6338666
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B10/source/B10CeramicCup_glb.glb",
+      "bytes": 4723260
+    }
+  ]
+}

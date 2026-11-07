@@ -1,0 +1,41 @@
+{
+  "asset": "B04",
+  "dimensionsMeters": [
+    0.5459585189819336,
+    0.4806210994720459,
+    0.46000000834465027
+  ],
+  "boundsMeters": [
+    [
+      -0.2729792594909668,
+      -0.24031054973602295,
+      0.0
+    ],
+    [
+      0.2729792296886444,
+      0.24031056463718414,
+      0.46000000834465027
+    ]
+  ],
+  "triangles": 16100,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B04UpholsteredStool": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B04/export/textures/B04UpholsteredStool_BaseColor.png",
+    "models/lux3d/B04/export/textures/B04UpholsteredStool_MetallicRoughness.png",
+    "models/lux3d/B04/export/textures/B04UpholsteredStool_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

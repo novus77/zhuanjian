@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4828723",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "Exactly one separate horizontal wardrobe crown crest ornament, symmetrical English Art Nouveau botanical carving in light walnut, flowing acanthus leaves and a central leaf-bud motif with a restrained aged brass inlay, broad shallow relief with a flat continuous back for mounting on a wardrobe cornice, approximately 1.30 m wide 0.22 m high 0.04 m thick, complete freestanding ornament only, no wardrobe, no doors, no room, no lettering, no surrounding props."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B05/source/B05WardrobeCrest_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B05/source/B05WardrobeCrest_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-07T09:43:44.264922+00:00",
+  "updatedAt": "2026-11-07T09:48:49.741750+00:00",
+  "localCompletedAt": "2026-11-07T09:48:49.741750+00:00"
+}

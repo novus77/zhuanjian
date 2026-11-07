@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4828746",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "Exactly one decorative metal bed ornament for a cream-painted iron bed, symmetrical Art Nouveau botanical motif with two curling leaves and a small flower bud, aged warm brass with soft cream metal edges, flat mounting back, approximately 0.30 m high 0.15 m wide, complete front and back, no bed frame, no thin rods, no mattress, no room, one isolated ornament, static game prop."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B06/source/B06BedOrnament_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B06/source/B06BedOrnament_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-07T09:44:00.187341+00:00",
+  "updatedAt": "2026-11-07T09:49:38.417709+00:00",
+  "localCompletedAt": "2026-11-07T09:49:38.417709+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "第二关卧室 Lux3D 外观批次 v1",
+  "items": [
+    {
+      "id": "b01",
+      "label": "B01 缝纫机机头",
+      "selectedAttemptId": "b01-a1",
+      "attempts": [
+        {
+          "id": "b01-a1",
+          "statePath": "../../B01/records/b01-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "label": "B02 录音机外壳",
+      "selectedAttemptId": "b02-a1",
+      "attempts": [
+        {
+          "id": "b02-a1",
+          "statePath": "../../B02/records/b02-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b03-leg",
+      "label": "B03-L 梳妆台雕花桌腿",
+      "selectedAttemptId": "b03-leg-a1",
+      "attempts": [
+        {
+          "id": "b03-leg-a1",
+          "statePath": "../../B03/records/b03-leg-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b03-frame",
+      "label": "B03-M 椭圆镜框",
+      "selectedAttemptId": "b03-frame-a1",
+      "attempts": [
+        {
+          "id": "b03-frame-a1",
+          "statePath": "../../B03/records/b03-frame-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "label": "B04 软包凳",
+      "selectedAttemptId": "b04-a1",
+      "attempts": [
+        {
+          "id": "b04-a1",
+          "statePath": "../../B04/records/b04-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b05-crest",
+      "label": "B05-C 衣柜顶冠雕花",
+      "selectedAttemptId": "b05-crest-a1",
+      "attempts": [
+        {
+          "id": "b05-crest-a1",
+          "statePath": "../../B05/records/b05-crest-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b05-handle",
+      "label": "B05-H 叶形黄铜把手",
+      "selectedAttemptId": "b05-handle-a1",
+      "attempts": [
+        {
+          "id": "b05-handle-a1",
+          "statePath": "../../B05/records/b05-handle-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b06",
+      "label": "B06 床头床尾植物饰件",
+      "selectedAttemptId": "b06-a1",
+      "attempts": [
+        {
+          "id": "b06-a1",
+          "statePath": "../../B06/records/b06-a1-state.json"
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "label": "B10 奶油陶瓷杯",
+      "selectedAttemptId": "b10-a1",
+      "attempts": [
+        {
+          "id": "b10-a1",
+          "statePath": "../../B10/records/b10-a1-state.json"
+        }
+      ]
+    }
+  ],
+  "scene": {
+    "status": "not-requested"
+  }
+}

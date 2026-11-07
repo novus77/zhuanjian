@@ -1,0 +1,43 @@
+{
+  "asset": "B05C",
+  "name": "B05WardrobeCrest",
+  "attemptId": "b05-crest-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one separate horizontal wardrobe crown crest ornament, symmetrical English Art Nouveau botanical carving in light walnut, flowing acanthus leaves and a central leaf-bud motif with a restrained aged brass inlay, broad shallow relief with a flat continuous back for mounting on a wardrobe cornice, approximately 1.30 m wide 0.22 m high 0.04 m thick, complete freestanding ornament only, no wardrobe, no doors, no room, no lettering, no surrounding props.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 10000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 220
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_8725a89a44be4ab084ee8fb82a86b61b",
+  "reviewId": "review_8725a89a44be4ab084ee8fb82a86b61b",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:43:44.264922+00:00",
+  "taskId": "4828723",
+  "submittedAt": "2026-11-07T09:43:44.508362+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:48:49.741750+00:00",
+  "downloadedAt": "2026-11-07T09:48:49.741750+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B05/source/B05WardrobeCrest_zip.zip",
+      "bytes": 8240571
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B05/source/B05WardrobeCrest_glb.glb",
+      "bytes": 6295036
+    }
+  ]
+}

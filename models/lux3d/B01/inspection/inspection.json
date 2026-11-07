@@ -1,0 +1,41 @@
+{
+  "asset": "B01",
+  "dimensionsMeters": [
+    0.551473081111908,
+    0.2445322871208191,
+    0.41999998688697815
+  ],
+  "boundsMeters": [
+    [
+      -0.275736540555954,
+      -0.12226614356040955,
+      0.0
+    ],
+    [
+      0.275736540555954,
+      0.12226615101099014,
+      0.41999998688697815
+    ]
+  ],
+  "triangles": 20394,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B01SewingMachineHead": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B01/export/textures/B01SewingMachineHead_BaseColor.png",
+    "models/lux3d/B01/export/textures/B01SewingMachineHead_MetallicRoughness.png",
+    "models/lux3d/B01/export/textures/B01SewingMachineHead_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

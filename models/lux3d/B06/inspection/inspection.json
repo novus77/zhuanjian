@@ -1,0 +1,41 @@
+{
+  "asset": "B06",
+  "dimensionsMeters": [
+    0.22424590587615967,
+    0.033998921513557434,
+    0.30000001192092896
+  ],
+  "boundsMeters": [
+    [
+      -0.11212294548749924,
+      -0.016999460756778717,
+      0.0
+    ],
+    [
+      0.11212295293807983,
+      0.016999462619423866,
+      0.30000001192092896
+    ]
+  ],
+  "triangles": 10090,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B06BedOrnament": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B06/export/textures/B06BedOrnament_BaseColor.png",
+    "models/lux3d/B06/export/textures/B06BedOrnament_MetallicRoughness.png",
+    "models/lux3d/B06/export/textures/B06BedOrnament_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

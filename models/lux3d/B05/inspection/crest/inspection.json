@@ -1,0 +1,41 @@
+{
+  "asset": "B05",
+  "dimensionsMeters": [
+    0.8580979704856873,
+    0.03295590355992317,
+    0.2199999988079071
+  ],
+  "boundsMeters": [
+    [
+      -0.42904898524284363,
+      -0.016477951779961586,
+      0.0
+    ],
+    [
+      0.42904898524284363,
+      0.016477951779961586,
+      0.2199999988079071
+    ]
+  ],
+  "triangles": 17206,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B05WardrobeCrest": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B05/export/textures/B05WardrobeCrest_BaseColor.png",
+    "models/lux3d/B05/export/textures/B05WardrobeCrest_MetallicRoughness.png",
+    "models/lux3d/B05/export/textures/B05WardrobeCrest_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "asset": "B05",
+  "dimensionsMeters": [
+    0.06891028583049774,
+    0.09298767149448395,
+    0.1599999964237213
+  ],
+  "boundsMeters": [
+    [
+      -0.03445513918995857,
+      -0.046493835747241974,
+      0.0
+    ],
+    [
+      0.03445514291524887,
+      0.046493835747241974,
+      0.1599999964237213
+    ]
+  ],
+  "triangles": 8346,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B05LeafHandle": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B05/export/textures/B05LeafHandle_BaseColor.png",
+    "models/lux3d/B05/export/textures/B05LeafHandle_MetallicRoughness.png",
+    "models/lux3d/B05/export/textures/B05LeafHandle_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4828539",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "Exactly one solid carved light walnut dressing-table leg, English country-house furniture with restrained Art Nouveau acanthus-leaf carving at the upper knee, slender curved cabriole profile, tapered ankle and small pad foot, flat square attachment block at the top, warm light walnut grain, complete all sides, no tabletop, no drawer, no mirror, no other legs, no room, one isolated single leg, static game asset."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03DressingTableLeg_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03DressingTableLeg_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "updatedAt": "2026-11-07T09:44:24.866576+00:00",
+  "localCompletedAt": "2026-11-07T09:44:24.866576+00:00"
+}

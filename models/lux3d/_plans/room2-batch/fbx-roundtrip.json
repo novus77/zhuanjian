@@ -1,0 +1,119 @@
+[
+  {
+    "asset": "B01",
+    "file": "models/lux3d/B01/export/B01SewingMachineHead.fbx",
+    "meshCount": 1,
+    "names": [
+      "B01SewingMachineHead"
+    ],
+    "dimensionsMeters": [
+      0.551473081111908,
+      0.24453236162662506,
+      0.4200000366089842
+    ]
+  },
+  {
+    "asset": "B02",
+    "file": "models/lux3d/B02/export/B02CassetteRadio.fbx",
+    "meshCount": 1,
+    "names": [
+      "B02CassetteRadio"
+    ],
+    "dimensionsMeters": [
+      0.2110028862953186,
+      0.08824814110994339,
+      0.1800000143412781
+    ]
+  },
+  {
+    "asset": "B03-L",
+    "file": "models/lux3d/B03/export/B03DressingTableLeg.fbx",
+    "meshCount": 1,
+    "names": [
+      "B03DressingTableLeg"
+    ],
+    "dimensionsMeters": [
+      0.2089998498558998,
+      0.22577238827943802,
+      0.7199999873970704
+    ]
+  },
+  {
+    "asset": "B03-M",
+    "file": "models/lux3d/B03/export/B03OvalMirrorFrame.fbx",
+    "meshCount": 1,
+    "names": [
+      "B03OvalMirrorFrame"
+    ],
+    "dimensionsMeters": [
+      0.6911152601242065,
+      0.02885774802416563,
+      0.8199999355935488
+    ]
+  },
+  {
+    "asset": "B04",
+    "file": "models/lux3d/B04/export/B04UpholsteredStool.fbx",
+    "meshCount": 1,
+    "names": [
+      "B04UpholsteredStool"
+    ],
+    "dimensionsMeters": [
+      0.5459584891796112,
+      0.48062118887901306,
+      0.4600000772985311
+    ]
+  },
+  {
+    "asset": "B05-C",
+    "file": "models/lux3d/B05/export/B05WardrobeCrest.fbx",
+    "meshCount": 1,
+    "names": [
+      "B05WardrobeCrest"
+    ],
+    "dimensionsMeters": [
+      0.8580979704856873,
+      0.03295593895018101,
+      0.2200000014925061
+    ]
+  },
+  {
+    "asset": "B05-H",
+    "file": "models/lux3d/B05/export/B05LeafHandle.fbx",
+    "meshCount": 1,
+    "names": [
+      "B05LeafHandle"
+    ],
+    "dimensionsMeters": [
+      0.06891028210520744,
+      0.09298769757151604,
+      0.16000001889968907
+    ]
+  },
+  {
+    "asset": "B06",
+    "file": "models/lux3d/B06/export/B06BedOrnament.fbx",
+    "meshCount": 1,
+    "names": [
+      "B06BedOrnament"
+    ],
+    "dimensionsMeters": [
+      0.22424589842557907,
+      0.03399897180497646,
+      0.30000001469049287
+    ]
+  },
+  {
+    "asset": "B10",
+    "file": "models/lux3d/B10/export/B10CeramicCup.fbx",
+    "meshCount": 1,
+    "names": [
+      "B10CeramicCup"
+    ],
+    "dimensionsMeters": [
+      0.10242704674601555,
+      0.08779272809624672,
+      0.08000001281406544
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4828544",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "Exactly one oval wooden dressing-table mirror frame only, light walnut with gently carved Art Nouveau botanical rim, oval opening roughly 0.62 m wide and 0.82 m high, flat back mounting surface, no mirror glass, no reflections, no table, no drawer, no room, no other props, one isolated oval frame, static game asset."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03OvalMirrorFrame_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B03/source/B03OvalMirrorFrame_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "updatedAt": "2026-11-07T09:44:22.793477+00:00",
+  "localCompletedAt": "2026-11-07T09:44:22.793477+00:00"
+}

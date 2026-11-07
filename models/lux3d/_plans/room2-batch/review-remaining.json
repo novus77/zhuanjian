@@ -1,0 +1,9 @@
+{
+  "pluginTaskId": "plugin_30cb5a9e451243258584b2c59de00e76",
+  "planVersion": 2,
+  "plan": "第二关卧室 Lux3D 批次补提交：B05-C 衣柜顶冠雕花、B05-H 叶形黄铜把手（一个源件复用两处）、B06 床头/床尾植物饰件、B10 奶油陶瓷杯。均按 docs/production/room2-modeling-plan.md 的标准版 G1、关闭四视图、输出 GLB；生成后由 Blender/Unity 完成结构、材质、碰撞和场景接入。",
+  "userInputs": [
+    {"kind": "text", "text": "继续生成第二关剩余模型，500 积分预算内自动执行"}
+  ],
+  "context": {"pluginVersion": "1.2.0"}
+}

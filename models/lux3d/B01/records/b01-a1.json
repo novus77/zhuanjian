@@ -1,0 +1,43 @@
+{
+  "asset": "B01",
+  "name": "B01SewingMachineHead",
+  "attemptId": "b01-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one antique black cast-iron domestic sewing machine head only, late 1950s to 1970s English household treadle sewing machine, rounded cast-iron body with restrained gold Art Nouveau leaf decals, silver hand wheel, needle bar and presser foot, small spool pin, complete front back underside and hand wheel, no wooden table, no treadle stand, no stool, no fabric, no room, no person, no text, one freestanding static game prop, approximately 0.42 m tall 0.38 m wide 0.24 m deep.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 20000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 420
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_df0ddb9c7c9e437187daa4fab0d76e13",
+  "reviewId": "review_df0ddb9c7c9e437187daa4fab0d76e13",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "taskId": "4828529",
+  "submittedAt": "2026-11-07T09:38:35.812647+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:44:19.933344+00:00",
+  "downloadedAt": "2026-11-07T09:44:19.933344+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B01/source/B01SewingMachineHead_zip.zip",
+      "bytes": 11215059
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B01/source/B01SewingMachineHead_glb.glb",
+      "bytes": 10132836
+    }
+  ]
+}

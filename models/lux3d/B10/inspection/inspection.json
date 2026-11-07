@@ -1,0 +1,41 @@
+{
+  "asset": "B10",
+  "dimensionsMeters": [
+    0.10242705047130585,
+    0.08779271692037582,
+    0.07999999821186066
+  ],
+  "boundsMeters": [
+    [
+      -0.051213525235652924,
+      -0.04389635846018791,
+      0.0
+    ],
+    [
+      0.051213521510362625,
+      0.04389635846018791,
+      0.07999999821186066
+    ]
+  ],
+  "triangles": 8902,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B10CeramicCup": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B10/export/textures/B10CeramicCup_BaseColor.png",
+    "models/lux3d/B10/export/textures/B10CeramicCup_MetallicRoughness.png",
+    "models/lux3d/B10/export/textures/B10CeramicCup_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

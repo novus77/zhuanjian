@@ -1,0 +1,41 @@
+{
+  "asset": "B03",
+  "dimensionsMeters": [
+    0.6911152601242065,
+    0.02885761484503746,
+    0.8199999332427979
+  ],
+  "boundsMeters": [
+    [
+      -0.34555763006210327,
+      -0.01442880742251873,
+      0.0
+    ],
+    [
+      0.34555763006210327,
+      0.01442880742251873,
+      0.8199999332427979
+    ]
+  ],
+  "triangles": 22544,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "B03OvalMirrorFrame": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/B03/export/textures/B03OvalMirrorFrame_BaseColor.png",
+    "models/lux3d/B03/export/textures/B03OvalMirrorFrame_MetallicRoughness.png",
+    "models/lux3d/B03/export/textures/B03OvalMirrorFrame_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

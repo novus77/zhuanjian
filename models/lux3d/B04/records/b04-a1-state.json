@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4828549",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "Exactly one small antique upholstered vanity stool, oval padded seat in dusty-rose worn velvet with subtle linen weave, four short dark walnut cabriole legs with small pad feet, compact inviting proportions, complete seat underside and four legs, no back, no arms, no table, no room, no other furniture, one freestanding static game prop, approximately 0.42 m wide 0.36 m deep 0.46 m high."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B04/source/B04UpholsteredStool_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B04/source/B04UpholsteredStool_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "updatedAt": "2026-11-07T09:44:26.379059+00:00",
+  "localCompletedAt": "2026-11-07T09:44:26.379059+00:00"
+}

@@ -1,0 +1,191 @@
+{
+  "1": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one antique black cast-iron domestic sewing machine head only, late 1950s to 1970s English household treadle sewing machine, rounded cast-iron body with restrained gold Art Nouveau leaf decals, silver hand wheel, needle bar and presser foot, small spool pin, complete front back underside and hand wheel, no wooden table, no treadle stand, no stool, no fabric, no room, no person, no text, one freestanding static game prop, approximately 0.42 m tall 0.38 m wide 0.24 m deep.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 20000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 420
+      }
+    }
+  },
+  "2": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one portable 1970s cassette radio, black and dark grey plastic body with brushed silver trim, rectangular speaker grille with woven fabric texture, clear cassette tape door, row of mechanical push buttons, carry handle, small folded telescopic antenna, complete front back sides top and underside, no modern screen, no digital display, no room, no table, no other props, no text, one freestanding static game prop, approximately 0.34 m wide 0.12 m deep 0.18 m high.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 15000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 180
+      }
+    }
+  },
+  "3": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one solid carved light walnut dressing-table leg, English country-house furniture with restrained Art Nouveau acanthus-leaf carving at the upper knee, slender curved cabriole profile, tapered ankle and small pad foot, flat square attachment block at the top, warm light walnut grain, complete all sides, no tabletop, no drawer, no mirror, no other legs, no room, one isolated single leg, static game asset.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 15000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 720
+      }
+    }
+  },
+  "4": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one oval wooden dressing-table mirror frame only, light walnut with gently carved Art Nouveau botanical rim, oval opening roughly 0.62 m wide and 0.82 m high, flat back mounting surface, no mirror glass, no reflections, no table, no drawer, no room, no other props, one isolated oval frame, static game asset.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 15000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 820
+      }
+    }
+  },
+  "5": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one small antique upholstered vanity stool, oval padded seat in dusty-rose worn velvet with subtle linen weave, four short dark walnut cabriole legs with small pad feet, compact inviting proportions, complete seat underside and four legs, no back, no arms, no table, no room, no other furniture, one freestanding static game prop, approximately 0.42 m wide 0.36 m deep 0.46 m high.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 20000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 460
+      }
+    }
+  },
+  "6": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one separate horizontal wardrobe crown crest ornament, symmetrical English Art Nouveau botanical carving in light walnut, flowing acanthus leaves and a central leaf-bud motif with a restrained aged brass inlay, broad shallow relief with a flat continuous back for mounting on a wardrobe cornice, approximately 1.30 m wide 0.22 m high 0.04 m thick, complete freestanding ornament only, no wardrobe, no doors, no room, no lettering, no surrounding props.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 220
+      }
+    }
+  },
+  "7": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one aged brass Art Nouveau leaf-shaped cabinet pull handle, two gently curved brass leaves meeting at a central stem, solid flat backplate for mounting on a wardrobe or drawer door, approximately 0.16 m long, tarnished warm brass with subtle wear, one handle only, no door, no drawer, no furniture, no room, no copy of a full wardrobe, isolated game hardware asset.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 160
+      }
+    }
+  },
+  "8": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one decorative metal bed ornament for a cream-painted iron bed, symmetrical Art Nouveau botanical motif with two curling leaves and a small flower bud, aged warm brass with soft cream metal edges, flat mounting back, approximately 0.30 m high 0.15 m wide, complete front and back, no bed frame, no thin rods, no mattress, no room, one isolated ornament, static game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 300
+      }
+    }
+  },
+  "9": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one small antique cream glazed ceramic teacup, simple tapered cylindrical body with one curved handle, delicate muted rose and gold botanical motif, slight irregular handmade rim and fine glaze crazing, complete outside inside base and handle, approximately 0.09 m diameter and 0.08 m high, no saucer, no liquid, no table, no room, no other props, one isolated static game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 80
+      }
+    }
+  }
+}

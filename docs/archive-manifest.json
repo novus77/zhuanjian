@@ -183,8 +183,8 @@
     },
     {
       "path": "docs/development-log.md",
-      "size": 3779,
-      "sha256": "b1534115bddc833c1e282d02d3dd61449c47328499fd5b7db376a4c7632963b7",
+      "size": 4762,
+      "sha256": "088d4b75b3ec0e5c7d1e9f692663dfdde8d7e72537d022a41f8c80e62d137885",
       "storage": "git"
     },
     {
@@ -279,8 +279,14 @@
     },
     {
       "path": "docs/production/lux3d-generation-checklist.md",
-      "size": 6992,
-      "sha256": "ad62301e9d25a0880921ff1fb741b8156a3a457fcd0dae3ee69a3fc4cea55961",
+      "size": 7183,
+      "sha256": "48a8e97807599deccf337aab22385861b5ca323bf9b95c94d80218852665956e",
+      "storage": "git"
+    },
+    {
+      "path": "docs/production/room2-modeling-plan.md",
+      "size": 11174,
+      "sha256": "5289f954fecfca03979985e9b5ccc7717f1d895055e8f5986383788c916a82a1",
       "storage": "git"
     },
     {
@@ -332,6 +338,18 @@
       "storage": "git"
     },
     {
+      "path": "docs/production/validation/2026-11-07-room2-assets.md",
+      "size": 2783,
+      "sha256": "4084834265aded47933dc7437a160046ea430db5d42f30c809ccfc1ec3b87c81",
+      "storage": "git"
+    },
+    {
+      "path": "docs/production/validation/2026-11-07-room2-results.json",
+      "size": 3280,
+      "sha256": "adbe5ce2f18f6073ac3f940b7b1ce35bed831e703ca5712f995d66a3183b7d89",
+      "storage": "git"
+    },
+    {
       "path": "docs/production/validation/2026-11-07-unity-web-art-preview.md",
       "size": 4292,
       "sha256": "d0f06cce6dfeb793f091bdb851553f78024504c10ef8f64af024fa496b5b6486",
@@ -378,6 +396,12 @@
       "size": 2867,
       "sha256": "0fd41d1df98aef6c8a48b05332b2d44f699920dc72c833296aca4be419a3ef19",
       "storage": "git"
+    },
+    {
+      "path": "docs/production/validation/captures/room2-assets-overview.png",
+      "size": 981409,
+      "sha256": "0cdf59a62b240d4f8dda7080b2ce1c86c8fbb8a716e557cfb9664dacf4776064",
+      "storage": "git-lfs"
     },
     {
       "path": "docs/production/validation/captures/study-assets-web-startup.png",
@@ -969,8 +993,8 @@
     },
     {
       "path": "models/README.md",
-      "size": 2012,
-      "sha256": "7d0cbb48b56000cd823a635d3e574bbc28f23b9d3c05fc80eb1bbad612e3eeb9",
+      "size": 2791,
+      "sha256": "c085aac8601ae486706895bae490288ce34b8a1c9451f867c6b11950ce8cd789",
       "storage": "git"
     },
     {
@@ -1478,9 +1502,753 @@
       "storage": "git"
     },
     {
+      "path": "models/lux3d/B01/README.md",
+      "size": 1026,
+      "sha256": "01a9b1c66dba162d04c085f67a7d42558d5c3ad98e840e79ba2d9909ed448cf3",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B01/export/B01SewingMachineHead.fbx",
+      "size": 6357836,
+      "sha256": "ad5cfe1f96bba2e42eb04130ddcb6fe80339c9da350123193d3d01858b1e2b32",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/export/textures/B01SewingMachineHead_BaseColor.png",
+      "size": 6436073,
+      "sha256": "4be7f712a31fb0b08362e3b32990e0633d5559da932403b9965271a4df583553",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/export/textures/B01SewingMachineHead_MetallicRoughness.png",
+      "size": 4704761,
+      "sha256": "3f973ca0a304709d3121e6223299baf3209dc10aa05ef224d7a645af2762bf82",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/export/textures/B01SewingMachineHead_MetallicSmoothness.png",
+      "size": 5170786,
+      "sha256": "dc8f3be6b60e0247594de4b34eb57b767c28432941d591adffea4176caf4eb93",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/inspection/back.png",
+      "size": 535588,
+      "sha256": "2ba0abedc9cf3ae61e6294176d4107ba4f90a586a71cc02f8086cadb30b176af",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/inspection/front.png",
+      "size": 547022,
+      "sha256": "e671ea4994aa303e3659316b998e82364c222fc7c552ad7a7ffc967b50c1e98c",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/inspection/inspection.json",
+      "size": 985,
+      "sha256": "bd72523826f66fb10322c1c9591964b33f793e39c37407f7f3a37fb06de9cac0",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B01/inspection/side.png",
+      "size": 502692,
+      "sha256": "9db6945262db082d1e1e7474bfa21fb14a6484bad43c30411a68d638b6692c87",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/records/b01-a1-state.json",
+      "size": 1232,
+      "sha256": "8d155b2301de75b1752475005f9307768cf985ce9b04b50fac88ec6cd570138b",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B01/records/b01-a1.json",
+      "size": 1704,
+      "sha256": "3a0981b0ec93120fa8cdcb56d985c4e87af74f62a66002f33b6a088f1fbadb61",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B01/source/B01SewingMachineHead_glb.glb",
+      "size": 10132836,
+      "sha256": "78c4caccb19e5c26fe0a8bbca7c64857887f33bed6e447544feece5660d0f27d",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/source/B01SewingMachineHead_zip.zip",
+      "size": 11215059,
+      "sha256": "03d1f76aec5493bae42a61a50096d1c36c9c5a0cc203a98c9836fc3f013085da",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B01/work/B01SewingMachineHead_clean.blend",
+      "size": 10044423,
+      "sha256": "8c388ae905b8bc40cf4c4b6347aeea27ed679e4ddb47ab7360063e06ae989bcb",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/README.md",
+      "size": 1157,
+      "sha256": "87b2ce4a34fbb365c8440a540f6799c1f912fe5fcea36b3d3f5f826be522c493",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B02/export/B02CassetteRadio.fbx",
+      "size": 4337292,
+      "sha256": "87ebcf47cbaa5c0746c93ace40d310563e9a4cda9d37519ca180acfe51f17c59",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/export/textures/B02CassetteRadio_BaseColor.png",
+      "size": 4673458,
+      "sha256": "d137858484a95889ffeebd48258145cbdccc5f7ae2f9472af14d86d648028637",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/export/textures/B02CassetteRadio_MetallicRoughness.png",
+      "size": 2944897,
+      "sha256": "78cf33e823605736818cc846e578ab7eaf1881a7fef164d57c9d53357aa463ae",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/export/textures/B02CassetteRadio_MetallicSmoothness.png",
+      "size": 3223632,
+      "sha256": "71c6568f1d5798a1460b38ea7f2692e9f65981e105466e09cf14bfe5da69192e",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/inspection/back.png",
+      "size": 523503,
+      "sha256": "91d0ffa69d7636b57af8285142e0dbd3f9aa7d23b5efd37815a86da53af5613f",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/inspection/front.png",
+      "size": 570505,
+      "sha256": "8d62947ab3a5477d75a00f5dd9b81647e6a2f19e34ec322f09a16f6d2b956092",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/inspection/inspection.json",
+      "size": 969,
+      "sha256": "91a1605195f4e77756a565b95f462bf08e19b8ab3904da32ffed6c1a7905a82a",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B02/inspection/side.png",
+      "size": 478301,
+      "sha256": "825bdaaacbf4788fb968b152b924f98511f3bf4da4cc6c6172db1123391fbb99",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/records/b02-a1-state.json",
+      "size": 1214,
+      "sha256": "d41597c939c22abb7e774c9cd575a3831be68ea903d80732b5e6241641009a5e",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B02/records/b02-a1.json",
+      "size": 1680,
+      "sha256": "53c8ec69051276744f7d0a8a9148cab01bc924fc04d210d88b70163a144620a6",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B02/source/B02CassetteRadio_glb.glb",
+      "size": 6573004,
+      "sha256": "7aa041e4ac5bfb4c7e7ee0f167b5ab23d513a448f1a5869109586db1198f27b3",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/source/B02CassetteRadio_zip.zip",
+      "size": 7876246,
+      "sha256": "3825df7d58fdaacf637781adb3fd3cc1a8d2c6045c3298942e126734e2513851",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B02/work/B02CassetteRadio_clean.blend",
+      "size": 6564668,
+      "sha256": "ec21fe8597b39ead60cc3b65575357968d68a616f1a47ab6397c897801f31b5c",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/README.md",
+      "size": 764,
+      "sha256": "0ab6f09cf30470a364be1415dd34fca4b8699dbbcaa5df995680fab3d667af18",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B03/export/B03DressingTableLeg.fbx",
+      "size": 3636700,
+      "sha256": "c3a92e54334870d090fb61597f0e45c6c8e4d5db91375fabf81610c8b5586c5a",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/export/B03OvalMirrorFrame.fbx",
+      "size": 4040700,
+      "sha256": "9cdb58f2bbc6be4ee5534cdffa99be2e131877758a3e2a55eb7ce540a851c84a",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/export/textures/B03DressingTableLeg_BaseColor.png",
+      "size": 4096346,
+      "sha256": "bbc39a011c86dff529d3f35bc2a517d8d9e88a3ae64e980377abd03c9d25e6f6",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/export/textures/B03DressingTableLeg_MetallicRoughness.png",
+      "size": 1349358,
+      "sha256": "8e4bfca82e3977d02efaa31a3862ed70b9c9f81c7472a45f69fb900ea1302efd",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/export/textures/B03DressingTableLeg_MetallicSmoothness.png",
+      "size": 1485811,
+      "sha256": "0aa64e007ce9b72f53dada8693bb9ce7219bd85e2e9d2aeb7dc45ce70d060d66",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/export/textures/B03OvalMirrorFrame_BaseColor.png",
+      "size": 3960356,
+      "sha256": "37414eeb651fdf1eb203b2735b3d087272774666902636e70c9f998899e95ae0",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/export/textures/B03OvalMirrorFrame_MetallicRoughness.png",
+      "size": 1753406,
+      "sha256": "17229cd516cacf06ae8fa8a696b4b34b3a008950e1a99d4523c9c63c07ccaa05",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/export/textures/B03OvalMirrorFrame_MetallicSmoothness.png",
+      "size": 1911374,
+      "sha256": "cd6dfc510070d18f4908034d9f393cb1afefdb03994731a3819fafc02ab61007",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/frame/back.png",
+      "size": 478622,
+      "sha256": "4bc4b96b4b25bb55325df4e28a38e92ac64e217c015d56516c659109c0370a3a",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/frame/front.png",
+      "size": 482634,
+      "sha256": "2e03902586c2786161b6b13282687d90aa288be84793a743dc4aa9a06ad2c7b3",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/frame/inspection.json",
+      "size": 981,
+      "sha256": "0261abce05fcb812ba750ede01fbd70c79932061d279e9cbe7167a279cdfdb56",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/frame/side.png",
+      "size": 417178,
+      "sha256": "8351b765b04aeec84e37f1ea7058c754e7653df6e4c830475d9ff3f90e943c04",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/leg/back.png",
+      "size": 446605,
+      "sha256": "44f2a137a532c8178bed8bb56b617ac32455f2dd1eeeb48045e8e409f835dcd9",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/leg/front.png",
+      "size": 447328,
+      "sha256": "7d7691e4a54312ea2835b5b6571ea07e91b1540b3229030ed5c59b2fed44f2d3",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/leg/inspection.json",
+      "size": 983,
+      "sha256": "15fc40bb7d347f3b31fb93e461b210197e35185781921e0853186aa1f03a3036",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B03/inspection/leg/side.png",
+      "size": 440253,
+      "sha256": "db73c50bcecabdb5b04934f3e385c4c975d09260eb193383b12602ef914fdcb5",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/records/b03-frame-a1-state.json",
+      "size": 1062,
+      "sha256": "240064b1e68b118097862e78f2476fbd58f55a7dcda101496c301560c5f454a8",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B03/records/b03-frame-a1.json",
+      "size": 1537,
+      "sha256": "ef5c99d430ec1cd54ade8501b47d68320346779bf8f6c669a6f3d12ed6eae4b9",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B03/records/b03-leg-a1-state.json",
+      "size": 1161,
+      "sha256": "0129da17713f3d7a3b9a4ef7904bd9526e020bd303792eecf9e61f4905c979d3",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B03/records/b03-leg-a1.json",
+      "size": 1635,
+      "sha256": "0cb19ac2ac26bd75837a0fee419505c2168b3b5e39401cfd915ca96d271f7557",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B03/source/B03DressingTableLeg_glb.glb",
+      "size": 4549920,
+      "sha256": "49df2df92fa7362fe5d1e6e3604584a125b50e586e57ad132d4dd6b9293a62dd",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/source/B03DressingTableLeg_zip.zip",
+      "size": 6444603,
+      "sha256": "079ee1206735ca7b3dffaf73df1a9915918f307c48443c7ea7907f7078bad377",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/source/B03OvalMirrorFrame_glb.glb",
+      "size": 5234612,
+      "sha256": "b27eacb7f9e9a066bff0de20ccad6a34efe64dfc7eb855f2b25e51d94dd56cad",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/source/B03OvalMirrorFrame_zip.zip",
+      "size": 6967361,
+      "sha256": "9213870162ec5f6eeb12a06625641b59232d1d9edeedb54f4d7a77113353e5ea",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/work/B03DressingTableLeg_clean.blend",
+      "size": 4610562,
+      "sha256": "18569c4702aca15d6fb8b0781aa9274a5ab97c0b352bdc1b56da571cf1296fe0",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B03/work/B03OvalMirrorFrame_clean.blend",
+      "size": 5169749,
+      "sha256": "60c5d6b22ee60bd3f2fedcf12d0fe19763466505637ac2ab4f74a879b558ebbf",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/README.md",
+      "size": 1007,
+      "sha256": "b6fc7aa947fba9aff44c629966d6d9145db9742bf3563ff6b3b6a22e0fa40aeb",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B04/export/B04UpholsteredStool.fbx",
+      "size": 5180636,
+      "sha256": "c64451d2dfd0717e8ac340388ff8f7a0cba76f2923b8c1f8ec2f005d18ffec23",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/export/textures/B04UpholsteredStool_BaseColor.png",
+      "size": 5512769,
+      "sha256": "806d3b4339d3d74042e5e12d554c12db2ffb324944b83935fc3b1032b8077565",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/export/textures/B04UpholsteredStool_MetallicRoughness.png",
+      "size": 2238721,
+      "sha256": "d170edb87efa87499ff06c8520dc1289580f51100c2fffc4c08bc2c34bd0715f",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/export/textures/B04UpholsteredStool_MetallicSmoothness.png",
+      "size": 2419670,
+      "sha256": "ffbe2c4b3a13f5e4ad71f75cc5a05266ffe38b6cf025780f0867e2d1aa5245d1",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/inspection/back.png",
+      "size": 524975,
+      "sha256": "b386cbaffe542d2d910c2ff0c09feddb47f1f0adf8cf944bc46206d13752a035",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/inspection/front.png",
+      "size": 537776,
+      "sha256": "3e8f782cd74f9efa4eef015e04df6546c28b0e66c338b9687bb2e857521a6822",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/inspection/inspection.json",
+      "size": 984,
+      "sha256": "dcd642fcaad6d29c47259fd7ff707828fb9a262b2df072314c1bb10700ae8a73",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B04/inspection/side.png",
+      "size": 507488,
+      "sha256": "fcab0f03baf21be4f8b2db45bacbbd8891f5f476778a49fbdad93584152e8972",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/records/b04-a1-state.json",
+      "size": 1136,
+      "sha256": "0173f54f2943a3e1d94e46dab6343ae02a53ff0e2d36e3d418e276578b37a5a4",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B04/records/b04-a1.json",
+      "size": 1605,
+      "sha256": "e3218e37a33d04034ce4e099fbc0bf386dd73d5b7704f663fe1626e432f17079",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B04/source/B04UpholsteredStool_glb.glb",
+      "size": 6776496,
+      "sha256": "1c621c51252084f9b53bb518069908a5d098fc5a75b2c7835bb18246397b214d",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/source/B04UpholsteredStool_zip.zip",
+      "size": 6916469,
+      "sha256": "d14a6be0dec861780f7c275e6b169f0c78fcf7b15f8cb8b3dd67d85560ab3abe",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B04/work/B04UpholsteredStool_clean.blend",
+      "size": 6779937,
+      "sha256": "fabf128e868a4a401d793186ca5d9b1261f8c03f010392ee4bc880aec7a1e098",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/README.md",
+      "size": 774,
+      "sha256": "61afd3d8ff386aa9b2733f831cdc6c8ea71b67885251e6ec5106d8caba3e17ee",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B05/export/B05LeafHandle.fbx",
+      "size": 4070124,
+      "sha256": "49a346f3f33c3bbe05c4dc207e345dc1cbc9f177248bd6d9b553ea6b2ef4c98b",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/export/B05WardrobeCrest.fbx",
+      "size": 4923260,
+      "sha256": "678b5f35ecd91ef58afbdfa96ac1821f9f6ae5df297cf4d2cd295b12c690e7d1",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/export/textures/B05LeafHandle_BaseColor.png",
+      "size": 4726393,
+      "sha256": "746b2874ef33363e2af7f33b083ff2264f53bf42b618bb125587ac3cd4e6bd27",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/export/textures/B05LeafHandle_MetallicRoughness.png",
+      "size": 1904011,
+      "sha256": "e691ecc646af311cc162bc84502d21687882777e04f2c59658791bf58d6cf246",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/export/textures/B05LeafHandle_MetallicSmoothness.png",
+      "size": 2057647,
+      "sha256": "c63980850cf74e226dac34f9665eebf92874e4e208f44215c9738ec14ee10cff",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/export/textures/B05WardrobeCrest_BaseColor.png",
+      "size": 5167218,
+      "sha256": "6f9941fa6d01752904a1313a85755342d5e76f1c63cfdb66e867029cb0c2a97f",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/export/textures/B05WardrobeCrest_MetallicRoughness.png",
+      "size": 1937063,
+      "sha256": "1051433c8fae159de094ba28d6a086c081ddf6a5f91d609367c628a5833a1d9c",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/export/textures/B05WardrobeCrest_MetallicSmoothness.png",
+      "size": 2106305,
+      "sha256": "b28ca2342121b08dd23102689f1485d69dd42dcee8b2eb3844a49d236749e617",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/crest/back.png",
+      "size": 465742,
+      "sha256": "ebf57bc3848fafcbe6c6800fac2328840c5da997b70f85b4ac139d4ec6bdbb4e",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/crest/front.png",
+      "size": 464720,
+      "sha256": "4f6e8a32d0b60eaf92002c1bc194edacca835288a4d833a06fda9498b9683ce5",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/crest/inspection.json",
+      "size": 975,
+      "sha256": "8720fe2f75706098f734d648721eb86489d999c57f091c3c202d21525e934809",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/crest/side.png",
+      "size": 415104,
+      "sha256": "6b7285fe1e92aab45dfadf95e59b62cc3c99d9267b8e0fe6a2e65264ea85ad35",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/handle/back.png",
+      "size": 459230,
+      "sha256": "3f2c0752a4895920492ee505df0be985ca89abc3ac5edad7301e151f23c6a7b2",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/handle/front.png",
+      "size": 493824,
+      "sha256": "b62ec34ed2cea96443bd89833ebe899fedce38f8dd6a139851fbbdd2c2ae5daf",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/handle/inspection.json",
+      "size": 963,
+      "sha256": "7c26faa20f2f0e67366f96feabaf9b87e929f05465f444a2712f2dacc13be2a7",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B05/inspection/handle/side.png",
+      "size": 466805,
+      "sha256": "80bddff25535085fbcc2e4882e9fc88ce3864cb862961c046ab899789f78be1f",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/records/b05-crest-a1-state.json",
+      "size": 1201,
+      "sha256": "4fb27f26a70684709c695e71005e0388bbedc3b5d0b11ff46ecb22a12d9802e0",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B05/records/b05-crest-a1.json",
+      "size": 1674,
+      "sha256": "225b3dad08875056104255fdcfb78fbe47de12cee46518424f89a83b4dc651ae",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B05/records/b05-handle-a1-state.json",
+      "size": 1108,
+      "sha256": "cce31b59e898da3632deaafea0419aca844484b1a0376cef386ca3e1758ab77a",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B05/records/b05-handle-a1.json",
+      "size": 1579,
+      "sha256": "a5cc1c3da18bb157273fabe8bdffc60f8c7a5af17fa23b4dfb610ad1931b1d7d",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B05/source/B05LeafHandle_glb.glb",
+      "size": 5425936,
+      "sha256": "417d7dbf77e1be225945a5e54ca1c1597c84bfe8bb9c6e8c27fe4146f2817f57",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/source/B05LeafHandle_zip.zip",
+      "size": 8006815,
+      "sha256": "44282350d789a3b74ba912cd04595ec684ef440491e697a8331202b11b057711",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/source/B05WardrobeCrest_glb.glb",
+      "size": 6295036,
+      "sha256": "461602a6aa34b607ce3730add531ad521faa3fd8e11d4aed8bcad4febbf606fb",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/source/B05WardrobeCrest_zip.zip",
+      "size": 8240571,
+      "sha256": "696618fcb9cb6d3c3fc8587721dff2808086a864fed37e32b77399ff2ec230e7",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/work/B05LeafHandle_clean.blend",
+      "size": 5494326,
+      "sha256": "db6b98b2c89c5215de61561cfbd14bed38386b7b74f31397b3588f50e561840f",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B05/work/B05WardrobeCrest_clean.blend",
+      "size": 6242255,
+      "sha256": "5d1f0a042d61ac6cb4f67db9e47407082e74797c35e32130613d3cf353ae10d8",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/README.md",
+      "size": 1019,
+      "sha256": "4edb4119fe8710e350fee5a90f2bd39daab0c40bb9ec891df014830e096a5bc0",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B06/export/B06BedOrnament.fbx",
+      "size": 5070220,
+      "sha256": "6648dde26f84b7c23168bc9abaef68fd336444dc6809ce72317f73f6aea78db4",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/export/textures/B06BedOrnament_BaseColor.png",
+      "size": 5686990,
+      "sha256": "9760c38fe1ab6856eea7c35b39b74ddfb1d489ee52fd5fb78ae5cdec4dab57f6",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/export/textures/B06BedOrnament_MetallicRoughness.png",
+      "size": 1942153,
+      "sha256": "db83d31cbc49fb0845a11b33e9705d739a8896cf48f6c867836e96fae657c925",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/export/textures/B06BedOrnament_MetallicSmoothness.png",
+      "size": 2109235,
+      "sha256": "a685c52663a6cd00b06d2905726c5a09a93772a90776a04312d4820f7863f66e",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/inspection/back.png",
+      "size": 515409,
+      "sha256": "2befdfa74b8f84d1425b3eaba8ad8b9149fa8f052e6f58d58892a11580c67551",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/inspection/front.png",
+      "size": 520783,
+      "sha256": "d55917066b400fb9781ad418ee35939839f0c691ad7ef798d0006e0f6f4aa720",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/inspection/inspection.json",
+      "size": 971,
+      "sha256": "c8265e6a2fee7f596f3569809c38617f707e293c37f4428c3549a46ee0367b10",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B06/inspection/side.png",
+      "size": 433702,
+      "sha256": "47e53d113150c90c15e5e6fb28b8e73027c3af39eee27b52d694bf71c067f172",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/records/b06-a1-state.json",
+      "size": 1116,
+      "sha256": "7e4d506b8feef02df6b6e12dc6a10651e9279fb7f49773da1dfb88f6b04c2208",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B06/records/b06-a1.json",
+      "size": 1580,
+      "sha256": "b6657b3507c91682bc39c4c41ea7f71856df34742a0ff73a52ee644a946018ff",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B06/source/B06BedOrnament_glb.glb",
+      "size": 6437068,
+      "sha256": "cc364f941e44dfffed0e4ab001c670cb9f741fbb643a3b56bd6e45fc983ad057",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/source/B06BedOrnament_zip.zip",
+      "size": 8664101,
+      "sha256": "d667fa6eece8722203a6f6ae42b319b046a76644c4aa8aad0e2d898084b6c0c8",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B06/work/B06BedOrnament_clean.blend",
+      "size": 6477022,
+      "sha256": "848d0d0816bd0c46f11b4b6f70f3dc8df47d41face69d4d3219542ce2b9f5156",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/README.md",
+      "size": 973,
+      "sha256": "366576ead8168fec31de4b343d4ae719fefd5e93f9a70ad8815552e48b82a739",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B10/export/B10CeramicCup.fbx",
+      "size": 4162204,
+      "sha256": "456c5d446a1955e0e694ad764bf1c54b85ab15546100fd0807fcfc4cdff560d4",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/export/textures/B10CeramicCup_BaseColor.png",
+      "size": 4813659,
+      "sha256": "d7bd85d0a81056b434cd65ace9841b20f5b91169f8d3cd9146a76590ab48b3c8",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/export/textures/B10CeramicCup_MetallicRoughness.png",
+      "size": 898793,
+      "sha256": "0f6bf62e84377fc8b6514acd203e551cfca9df3d67f2fc10e747f2ddb81deb03",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/export/textures/B10CeramicCup_MetallicSmoothness.png",
+      "size": 971577,
+      "sha256": "e97aebfb985da75e05fb6ab5e9e381b14504ab79ccc92969f807acb245c26cf7",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/inspection/back.png",
+      "size": 524083,
+      "sha256": "c5f0d1cf3badc995f360d4794b22ef359f883a326fec8fad82bdcd232dd014ac",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/inspection/front.png",
+      "size": 526686,
+      "sha256": "6875d1547758fe5d6db680f986a935d7d213c681cfd3ff8663a9c64fdd23d1f6",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/inspection/inspection.json",
+      "size": 965,
+      "sha256": "b03faf7f613546b1ab17581011eeedd3f70476826e119b8e0063c2ffc4f42248",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B10/inspection/side.png",
+      "size": 508761,
+      "sha256": "3884adafb27760079101d0f518e9fd6f0f935dbeff72635a6b49a4c6e7847030",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/records/b10-a1-state.json",
+      "size": 1121,
+      "sha256": "4377b52ed02fa3404ac288aa96629f8e101cc621bd593afce977faee65087c10",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B10/records/b10-a1.json",
+      "size": 1583,
+      "sha256": "6f7da323f87c4f28c0c58a5e5da625f0c539f310e63db10a188cfc1bcb59794c",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/B10/source/B10CeramicCup_glb.glb",
+      "size": 4723260,
+      "sha256": "3bf5a30e5c9ec89464ab943eb1affaf798a00e4fedb9155b2c7e0a9ab716faa1",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/source/B10CeramicCup_zip.zip",
+      "size": 6338666,
+      "sha256": "8daab0abb5048ee3d466f161bc6ba18009b3e1438a9c45cd36c3baf8f7008e6e",
+      "storage": "git-lfs"
+    },
+    {
+      "path": "models/lux3d/B10/work/B10CeramicCup_clean.blend",
+      "size": 4816523,
+      "sha256": "155acbcd8177b2a7f8a2b0bc3ce1fb0d94a439e29b5131ab489541bbe4dc7dcb",
+      "storage": "git-lfs"
+    },
+    {
       "path": "models/lux3d/README.md",
-      "size": 1415,
-      "sha256": "1c00eb3941d464b2c9f5e586c149e567b7d89881edfc98308bd64f6d19d0130b",
+      "size": 1956,
+      "sha256": "01c4839d8f41c31f21de145bdf75364d77f17a65138f5931be0607becda1bb26",
       "storage": "git"
     },
     {
@@ -2675,6 +3443,96 @@
       "path": "models/lux3d/_plans/C01/review.json",
       "size": 1615,
       "sha256": "404ee0d91c9336434789eb394f8ebdb58d354da05929b22d311bf4b72b6e2f35",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/README.md",
+      "size": 983,
+      "sha256": "6ef00a16431a31f4b0c098a598456e39d9d1227337041fd07512d66c55753e8f",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/budget-ledger.json",
+      "size": 1667,
+      "sha256": "7bbb9563e744d62545e4dbdd0695dd907ba070f4d758d7ca8271c9e913fd203e",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/check_room2_tasks.py",
+      "size": 831,
+      "sha256": "137ab804b6d2a63b35e32382a5b91cfadb573f8b338f2cc82ffc53a55ccab8b1",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/delivery-spec.json",
+      "size": 2448,
+      "sha256": "1a4b85940b6a56968b1ed89b15729088eb298e1018e846143d0882875a2e0956",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/download_room2_batch.py",
+      "size": 2586,
+      "sha256": "8fc2af41ee4a8d7c072a47fa368dee5f81df12f71616701b08ced19c5c20fb59",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/fbx-roundtrip.json",
+      "size": 2418,
+      "sha256": "9cfd32ad4f0a425f36e1d1b4cd316721155b249b5f2706f099067fa223af2d2e",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/plan.json",
+      "size": 5019,
+      "sha256": "d2b663713df77ad08c5a45c1441595a14b41a781b1047191ce9e6cbd7b4b3c87",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/quote-items-remaining.json",
+      "size": 3396,
+      "sha256": "3dcf612e8afcb1b480e62d0bff00987949903744e8fc27540b94dbb100e90bd5",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/quote-items.json",
+      "size": 7717,
+      "sha256": "9f4d065c1c7be4f36812b9ff87df2f396db719dd73c0fef2254816b92422c747",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/quote-result-remaining.json",
+      "size": 1063,
+      "sha256": "355fe25638d68812512b13a892aa9ede2aeddb451f931ad064c74efbaf1103dc",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/quote-result.json",
+      "size": 1137,
+      "sha256": "d244fe86a77b22c7946862355e245f40b2a246946fb00af6611f9ba676513210",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/review-remaining.json",
+      "size": 610,
+      "sha256": "1ed7b1125d30440997adc935de103f0275f31ed17a3fc419f3d70e424119e1a2",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/review.json",
+      "size": 2173,
+      "sha256": "87cd0c6608fd5594bc0ad14094a665082e8e96a30d35b48ab80635920b782842",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/submit_room2_batch.py",
+      "size": 4027,
+      "sha256": "acc6d1bcb893eb9bbcafcc2b7f62ce667257303155c42141cceb3015e9429f29",
+      "storage": "git"
+    },
+    {
+      "path": "models/lux3d/_plans/room2-batch/submit_room2_remaining.py",
+      "size": 3275,
+      "sha256": "293c964ffc36b56a5638f9547bb7a417c094a913c9c95c66a6e95b869b6032df",
       "storage": "git"
     },
     {
@@ -5420,6 +6278,6 @@
       "storage": "git"
     }
   ],
-  "totalLogicalBytes": 1102201080,
-  "uniqueLfsBytes": 804683458
+  "totalLogicalBytes": 1427516271,
+  "uniqueLfsBytes": 1129899144
 }

@@ -1,0 +1,43 @@
+{
+  "asset": "B04",
+  "name": "B04UpholsteredStool",
+  "attemptId": "b04-a1",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one small antique upholstered vanity stool, oval padded seat in dusty-rose worn velvet with subtle linen weave, four short dark walnut cabriole legs with small pad feet, compact inviting proportions, complete seat underside and four legs, no back, no arms, no table, no room, no other furniture, one freestanding static game prop, approximately 0.42 m wide 0.36 m deep 0.46 m high.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 20000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 460
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_df0ddb9c7c9e437187daa4fab0d76e13",
+  "reviewId": "review_df0ddb9c7c9e437187daa4fab0d76e13",
+  "approval": "Automatic execution within the user-authorized cumulative 500-credit room-2 budget",
+  "state": "downloaded",
+  "createdAt": "2026-11-07T09:38:35.415829+00:00",
+  "taskId": "4828549",
+  "submittedAt": "2026-11-07T09:38:37.071752+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-07T09:44:26.379059+00:00",
+  "downloadedAt": "2026-11-07T09:44:26.379059+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B04/source/B04UpholsteredStool_zip.zip",
+      "bytes": 6916469
+    },
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/models/lux3d/B04/source/B04UpholsteredStool_glb.glb",
+      "bytes": 6776496
+    }
+  ]
+}

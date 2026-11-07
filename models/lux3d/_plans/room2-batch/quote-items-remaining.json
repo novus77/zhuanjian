@@ -1,0 +1,86 @@
+{
+  "1": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one separate horizontal wardrobe crown crest ornament, symmetrical English Art Nouveau botanical carving in light walnut, flowing acanthus leaves and a central leaf-bud motif with a restrained aged brass inlay, broad shallow relief with a flat continuous back for mounting on a wardrobe cornice, approximately 1.30 m wide 0.22 m high 0.04 m thick, complete freestanding ornament only, no wardrobe, no doors, no room, no lettering, no surrounding props.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 220
+      }
+    }
+  },
+  "2": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one aged brass Art Nouveau leaf-shaped cabinet pull handle, two gently curved brass leaves meeting at a central stem, solid flat backplate for mounting on a wardrobe or drawer door, approximately 0.16 m long, tarnished warm brass with subtle wear, one handle only, no door, no drawer, no furniture, no room, no copy of a full wardrobe, isolated game hardware asset.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 160
+      }
+    }
+  },
+  "3": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one decorative metal bed ornament for a cream-painted iron bed, symmetrical Art Nouveau botanical motif with two curling leaves and a small flower bud, aged warm brass with soft cream metal edges, flat mounting back, approximately 0.30 m high 0.15 m wide, complete front and back, no bed frame, no thin rods, no mattress, no room, one isolated ornament, static game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 300
+      }
+    }
+  },
+  "4": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one small antique cream glazed ceramic teacup, simple tapered cylindrical body with one curved handle, delicate muted rose and gold botanical motif, slight irregular handmade rim and fine glaze crazing, complete outside inside base and handle, approximately 0.09 m diameter and 0.08 m high, no saucer, no liquid, no table, no room, no other props, one isolated static game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 80
+      }
+    }
+  }
+}
