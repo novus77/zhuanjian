@@ -1,0 +1,41 @@
+{
+  "asset": "S02",
+  "dimensionsMeters": [
+    0.2702866196632385,
+    0.26366645097732544,
+    0.7200000286102295
+  ],
+  "boundsMeters": [
+    [
+      -0.13514330983161926,
+      -0.13183322548866272,
+      0.0
+    ],
+    [
+      0.13514332473278046,
+      0.13183322548866272,
+      0.7200000286102295
+    ]
+  ],
+  "triangles": 14936,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "S02DeskLeg": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/S02/export/textures/S02DeskLeg_BaseColor.png",
+    "models/lux3d/S02/export/textures/S02DeskLeg_MetallicRoughness.png",
+    "models/lux3d/S02/export/textures/S02DeskLeg_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

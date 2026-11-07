@@ -1,0 +1,47 @@
+{
+  "attemptId": "s08-a1",
+  "asset": "S08",
+  "name": "S08MirrorLeafCorner",
+  "region": "cn",
+  "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one small L-shaped Art Nouveau mirror-frame corner ornament, two gently curved mounting branches meeting at one corner with three solid broad stylized iris leaves and a small bud, aged muted gilded brass, shallow relief with flat mounting back, about 220 mm high, coherent elegant British country house decorative detail, connected sturdy construction, intended to attach to a separately built rectangular mirror frame, only one corner ornament, no complete frame, no mirror glass, no reflections, no furniture, no room, isolated game prop.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 10000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 220
+  },
+  "quoteId": "quote_b798fddb0df340cba1d5d405f7ca4264",
+  "quotedCredits": 20,
+  "approval": "Current conversation: automatic execution within cumulative 500 credits, prior commitments preserved",
+  "retryCount": 0,
+  "state": "downloaded",
+  "createdAt": "2026-11-06T07:55:55.327808+00:00",
+  "taskId": "4752179",
+  "submittedAt": "2026-11-06T07:55:55.678730+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-06T08:00:42.875960+00:00",
+  "downloadedAt": "2026-11-06T08:00:44.517421+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S08/source/S08MirrorLeafCorner_zip.zip",
+      "bytes": 6824969
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S08/source/S08MirrorLeafCorner_glb.glb",
+      "bytes": 5466144
+    }
+  ],
+  "preparation": {
+    "state": "prepared",
+    "report": "inspection/inspection.json",
+    "fbx": "export/S08MirrorLeafCorner.fbx",
+    "blend": "work/S08MirrorLeafCorner_clean.blend",
+    "unityIntegrated": false
+  }
+}

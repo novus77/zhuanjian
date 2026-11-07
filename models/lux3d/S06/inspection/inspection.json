@@ -1,0 +1,41 @@
+{
+  "asset": "S06",
+  "dimensionsMeters": [
+    0.3791801929473877,
+    0.25350719690322876,
+    0.44999998807907104
+  ],
+  "boundsMeters": [
+    [
+      -0.18959009647369385,
+      -0.12675359845161438,
+      0.0
+    ],
+    [
+      0.18959009647369385,
+      0.12675359845161438,
+      0.44999998807907104
+    ]
+  ],
+  "triangles": 19766,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "S06FlowerLamp": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/S06/export/textures/S06FlowerLamp_BaseColor.png",
+    "models/lux3d/S06/export/textures/S06FlowerLamp_MetallicRoughness.png",
+    "models/lux3d/S06/export/textures/S06FlowerLamp_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

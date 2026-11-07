@@ -1,0 +1,23 @@
+{
+  "1": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "A single vintage plush bunny toy, approximately 32 cm tall, made of beige worn linen fabric with visible hand-stitched seams, long floppy ears with dusty-pink inner lining, small dark button eyes, embroidered nose, a small dusty-pink ribbon bow at the neck, sitting upright with arms resting forward and feet visible, soft stuffed silhouette, realistic fabric weave, subtle age wear and slightly uneven handmade charm. Complete front, back, ears, arms, legs and tail; no clothes, no wooden chest, no blocks, no room, no person, no text. One freestanding static game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 30000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 320
+      }
+    }
+  }
+}

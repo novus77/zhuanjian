@@ -1,0 +1,65 @@
+{
+  "1": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "One freestanding antique British Art Nouveau desk lamp, aged brass circular weighted base and curved botanical stem, single downward cream opaline glass shade shaped as five broad flower petals, restrained elegant leaf ornament, warm neutral authentic materials, full lamp including base, stem and shade, stable standing construction, no room, no desk, no surrounding props, no baked light glow, game prop isolated.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 20000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 450
+      }
+    }
+  },
+  "2": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one solid carved walnut writing-desk leg, British country house furniture with restrained Art Nouveau acanthus leaf carving at the upper knee, tapered gently curved cabriole profile, sturdy foot, flat square upper attachment for assembly under a desk, richly grained dark walnut, no desk tabletop, no drawer, no furniture set, no brass, isolated single leg, realistic game asset.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 15000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 720
+      }
+    }
+  },
+  "3": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "One antique tabletop terrestrial globe on a short dark walnut pedestal with aged brass meridian ring, British country house study, restrained Art Nouveau botanical decoration on the weighted circular wooden base, parchment cream and muted sage green map, spherical globe, stable mechanically plausible support, complete freestanding object, no desk, no room, no surrounding props, no readable text required, realistic game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 20000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 650
+      }
+    }
+  }
+}

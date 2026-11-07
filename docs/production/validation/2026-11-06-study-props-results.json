@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-06",
+  "batch": {
+    "approvalCredits": 60,
+    "committedQuotedCredits": 60,
+    "assets": [
+      {
+        "asset": "S06",
+        "taskId": "4747292",
+        "triangles": 19766,
+        "dimensionsMeters": [
+          0.3791801929473877,
+          0.25350719690322876,
+          0.44999998807907104
+        ],
+        "fbxRoundtrip": "passed"
+      },
+      {
+        "asset": "S02",
+        "taskId": "4747293",
+        "triangles": 14936,
+        "dimensionsMeters": [
+          0.2702866196632385,
+          0.26366645097732544,
+          0.7200000286102295
+        ],
+        "fbxRoundtrip": "passed"
+      },
+      {
+        "asset": "S05",
+        "taskId": "4747300",
+        "triangles": 19284,
+        "dimensionsMeters": [
+          0.4877737760543823,
+          0.3664436936378479,
+          0.6500000357627869
+        ],
+        "fbxRoundtrip": "passed"
+      }
+    ]
+  },
+  "preview": {
+    "path": "models/lux3d/_deliveries/study-props-v1/preview.html",
+    "verified": [
+      "all three models loaded",
+      "drag orbit and wheel input on each viewport",
+      "zero page errors"
+    ],
+    "method": "isolated headless Chrome via Playwright"
+  },
+  "unity": {
+    "playMode": {
+      "passed": 4,
+      "failed": 0,
+      "report": "2026-11-06-assets-play.xml"
+    },
+    "editMode": {
+      "result": "Passed",
+      "passed": "9",
+      "failed": "0",
+      "total": "9"
+    },
+    "newAssetsPlaced": false,
+    "webRebuild": {
+      "result": "Succeeded",
+      "errors": 0,
+      "newPropsIncluded": false,
+      "changes": [
+        "existing chair/gramophone PBR maps",
+        "gramophone capped split and world-space horn animation",
+        "key socket position and collision"
+      ]
+    },
+    "browserStartup": {
+      "result": "passed",
+      "url": "http://127.0.0.1:18767/",
+      "viewport": [
+        1280,
+        800
+      ],
+      "pageErrors": 0,
+      "capture": "captures/study-assets-web-startup.png",
+      "fullBrowserPlaythroughVerified": false
+    }
+  }
+}

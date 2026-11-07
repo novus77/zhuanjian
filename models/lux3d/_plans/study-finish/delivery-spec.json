@@ -1,0 +1,53 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "转间 · 书房补全道具",
+  "items": [
+    {
+      "id": "s04",
+      "label": "阅读扶手椅",
+      "selectedAttemptId": "s04-a1",
+      "attempts": [
+        {
+          "id": "s04-a1",
+          "statePath": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S04/records/state.json"
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "label": "书柜冠饰",
+      "selectedAttemptId": "s07-a1",
+      "attempts": [
+        {
+          "id": "s07-a1",
+          "statePath": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/records/state.json"
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "label": "镜框叶饰",
+      "selectedAttemptId": "s08-a1",
+      "attempts": [
+        {
+          "id": "s08-a1",
+          "statePath": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/records/state.json"
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "label": "花瓶花束",
+      "selectedAttemptId": "s09-a1",
+      "attempts": [
+        {
+          "id": "s09-a1",
+          "statePath": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/records/state.json"
+        }
+      ]
+    }
+  ],
+  "scene": {
+    "status": "not-requested"
+  }
+}

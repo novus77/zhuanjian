@@ -1,0 +1,20 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "参考图微缩城市沙盘",
+  "items": [
+    {
+      "id": "mini-city",
+      "label": "微缩城市沙盘（Lux3D 图生 3D）",
+      "attempts": [
+        {
+          "id": "attempt-001",
+          "statePath": "logs/workflow-state-001.json"
+        }
+      ],
+      "selectedAttemptId": "attempt-001"
+    }
+  ],
+  "scene": {
+    "status": "not-requested"
+  }
+}

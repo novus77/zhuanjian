@@ -1,0 +1,13 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/source/S06FlowerLamp_zip.zip",
+  "format": "zip",
+  "size": 10120730,
+  "sha256": "fbfed53c50013bbdc4943907adefab542607b7e9b8f185ff06ade54a9c3bf2ba",
+  "validation": {
+    "valid": true,
+    "zipEntries": 7,
+    "modelEntries": [
+      "MODEL.glb"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4747293",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "createdAt": "2026-11-06T07:14:27.179524+00:00",
+  "updatedAt": "2026-11-06T07:19:14.873767+00:00",
+  "localCompletedAt": "2026-11-06T07:19:17.685416+00:00",
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1"
+  },
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S02/source/S02DeskLeg_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S02/source/S02DeskLeg_glb.glb",
+      "format": "glb"
+    }
+  ]
+}

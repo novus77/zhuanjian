@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4752183",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "One small antique cream glazed ceramic vase holding one sparse static arrangement of five ivory daisy-like flowers with muted sage leaves and warm brown stems, restrained Art Nouveau leaf motif embossed on the rounded vase, stable flat base, vase and flowers composed as one decorative prop, clear robust flower and stem geometry, realistic English country-house study decoration, approximately 420 mm overall height, vase about 160 mm high, no table, no room, no other objects, no floating petals, no text, no glowing lights, isolated game asset."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/source/S09FlowerVase_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/source/S09FlowerVase_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-06T07:55:55.679943+00:00",
+  "updatedAt": "2026-11-06T08:01:05.022246+00:00",
+  "localCompletedAt": "2026-11-06T08:01:07.156382+00:00"
+}

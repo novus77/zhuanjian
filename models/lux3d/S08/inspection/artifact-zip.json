@@ -1,0 +1,13 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/source/S08MirrorLeafCorner_zip.zip",
+  "format": "zip",
+  "size": 6824969,
+  "sha256": "6e9dfa6c27d0199143438d66eb06645e9498a922d2ae205056ee78001c003ed7",
+  "validation": {
+    "valid": true,
+    "zipEntries": 7,
+    "modelEntries": [
+      "MODEL.glb"
+    ]
+  }
+}

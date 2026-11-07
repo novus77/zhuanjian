@@ -1,0 +1,58 @@
+{
+  "asset": "S03DeskChair",
+  "source": "models/lux3d/S03/source/S03DeskChair_glb.glb",
+  "deliverables": {
+    "blend": "models/lux3d/S03/work/S03DeskChair_clean.blend",
+    "fbx": "models/lux3d/S03/export/S03DeskChair.fbx",
+    "textures": {
+      "baseColor": "models/lux3d/S03/export/textures/S03DeskChair_BaseColor.png",
+      "metallicRoughness": "models/lux3d/S03/export/textures/S03DeskChair_MetallicRoughness.png"
+    },
+    "inspection": "models/lux3d/S03/inspection/inspection.json",
+    "previews": [
+      "models/lux3d/S03/inspection/negative-y.png",
+      "models/lux3d/S03/inspection/positive-y.png",
+      "models/lux3d/S03/inspection/preview-page.png"
+    ],
+    "deliveryPreview": "models/lux3d/_deliveries/S03-v1/preview.html"
+  },
+  "dimensionsMeters": [
+    0.7522322237491608,
+    0.7922000885009766,
+    1.0499999523162842
+  ],
+  "boundsMeters": [
+    [
+      -0.3761161267757416,
+      -0.3961000442504883,
+      0.0
+    ],
+    [
+      0.3761160969734192,
+      0.3961000442504883,
+      1.0499999523162842
+    ]
+  ],
+  "targetHeightMeters": 1.05,
+  "renderMesh": {
+    "name": "S03DeskChair",
+    "triangles": 28612,
+    "materials": [
+      "Designer_Logic_PBR"
+    ],
+    "uvLayers": [
+      "UVMap"
+    ]
+  },
+  "collision": {
+    "strategy": "compound boxes (seat, back, four legs)",
+    "objects": [
+      "S03DeskChair_SeatCollision",
+      "S03DeskChair_BackCollision",
+      "S03DeskChair_LegCollision_0",
+      "S03DeskChair_LegCollision_1",
+      "S03DeskChair_LegCollision_2",
+      "S03DeskChair_LegCollision_3"
+    ]
+  }
+}

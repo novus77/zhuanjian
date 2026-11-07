@@ -1,0 +1,13 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/source/S05Globe_zip.zip",
+  "format": "zip",
+  "size": 6352670,
+  "sha256": "b1c39dc2fa469a91235277d9ee0eb28c98177358ffbb74ba98558229654c61b6",
+  "validation": {
+    "valid": true,
+    "zipEntries": 7,
+    "modelEntries": [
+      "MODEL.glb"
+    ]
+  }
+}

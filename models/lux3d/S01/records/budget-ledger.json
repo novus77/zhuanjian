@@ -1,0 +1,17 @@
+{
+  "conversationSessionId": "session-a3feeab9-0b39-446d-a1c8-2648f0054bd8",
+  "mode": "automatic",
+  "authorizedTotalCredits": 200,
+  "entries": [
+    {
+      "attemptId": "s01-gramophone-a1",
+      "quoteId": "quote_3bd00fe952454d0ca1daf09aeb38b228",
+      "quotedCredits": 20,
+      "status": "committed",
+      "taskId": "4744068"
+    }
+  ],
+  "committedCredits": 20,
+  "reservedCredits": 0,
+  "remainingCredits": 180
+}

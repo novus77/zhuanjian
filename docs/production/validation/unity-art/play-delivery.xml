@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 15:39:53Z" end-time="2026-11-06 15:40:02Z" duration="9.1243358">
+  <test-suite type="TestSuite" id="1017" name="转间 Roomturn" fullname="转间 Roomturn" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-06 15:39:53Z" end-time="2026-11-06 15:40:02Z" duration="9.124336" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1028" name="Roomturn.PlayMode.dll" fullname="/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/unity/Roomturn/Library/ScriptAssemblies/Roomturn.PlayMode.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-06 15:39:53Z" end-time="2026-11-06 15:40:02Z" duration="9.120908" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="36680" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1029" name="Roomturn" fullname="Roomturn" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-06 15:39:53Z" end-time="2026-11-06 15:40:02Z" duration="9.120407" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1030" name="Tests" fullname="Roomturn.Tests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-06 15:39:53Z" end-time="2026-11-06 15:40:02Z" duration="9.120192" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1018" name="ImportedPartMotionTests" fullname="Roomturn.Tests.ImportedPartMotionTests" classname="Roomturn.Tests.ImportedPartMotionTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 15:39:53Z" end-time="2026-11-06 15:39:54Z" duration="1.879027" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1019" name="DrawerTravel_UsesWorldMetresUnderScaledImportedParent" fullname="Roomturn.Tests.ImportedPartMotionTests.DrawerTravel_UsesWorldMetresUnderScaledImportedParent" methodname="DrawerTravel_UsesWorldMetresUnderScaledImportedParent" classname="Roomturn.Tests.ImportedPartMotionTests" runstate="Runnable" seed="271943281" result="Passed" start-time="2026-11-06 15:39:53Z" end-time="2026-11-06 15:39:54Z" duration="1.872878" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1020" name="PlayerControllerTests" fullname="Roomturn.Tests.PlayerControllerTests" classname="Roomturn.Tests.PlayerControllerTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-06 15:39:54Z" end-time="2026-11-06 15:39:56Z" duration="1.327040" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1023" name="LoseFocus_ClearsMovementInput" fullname="Roomturn.Tests.PlayerControllerTests.LoseFocus_ClearsMovementInput" methodname="LoseFocus_ClearsMovementInput" classname="Roomturn.Tests.PlayerControllerTests" runstate="Runnable" seed="1632838879" result="Passed" start-time="2026-11-06 15:39:54Z" end-time="2026-11-06 15:39:55Z" duration="0.120331" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="Turn_ChangesPlayerYawNotRoom" fullname="Roomturn.Tests.PlayerControllerTests.Turn_ChangesPlayerYawNotRoom" methodname="Turn_ChangesPlayerYawNotRoom" classname="Roomturn.Tests.PlayerControllerTests" runstate="Runnable" seed="7857640" result="Passed" start-time="2026-11-06 15:39:55Z" end-time="2026-11-06 15:39:55Z" duration="0.603163" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="Turn_IgnoresRepeatedInputWhileTurning" fullname="Roomturn.Tests.PlayerControllerTests.Turn_IgnoresRepeatedInputWhileTurning" methodname="Turn_IgnoresRepeatedInputWhileTurning" classname="Roomturn.Tests.PlayerControllerTests" runstate="Runnable" seed="1112127768" result="Passed" start-time="2026-11-06 15:39:55Z" end-time="2026-11-06 15:39:56Z" duration="0.602242" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1024" name="StudyArtIntegrationTests" fullname="Roomturn.Tests.StudyArtIntegrationTests" classname="Roomturn.Tests.StudyArtIntegrationTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 15:39:56Z" end-time="2026-11-06 15:39:59Z" duration="3.556529" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1025" name="ArtStudy_RealKeysDrawerDoorAndMirrorRemainPlayable" fullname="Roomturn.Tests.StudyArtIntegrationTests.ArtStudy_RealKeysDrawerDoorAndMirrorRemainPlayable" methodname="ArtStudy_RealKeysDrawerDoorAndMirrorRemainPlayable" classname="Roomturn.Tests.StudyArtIntegrationTests" runstate="Runnable" seed="771585212" result="Passed" start-time="2026-11-06 15:39:56Z" end-time="2026-11-06 15:39:59Z" duration="3.555583" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1026" name="StudyIntegrationTests" fullname="Roomturn.Tests.StudyIntegrationTests" classname="Roomturn.Tests.StudyIntegrationTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-06 15:39:59Z" end-time="2026-11-06 15:40:02Z" duration="2.356787" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1027" name="Study_CompleteSequenceAndMirrorCaptures" fullname="Roomturn.Tests.StudyIntegrationTests.Study_CompleteSequenceAndMirrorCaptures" methodname="Study_CompleteSequenceAndMirrorCaptures" classname="Roomturn.Tests.StudyIntegrationTests" runstate="Runnable" seed="1180354531" result="Passed" start-time="2026-11-06 15:39:59Z" end-time="2026-11-06 15:40:02Z" duration="2.353992" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: /Users/a77/Library/Application Support/Roomturn/转间 Roomturn/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

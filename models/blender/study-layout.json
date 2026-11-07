@@ -1,0 +1,24 @@
+{
+  "units": "meters",
+  "blenderNorth": "+Y",
+  "blenderUp": "+Z",
+  "width": 9.0,
+  "depth": 7.0,
+  "height": 3.2,
+  "doorCentersNorthToSouth": [
+    1.95,
+    0.65,
+    -0.65,
+    -1.95
+  ],
+  "sunDoorIndex": 2,
+  "eyeHeight": 1.4,
+  "observationX": 1.5,
+  "mirrorCenter": [
+    5.98,
+    0,
+    2.6
+  ],
+  "mirrorTiltDegrees": 20,
+  "status": "blockout; Unity sightlines not yet validated"
+}

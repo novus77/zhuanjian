@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-07",
+  "preview": "http://127.0.0.1:18769/",
+  "unity": "6000.6.8f1",
+  "scene": "StudyArt.unity",
+  "editMode": {
+    "passed": 12,
+    "failed": 0
+  },
+  "playMode": {
+    "passed": 6,
+    "failed": 0
+  },
+  "webBuild": "Succeeded, 0 errors",
+  "browser": {
+    "passed": true,
+    "pointerLock": true,
+    "movement": true,
+    "turn": true,
+    "interaction": true,
+    "restart": true,
+    "pageErrors": 0,
+    "consoleErrors": 0
+  },
+  "oldGreyboxPreserved": true,
+  "newLux3DCredits": 0,
+  "scope": "First-study playable art preview; full puzzle tested in Unity, Web interaction/reset smoke tested. No public deployment."
+}

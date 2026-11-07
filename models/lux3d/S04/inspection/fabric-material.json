@@ -1,0 +1,9 @@
+{
+  "scope": "Local PBR correction, source unchanged",
+  "clothRoughness": 0.85,
+  "woodRoughness": 0.55,
+  "metallic": 0,
+  "clothMaskFraction": 0.8432185649871826,
+  "method": "Source albedo G/R ratio; verify per-view",
+  "sourceUnchanged": true
+}

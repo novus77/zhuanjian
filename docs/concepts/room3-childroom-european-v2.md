@@ -1,0 +1,34 @@
+# 第三关儿童房 · 欧式统一风格 v2
+
+- 日期：2026-11-05
+- 图片：[room3-childroom-european-v2.png](room3-childroom-european-v2.png)
+- 生成方式：内置 image_gen；第二关欧式卧室作为风格参考。
+- 美术：共享英式格窗、植物彩玻璃与叶形黄铜五金；灰蓝、奶油白、浅木色与星星暖黄。
+- 展示状态：黄昏中途，小星灯已亮，大吊灯未亮；出口一亮一暗双指示灯。不是关卡最初状态或最终通关态。
+- 玩法载体：可绕行的矮桌、娃娃屋转盘及单把手、屋顶星图、内部小镜面、墙边昼夜灯绳、带两道木制闩条的单出口。
+- 待验证：桌子四侧实际通行净空；窗户方向映射；日夜对应转盘角度；真实镜面与大吊灯路径；木闩动画及碰撞。画面桌面局部雕饰和娃娃屋家具为视觉探索，不能当作坐标完全一致的3D副本。
+- 与旧主设计尺寸存在差异，本图尺寸仍为探索；未修改主设计和代码。
+
+## 完整提示词
+
+```text
+Generate ONE finished wide landscape 16:9 2D environment concept painting for LEVEL THREE "THE CHILD'S ROOM / ROOM WITHIN A ROOM" of first-person puzzle game Roomturn. The supplied mother's-bedroom image is a SHARED-HOUSE ART DIRECTION reference only. Carry forward English country-house architectural proportions, timber casement with a subtle amber/sage botanical stained-glass transom, oak boards, simple plaster cornice, restrained Art Nouveau leaf-shaped brass details and tactile painterly game realism. Create a DIFFERENT bedroom belonging to the next generation, early 2000s. No mother's iron bed, wardrobe mirror, sewing machine or cassette radio.
+
+ONE IMMERSIVE INTERIOR IMAGE, not a multi-panel sheet, no labels/text/UI/people. Camera inside near southeast part of room looking northwest with natural 65-degree wide perspective, moderately low approachable eye level, straight verticals, coherent modelable architecture. Room roughly 7.6m east-west x 5.8m north-south and 3.2m tall; ordinary believable domestic room, not royal hall. Warm safe nostalgic childhood with a gently magical handmade toy quality, not plastic low-poly.
+
+ARCHITECTURE AND PALETTE: Powder/slate-blue upper plaster walls, lower timber paneling painted warm ivory, pale honey oak floor, pale wood children's furniture with softened corners, small leaf-shaped aged-brass knobs referencing previous generations. Retain cream cornice, restrained timber trim. Muted sky blue, buttery yellow, cream and pale wood with little coral, more playful but clearly SAME GAME as reference. Material colors remain distinct rather than orange wash.
+
+ONE WEST WINDOW on left near north corner, tall English timber casement with restrained botanical stained-glass transom, a simple soft ochre/cream checked blind partly rolled up, no extra window or skylight. Outside only the SAME FAMILY TREE now mature with a thick trunk and sparse late-autumn branches, a peach horizon grading into soft blue dusk. The sun is almost gone, not full night yet. No city.
+LEFT half: low pale-wood single child's bed with cream/blue star-pattern cotton bedding and one star cushion; head toward north, foot south. Low bedside cabinet with a small ordinary warm shaded lamp providing ambient light, no confusion with two puzzle star lamps.
+NORTH back wall: modest small bookshelf LEFT, pale wood child's study desk and tucked chair CENTER, a few exercise books, pencils and schoolbag, three small framed school-award shapes with no readable text. Details subtle, not a modern gaming setup. An old simple game cartridge/controller on shelf is a quiet early-2000s memory.
+NORTHEAST corner: round-edged wooden toy chest with brass leaf handle, one worn soft rabbit and two wooden blocks. Room inhabited but tidy. No wardrobe.
+CENTER-RIGHT midground MAIN FOCAL POINT: a low pale wood activity table approximately 1.4 x 1.0m and .6m high, carrying a substantial beautifully crafted WOODEN DOLLHOUSE roughly .8m wide. Place table far enough from walls and bed that the viewer can see CLEAR WALKABLE FLOOR around ALL FOUR sides, at least about .9m routes; do not crop whole table into a corner or block its far side with furniture. A small faded blue/cream rug lies left of table, not thick around the crank.
+DOLLHOUSE must be a miniature copy of THIS SAME ROOM: a simple single-room rectangular box with a modest removable pitched roof and small chimney, one open front/cutaway side revealing the tiny blue walls, matching little bed at left, desk at back, toy chest right, little star lamp. No generic multi-story Victorian mansion. One side has a real small window, opposite in initial orientation to big west window. Roof has a small removable section exposing a faint simple star-chart pictogram with SUN, MOON, HOME icons, not lettering. Tiny mirror inside on a bracket, just a small metallic glint. Dollhouse sits on a circular WOOD/AGED-BRASS TURNTABLE with four clear quarter-turn index notches and exactly ONE small brass crank sticking out of the near-right rim; crank attached to rotating platform, not stationary table. Physical seams/readable moving parts. Keep shapes consistent and buildable.
+LIGHT STATE: Show the MID-PUZZLE DUSK stage after the small lamp has been lit: a tiny warm yellow STAR LAMP INSIDE dollhouse glows softly, while the much LARGER star-shaped paper/brass pendant in the big room is UNLIT. This contrast is crucial: large star remains cream paper with NO emissive yellow halo, tiny dollhouse star glows. A final slender natural amber ray from left window reaches dollhouse side window, subtle dust and warmth, not laser zigzags or diagram arrows. No moonbeam yet. All surrounding surfaces well lit by natural ambient dusk and small ordinary lamps.
+SOUTH/right wall near foreground: one clearly visible pull cord with small brass/wood teardrop bead at reachable height, mounted on a modest wall switch plate; this is the DAY/NIGHT memory switch. Keep separate from blind cord; blind uses a simple roller with no dangling second cord.
+EAST wall toward back-right edge: ONE CLOSED normal timber exit door with a small tasteful star-shaped mechanical latch and TWO small circular indicators, one faint warm indicator lit for small lamp, one dark. Door is locked at this stage. Old design used nailed planks: translate into two neatly fitted wooden horizontal retaining bars with brass ends, intact and deliberately crafted, not violent splintered barricades or horror. Include only if door is visible; no extra mystery entry. Keep door approach clear.
+Ceiling: a restrained scatter of faint pale green/yellow glow-star stickers and unlit large star pendant; not a magical galaxy. Visible enough ceiling to read unlit star and stickers, but no excessive high camera angle.
+
+COMPOSITION: Eye travels from old shared window and grown tree to child's bed, then hero dollhouse with tiny glowing star, then unlit larger star and visible cord. Warm sunset and cool neutral dusk fill express anticipation of night. Cozy sense of remembered home. Readable furnishings, rich wood joinery, brass patina, soft textiles, slight wear. Art Nouveau only in small curved trim, lamp fittings and leaf handles, not overcarved palace furniture. No people, ghosts, hands, typography, watermarks, icons overlaid as UI, giant exposed gears, neon, spooky darkness, all lights glowing at once, four doors, mirror wardrobe, sewing machine, multiple windows, extra fireplace, clutter-filled walking paths, impossible recursive dollhouses.
+```
+

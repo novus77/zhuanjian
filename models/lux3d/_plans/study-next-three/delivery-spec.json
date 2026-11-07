@@ -1,0 +1,42 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "转间 · 书房道具：花瓣台灯、雕花桌腿、地球仪",
+  "items": [
+    {
+      "id": "s06",
+      "label": "花瓣台灯",
+      "selectedAttemptId": "s06-a1",
+      "attempts": [
+        {
+          "id": "s06-a1",
+          "statePath": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/records/state.json"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "label": "雕花桌腿",
+      "selectedAttemptId": "s02-a1",
+      "attempts": [
+        {
+          "id": "s02-a1",
+          "statePath": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S02/records/state.json"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "label": "地球仪",
+      "selectedAttemptId": "s05-a1",
+      "attempts": [
+        {
+          "id": "s05-a1",
+          "statePath": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/records/state.json"
+        }
+      ]
+    }
+  ],
+  "scene": {
+    "status": "not-requested"
+  }
+}

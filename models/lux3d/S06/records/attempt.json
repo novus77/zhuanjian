@@ -1,0 +1,47 @@
+{
+  "attemptId": "s06-a1",
+  "asset": "S06",
+  "name": "S06FlowerLamp",
+  "region": "cn",
+  "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "One freestanding antique British Art Nouveau desk lamp, aged brass circular weighted base and curved botanical stem, single downward cream opaline glass shade shaped as five broad flower petals, restrained elegant leaf ornament, warm neutral authentic materials, full lamp including base, stem and shade, stable standing construction, no room, no desk, no surrounding props, no baked light glow, game prop isolated.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 20000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 450
+  },
+  "quoteId": "quote_2cdb956169ee40289a4a660dd6f5f594",
+  "quotedCredits": 20,
+  "approval": "Current conversation: 按本方案开始，共60积分",
+  "retryCount": 0,
+  "createdAt": "2026-11-06T07:14:26.852955+00:00",
+  "state": "downloaded",
+  "taskId": "4747292",
+  "submittedAt": "2026-11-06T07:14:27.178290+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-06T07:19:38.958892+00:00",
+  "downloadedAt": "2026-11-06T07:19:50.042773+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/source/S06FlowerLamp_zip.zip",
+      "bytes": 10120730
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/source/S06FlowerLamp_glb.glb",
+      "bytes": 7593908
+    }
+  ],
+  "preparation": {
+    "state": "prepared",
+    "report": "inspection/inspection.json",
+    "blend": "work/S06FlowerLamp_clean.blend",
+    "fbx": "export/S06FlowerLamp.fbx",
+    "unityIntegrated": false
+  }
+}

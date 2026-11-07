@@ -1,0 +1,44 @@
+{
+  "attemptId": "attempt-001",
+  "item": "mini-city-diorama",
+  "region": "cn",
+  "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+  "operation": "image-to-3d",
+  "parameters": {
+    "img": "https://holo-cos.aholo3d.cn/resource/platform/temp/2026/11/06/NLWXMRYKTKX72AABAAAAADY8.jpg",
+    "version": "G1-Turbo",
+    "faceCount": 200000,
+    "outputFormat": [
+      "glb"
+    ],
+    "enablePbr": true
+  },
+  "quoteId": "quote_56b2cfd145dc496197b595b6273b0c5f",
+  "quoteExpiresAt": "2026-11-06T14:46:14.823861418+08:00",
+  "planVersion": 1,
+  "approval": {
+    "mode": "batch",
+    "userText": "按此计划开始（1 积分）",
+    "approvedAt": "2026-11-06T14:42:20+08:00",
+    "estimatedCredits": 1
+  },
+  "retryCount": 0,
+  "submissionState": "completed",
+  "createdAt": "2026-11-06T14:42:20+08:00",
+  "taskId": "4745712",
+  "providerStatus": 3,
+  "submittedAt": "2026-11-06T14:42:30+08:00",
+  "downloadedAt": "2026-11-06T14:43:49+08:00",
+  "completedAt": "2026-11-06T14:51:18+08:00",
+  "downloads": [
+    {
+      "path": "/Users/a77/Desktop/3d解密游戏/experiments/lux3d-mini-city-2026-11-06/output/mini-city.glb",
+      "bytes": 17939928
+    }
+  ],
+  "localOutputs": [
+    "renders/mini-city-raw.png",
+    "renders/mini-city-still.png",
+    "output/mini-city.blend"
+  ]
+}

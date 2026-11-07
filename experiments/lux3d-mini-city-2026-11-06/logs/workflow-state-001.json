@@ -1,0 +1,36 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4745712",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "image-to-3d",
+    "region": "cn",
+    "version": "G1-Turbo"
+  },
+  "expectedFormats": ["glb"],
+  "downloadedArtifacts": [
+    {
+      "path": "../output/mini-city.glb",
+      "format": "glb"
+    }
+  ],
+  "taskMetadata": {
+    "schema": "lux3d.task-metadata/v1",
+    "taskId": "4745712",
+    "region": "cn",
+    "created": 1793947350000,
+    "observedAt": "2026-11-06T14:52:30+08:00",
+    "source": {
+      "method": "GET",
+      "path": "/lux3d/v1/generate/task/list",
+      "field": "items[].created",
+      "unit": "unix-milliseconds",
+      "page": 1,
+      "pageSize": 100
+    }
+  },
+  "createdAt": "2026-11-06T14:42:30+08:00",
+  "updatedAt": "2026-11-06T14:43:49+08:00",
+  "localCompletedAt": "2026-11-06T14:43:49+08:00"
+}

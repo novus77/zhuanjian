@@ -1,0 +1,9 @@
+{
+  "asset": "S04",
+  "heightMeters": 1.0200001781680967,
+  "floorMeters": -7.803229351566188e-08,
+  "meshCount": 1,
+  "triangles": 23256,
+  "uvPresent": true,
+  "result": "passed"
+}

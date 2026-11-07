@@ -1,0 +1,28 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4752174",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "createdAt": "2026-11-06T07:55:55.037894+00:00",
+  "updatedAt": "2026-11-06T08:00:00.127639+00:00",
+  "localCompletedAt": "2026-11-06T08:00:01.704654+00:00",
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1"
+  },
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S07/source/S07BookcaseCrest_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S07/source/S07BookcaseCrest_glb.glb",
+      "format": "glb"
+    }
+  ]
+}

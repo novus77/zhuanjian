@@ -1,0 +1,41 @@
+{
+  "asset": "S09",
+  "dimensionsMeters": [
+    0.25065386295318604,
+    0.17931340634822845,
+    0.42000001668930054
+  ],
+  "boundsMeters": [
+    [
+      -0.12532693147659302,
+      -0.08965670317411423,
+      0.0
+    ],
+    [
+      0.12532693147659302,
+      0.08965670317411423,
+      0.42000001668930054
+    ]
+  ],
+  "triangles": 18708,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "S09FlowerVase": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/S09/export/textures/S09FlowerVase_BaseColor.png",
+    "models/lux3d/S09/export/textures/S09FlowerVase_MetallicRoughness.png",
+    "models/lux3d/S09/export/textures/S09FlowerVase_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

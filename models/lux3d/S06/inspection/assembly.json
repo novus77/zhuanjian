@@ -1,0 +1,18 @@
+{
+  "asset": "S06",
+  "removedCordFaces": 3407,
+  "shadeFaces": 13335,
+  "parts": [
+    "S06LampFixture",
+    "S06LampShade",
+    "S06LampBase",
+    "S06LampBulb"
+  ],
+  "heightMeters": 0.45,
+  "sourcePreserved": true,
+  "scope": "Blender modeling only; not integrated into Unity",
+  "notes": [
+    "Shade separated by inspected spatial limits, including inner faces. Generated foot/cable replaced by a locally modeled closed brass base.",
+    "A separate bulb is provided; real Unity light remains to be configured."
+  ]
+}

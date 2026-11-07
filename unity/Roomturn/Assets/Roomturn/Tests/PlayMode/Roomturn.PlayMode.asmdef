@@ -1,0 +1,5 @@
+{
+  "name": "Roomturn.PlayMode",
+  "references": ["Roomturn.Runtime", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

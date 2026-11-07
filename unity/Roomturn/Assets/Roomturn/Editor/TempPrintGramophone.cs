@@ -1,0 +1,3 @@
+using UnityEditor.SceneManagement;
+using UnityEngine;
+namespace Roomturn.Editor { public static class TempPrintGramophone { [UnityEditor.MenuItem("Roomturn/Print Gramophone")] public static void Print() { EditorSceneManager.OpenScene("Assets/Roomturn/Scenes/Study.unity", OpenSceneMode.Single); foreach(var n in new[]{"GramophoneStand","GramophoneBase","GramophoneHorn"}) { var go=GameObject.Find(n); if(go!=null){var r=go.GetComponent<Renderer>(); Debug.Log("GRAM "+n+" pos="+go.transform.position+" rot="+go.transform.eulerAngles+" bounds="+r.bounds.center+" size="+r.bounds.size);} else Debug.Log("GRAM missing "+n); } } } }

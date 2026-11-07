@@ -1,0 +1,86 @@
+{
+  "1": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one antique English country-house reading armchair, compact inviting proportions, olive green velvet fabric with subtle button tufting, rounded padded back and rolled upholstered arms, exposed dark walnut frame and four short sturdy carved wooden feet, restrained Art Nouveau botanical details in the wooden frame, realistic aged materials, complete front back underside and four feet, stable freestanding construction, no ottoman, no cushion lying beside it, no room, no floor, no other furniture, isolated game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 25000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 1020
+      }
+    }
+  },
+  "2": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one separate horizontal Art Nouveau botanical furniture crest ornament, bilaterally balanced flowing stylized acanthus leaves branching from a central bud, antique muted gilded brass, broad shallow relief with a flat continuous backing for mounting on a wooden bookcase cornice, compact solid connected leaves, approximately 800 mm wide 180 mm high and 25 mm thick, restrained British country house craftsmanship, complete freestanding ornament asset only, no bookcase, no cabinet, no room, no lettering, no surrounding props.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 180
+      }
+    }
+  },
+  "3": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "Exactly one small L-shaped Art Nouveau mirror-frame corner ornament, two gently curved mounting branches meeting at one corner with three solid broad stylized iris leaves and a small bud, aged muted gilded brass, shallow relief with flat mounting back, about 220 mm high, coherent elegant British country house decorative detail, connected sturdy construction, intended to attach to a separately built rectangular mirror frame, only one corner ornament, no complete frame, no mirror glass, no reflections, no furniture, no room, isolated game prop.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 10000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 220
+      }
+    }
+  },
+  "4": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/text-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "prompt": "One small antique cream glazed ceramic vase holding one sparse static arrangement of five ivory daisy-like flowers with muted sage leaves and warm brown stems, restrained Art Nouveau leaf motif embossed on the rounded vase, stable flat base, vase and flowers composed as one decorative prop, clear robust flower and stem geometry, realistic English country-house study decoration, approximately 420 mm overall height, vase about 160 mm high, no table, no room, no other objects, no floating petals, no text, no glowing lights, isolated game asset.",
+        "version": "G1",
+        "style": "photorealistic",
+        "faceCount": 20000,
+        "outputFormat": [
+          "glb"
+        ],
+        "aiPredictSize": false,
+        "customSize": 420
+      }
+    }
+  }
+}

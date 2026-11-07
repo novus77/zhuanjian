@@ -1,0 +1,138 @@
+{
+  "editmode": {
+    "result": "Passed",
+    "total": "9",
+    "passed": "9",
+    "failed": "0",
+    "tests": [
+      {
+        "name": "Study_HasFullScaleDoorsAndCollision",
+        "result": "Passed"
+      },
+      {
+        "name": "Study_LargerRoomKeepsObservationPositionsWalkable",
+        "result": "Passed"
+      },
+      {
+        "name": "StudyText_EmbedsChineseFontForPlayer",
+        "result": "Passed"
+      },
+      {
+        "name": "Completion_OnlyOnce",
+        "result": "Passed"
+      },
+      {
+        "name": "Drawer_RequiresSmallKey",
+        "result": "Passed"
+      },
+      {
+        "name": "TakeKey_IsIdempotent",
+        "result": "Passed"
+      },
+      {
+        "name": "WrongDoor_RemainsLocked",
+        "result": "Passed"
+      },
+      {
+        "name": "Study_UsesChairSampleWithoutBlockingDrawer",
+        "result": "Passed"
+      },
+      {
+        "name": "Study_UsesGramophoneSampleWithMovableHorn",
+        "result": "Passed"
+      }
+    ]
+  },
+  "playmode": {
+    "result": "Passed",
+    "total": "4",
+    "passed": "4",
+    "failed": "0",
+    "tests": [
+      {
+        "name": "LoseFocus_ClearsMovementInput",
+        "result": "Passed"
+      },
+      {
+        "name": "Turn_ChangesPlayerYawNotRoom",
+        "result": "Passed"
+      },
+      {
+        "name": "Turn_IgnoresRepeatedInputWhileTurning",
+        "result": "Passed"
+      },
+      {
+        "name": "Study_CompleteSequenceAndMirrorCaptures",
+        "result": "Passed"
+      }
+    ]
+  },
+  "editor": "6000.6.8f1",
+  "roomMeters": [
+    9,
+    7,
+    3.2
+  ],
+  "blenderTests": "8/8",
+  "webBuild": "Succeeded; 0 errors (S03 chair + S01 gramophone integrated)",
+  "webURL": "http://127.0.0.1:18767/",
+  "webSmoke": [
+    "Chinese UI",
+    "responsive canvas",
+    "S/W movement",
+    "90-degree turn",
+    "native click pointer lock",
+    "E gramophone interaction",
+    "R reset",
+    "reflected sun symbol through transom"
+  ],
+  "pending": [
+    "independent full playthrough",
+    "public hosting",
+    "profiling",
+    "final art",
+    "Browser smoke test after S03 integration"
+  ],
+  "chairIntegration": {
+    "asset": "S03 书桌椅",
+    "taskId": 4736756,
+    "scene": "Assets/Roomturn/Scenes/Study.unity",
+    "prefab": "Assets/Roomturn/Prefabs/S03DeskChair.prefab",
+    "collider": "1 BoxCollider",
+    "worldSizeMeters": [
+      0.75,
+      1.05,
+      0.79
+    ],
+    "screenshots": [
+      "docs/production/validation/captures/study-chair-integrated.png",
+      "docs/production/validation/captures/study-chair-back.png"
+    ],
+    "tests": {
+      "editmode": "8/8",
+      "playmode": "4/4"
+    }
+  },
+  "webSmokeStatus": "Pending for S01 build; not yet re-smoke-tested in browser",
+  "gramophoneIntegration": {
+    "asset": "S01 留声机",
+    "taskId": 4744068,
+    "scene": "Assets/Roomturn/Scenes/Study.unity",
+    "prefab": "Assets/Roomturn/Prefabs/S01Gramophone.prefab",
+    "parts": [
+      "S01Gramophone_Body",
+      "S01Gramophone_Horn"
+    ],
+    "worldSizeMeters": [
+      1.06,
+      1.66,
+      0.98
+    ],
+    "hornInteraction": "S01Gramophone_Horn has StudyInteraction / StudyAction.Horn",
+    "screenshot": "docs/production/validation/captures/study-gramophone-integrated.png",
+    "tests": {
+      "editmode": "9/9",
+      "playmode": "4/4"
+    }
+  }
+}

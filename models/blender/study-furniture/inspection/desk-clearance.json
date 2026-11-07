@@ -1,0 +1,9 @@
+{
+  "drawerTravelMeters": 0.55,
+  "sampledPositions": 12,
+  "movingParts": 6,
+  "staticParts": 12,
+  "intersectionMethod": "Conservative evaluated mesh AABBs, >1 mm overlap in all axes",
+  "collisions": [],
+  "result": "passed"
+}

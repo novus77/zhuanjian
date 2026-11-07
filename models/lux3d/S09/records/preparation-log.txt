@@ -1,0 +1,18 @@
+16:02:09 | INFO: Data are loaded, start creating Blender stuff
+16:02:09 | INFO: Blender create Mesh node geometry_0
+16:02:09 | INFO: glTF import finished in 0.03s
+/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/tools/prepare_lux3d_prop.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:02.412  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/inspection/front.png'
+00:03.831  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/inspection/back.png'
+00:06.517  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/inspection/side.png'
+Info: Packed 1 file(s)
+Info: Saved as "S09FlowerVase_clean.blend"
+
+FBX export starting... '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/export/S09FlowerVase.fbx'
+export finished in 0.0209 sec.
+Info: Saved as "S09FlowerVase_clean.blend"
+PROP_PREPARED {"asset": "S09", "dimensionsMeters": [0.25065386295318604, 0.17931340634822845, 0.42000001668930054], "boundsMeters": [[-0.12532693147659302, -0.08965670317411423, 0.0], [0.12532693147659302, 0.08965670317411423, 0.42000001668930054]], "triangles": 18708, "meshCount": 1, "materials": ["Designer_Logic_PBR"], "uvLayers": {"S09FlowerVase": ["UVMap"]}, "textures": ["models/lux3d/S09/export/textures/S09FlowerVase_BaseColor.png", "models/lux3d/S09/export/textures/S09FlowerVase_MetallicRoughness.png", "models/lux3d/S09/export/textures/S09FlowerVase_MetallicSmoothness.png"], "blenderVersion": "5.2.3 LTS", "notes": ["Dimensions normalized uniformly; source preserved.", "MetallicSmoothness uses glTF B \u2192 R and 1 minus G \u2192 A, linear data.", "No claim of independent moving parts or architectural fit."]}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

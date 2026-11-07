@@ -1,0 +1,38 @@
+{
+  "glb": "/Users/a77/Desktop/3d解密游戏/experiments/lux3d-mini-city-2026-11-06/output/mini-city.glb",
+  "meshObjects": 1,
+  "objects": [
+    {
+      "name": "geometry_0",
+      "verts": 171127,
+      "polys": 187812,
+      "materials": [
+        "Material_0"
+      ]
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.6,
+      -0.60052,
+      -0.15709
+    ],
+    "max": [
+      0.6,
+      0.60052,
+      0.15709
+    ],
+    "dimensions": [
+      1.2,
+      1.20104,
+      0.31419
+    ]
+  },
+  "materials": [
+    "Material_0"
+  ],
+  "images": [
+    "Image_0",
+    "Image_1"
+  ]
+}

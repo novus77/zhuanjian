@@ -1,0 +1,15 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/source/S08MirrorLeafCorner_glb.glb",
+  "format": "glb",
+  "size": 5466144,
+  "sha256": "e0f8089c3c6359f1aca75507349e4348d4966c827605c25688d5cf3fd43f6778",
+  "validation": {
+    "valid": true,
+    "glbVersion": 2,
+    "assetVersion": "2.0",
+    "scenes": 1,
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "1": {
+    "endpoint": {
+      "method": "POST",
+      "path": "/lux3d/v1/generate/img-to-3d/task/create"
+    },
+    "parameters": {
+      "pathParameters": {},
+      "queryParameters": {},
+      "body": {
+        "img": "https://holo-cos.aholo3d.cn/resource/platform/temp/2026/11/06/NLWXMRYKTKX72AABAAAAADY8.jpg",
+        "version": "G1-Turbo",
+        "faceCount": 200000,
+        "outputFormat": ["glb"],
+        "enablePbr": true
+      }
+    }
+  }
+}

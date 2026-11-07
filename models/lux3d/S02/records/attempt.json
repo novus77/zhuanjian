@@ -1,0 +1,47 @@
+{
+  "attemptId": "s02-a1",
+  "asset": "S02",
+  "name": "S02DeskLeg",
+  "region": "cn",
+  "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one solid carved walnut writing-desk leg, British country house furniture with restrained Art Nouveau acanthus leaf carving at the upper knee, tapered gently curved cabriole profile, sturdy foot, flat square upper attachment for assembly under a desk, richly grained dark walnut, no desk tabletop, no drawer, no furniture set, no brass, isolated single leg, realistic game asset.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 15000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 720
+  },
+  "quoteId": "quote_2cdb956169ee40289a4a660dd6f5f594",
+  "quotedCredits": 20,
+  "approval": "Current conversation: 按本方案开始，共60积分",
+  "retryCount": 0,
+  "createdAt": "2026-11-06T07:14:27.179524+00:00",
+  "state": "downloaded",
+  "taskId": "4747293",
+  "submittedAt": "2026-11-06T07:14:27.538241+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-06T07:19:14.873767+00:00",
+  "downloadedAt": "2026-11-06T07:19:17.685416+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S02/source/S02DeskLeg_zip.zip",
+      "bytes": 6282529
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S02/source/S02DeskLeg_glb.glb",
+      "bytes": 6270904
+    }
+  ],
+  "preparation": {
+    "state": "prepared",
+    "report": "inspection/inspection.json",
+    "blend": "work/S02DeskLeg_clean.blend",
+    "fbx": "export/S02DeskLeg.fbx",
+    "unityIntegrated": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/source/S06FlowerLamp_glb.glb",
+  "format": "glb",
+  "size": 7593908,
+  "sha256": "2e73840ff57bb1737ccc0446f710d723ed4ab425661d0c216806a3830c8c60b1",
+  "validation": {
+    "valid": true,
+    "glbVersion": 2,
+    "assetVersion": "2.0",
+    "scenes": 1,
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1
+  }
+}

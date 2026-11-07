@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.1847774">
+  <test-suite type="TestSuite" id="1000" name="转间 Roomturn" fullname="转间 Roomturn" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.184777" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1012" name="Roomturn.EditMode.dll" fullname="/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/unity/Roomturn/Library/ScriptAssemblies/Roomturn.EditMode.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.181470" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="28865" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1013" name="Roomturn" fullname="Roomturn" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.181312" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1014" name="Tests" fullname="Roomturn.Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.181240" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="StudySceneTests" fullname="Roomturn.Tests.StudySceneTests" classname="Roomturn.Tests.StudySceneTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.178658" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1006" name="Study_HasFullScaleDoorsAndCollision" fullname="Roomturn.Tests.StudySceneTests.Study_HasFullScaleDoorsAndCollision" methodname="Study_HasFullScaleDoorsAndCollision" classname="Roomturn.Tests.StudySceneTests" runstate="Runnable" seed="632803524" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.077649" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="Study_LargerRoomKeepsObservationPositionsWalkable" fullname="Roomturn.Tests.StudySceneTests.Study_LargerRoomKeepsObservationPositionsWalkable" methodname="Study_LargerRoomKeepsObservationPositionsWalkable" classname="Roomturn.Tests.StudySceneTests" runstate="Runnable" seed="385148901" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.026022" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="Study_UsesChairSampleWithoutBlockingDrawer" fullname="Roomturn.Tests.StudySceneTests.Study_UsesChairSampleWithoutBlockingDrawer" methodname="Study_UsesChairSampleWithoutBlockingDrawer" classname="Roomturn.Tests.StudySceneTests" runstate="Runnable" seed="758545611" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.025081" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="Study_UsesGramophoneSampleWithMovableHorn" fullname="Roomturn.Tests.StudySceneTests.Study_UsesGramophoneSampleWithMovableHorn" methodname="Study_UsesGramophoneSampleWithMovableHorn" classname="Roomturn.Tests.StudySceneTests" runstate="Runnable" seed="60345231" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.022615" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="StudyText_EmbedsChineseFontForPlayer" fullname="Roomturn.Tests.StudySceneTests.StudyText_EmbedsChineseFontForPlayer" methodname="StudyText_EmbedsChineseFontForPlayer" classname="Roomturn.Tests.StudySceneTests" runstate="Runnable" seed="1252838326" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.020968" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1007" name="StudyStateTests" fullname="Roomturn.Tests.StudyStateTests" classname="Roomturn.Tests.StudyStateTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.002093" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1011" name="Completion_OnlyOnce" fullname="Roomturn.Tests.StudyStateTests.Completion_OnlyOnce" methodname="Completion_OnlyOnce" classname="Roomturn.Tests.StudyStateTests" runstate="Runnable" seed="1409538921" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.000261" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="Drawer_RequiresSmallKey" fullname="Roomturn.Tests.StudyStateTests.Drawer_RequiresSmallKey" methodname="Drawer_RequiresSmallKey" classname="Roomturn.Tests.StudyStateTests" runstate="Runnable" seed="1419118941" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.000071" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="TakeKey_IsIdempotent" fullname="Roomturn.Tests.StudyStateTests.TakeKey_IsIdempotent" methodname="TakeKey_IsIdempotent" classname="Roomturn.Tests.StudyStateTests" runstate="Runnable" seed="1647486472" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.000080" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="WrongDoor_RemainsLocked" fullname="Roomturn.Tests.StudyStateTests.WrongDoor_RemainsLocked" methodname="WrongDoor_RemainsLocked" classname="Roomturn.Tests.StudyStateTests" runstate="Runnable" seed="1242735197" result="Passed" start-time="2026-11-06 13:16:58Z" end-time="2026-11-06 13:16:58Z" duration="0.000097" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: /Users/a77/Library/Application Support/Roomturn/转间 Roomturn/TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4747300",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "One antique tabletop terrestrial globe on a short dark walnut pedestal with aged brass meridian ring, British country house study, restrained Art Nouveau botanical decoration on the weighted circular wooden base, parchment cream and muted sage green map, spherical globe, stable mechanically plausible support, complete freestanding object, no desk, no room, no surrounding props, no readable text required, realistic game prop."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/source/S05Globe_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/source/S05Globe_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-06T07:14:27.539371+00:00",
+  "updatedAt": "2026-11-06T07:19:50.264985+00:00",
+  "localCompletedAt": "2026-11-06T07:19:55.022998+00:00"
+}

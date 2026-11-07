@@ -1,0 +1,47 @@
+{
+  "attemptId": "s05-a1",
+  "asset": "S05",
+  "name": "S05Globe",
+  "region": "cn",
+  "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "One antique tabletop terrestrial globe on a short dark walnut pedestal with aged brass meridian ring, British country house study, restrained Art Nouveau botanical decoration on the weighted circular wooden base, parchment cream and muted sage green map, spherical globe, stable mechanically plausible support, complete freestanding object, no desk, no room, no surrounding props, no readable text required, realistic game prop.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 20000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 650
+  },
+  "quoteId": "quote_2cdb956169ee40289a4a660dd6f5f594",
+  "quotedCredits": 20,
+  "approval": "Current conversation: 按本方案开始，共60积分",
+  "retryCount": 0,
+  "createdAt": "2026-11-06T07:14:27.539371+00:00",
+  "state": "downloaded",
+  "taskId": "4747300",
+  "submittedAt": "2026-11-06T07:14:27.840964+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-06T07:19:50.264985+00:00",
+  "downloadedAt": "2026-11-06T07:19:55.022998+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/source/S05Globe_zip.zip",
+      "bytes": 6352670
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/source/S05Globe_glb.glb",
+      "bytes": 6065912
+    }
+  ],
+  "preparation": {
+    "state": "prepared",
+    "report": "inspection/inspection.json",
+    "blend": "work/S05Globe_clean.blend",
+    "fbx": "export/S05Globe.fbx",
+    "unityIntegrated": false
+  }
+}

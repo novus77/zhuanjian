@@ -1,0 +1,18 @@
+15:20:58 | INFO: Data are loaded, start creating Blender stuff
+15:20:58 | INFO: Blender create Mesh node geometry_0
+15:20:58 | INFO: glTF import finished in 0.04s
+/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/tools/prepare_lux3d_prop.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:02.851  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/inspection/front.png'
+00:04.837  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/inspection/back.png'
+00:08.260  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/inspection/side.png'
+Info: Packed 1 file(s)
+Info: Saved as "S06FlowerLamp_clean.blend"
+
+FBX export starting... '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S06/export/S06FlowerLamp.fbx'
+export finished in 0.0251 sec.
+Info: Saved as "S06FlowerLamp_clean.blend"
+PROP_PREPARED {"asset": "S06", "dimensionsMeters": [0.3791801929473877, 0.25350719690322876, 0.44999998807907104], "boundsMeters": [[-0.18959009647369385, -0.12675359845161438, 0.0], [0.18959009647369385, 0.12675359845161438, 0.44999998807907104]], "triangles": 19766, "meshCount": 1, "materials": ["Designer_Logic_PBR"], "uvLayers": {"S06FlowerLamp": ["UVMap"]}, "textures": ["models/lux3d/S06/export/textures/S06FlowerLamp_BaseColor.png", "models/lux3d/S06/export/textures/S06FlowerLamp_MetallicRoughness.png", "models/lux3d/S06/export/textures/S06FlowerLamp_MetallicSmoothness.png"], "blenderVersion": "5.2.3 LTS", "notes": ["Dimensions normalized uniformly; source preserved.", "MetallicSmoothness uses glTF B \u2192 R and 1 minus G \u2192 A, linear data.", "No claim of independent moving parts or architectural fit."]}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

@@ -1,0 +1,15 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/source/S05Globe_glb.glb",
+  "format": "glb",
+  "size": 6065912,
+  "sha256": "9dc3758e9ab72e04382c781666cab2378c2b361e95fd8cf047feb6af79172ef1",
+  "validation": {
+    "valid": true,
+    "glbVersion": 2,
+    "assetVersion": "2.0",
+    "scenes": 1,
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1
+  }
+}

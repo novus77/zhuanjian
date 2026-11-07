@@ -1,0 +1,18 @@
+15:19:44 | INFO: Data are loaded, start creating Blender stuff
+15:19:44 | INFO: Blender create Mesh node geometry_0
+15:19:44 | INFO: glTF import finished in 0.03s
+/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/tools/prepare_lux3d_prop.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:02.635  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S02/inspection/front.png'
+00:03.671  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S02/inspection/back.png'
+00:04.748  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S02/inspection/side.png'
+Info: Packed 1 file(s)
+Info: Saved as "S02DeskLeg_clean.blend"
+
+FBX export starting... '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S02/export/S02DeskLeg.fbx'
+export finished in 0.0181 sec.
+Info: Saved as "S02DeskLeg_clean.blend"
+PROP_PREPARED {"asset": "S02", "dimensionsMeters": [0.2702866196632385, 0.26366645097732544, 0.7200000286102295], "boundsMeters": [[-0.13514330983161926, -0.13183322548866272, 0.0], [0.13514332473278046, 0.13183322548866272, 0.7200000286102295]], "triangles": 14936, "meshCount": 1, "materials": ["Designer_Logic_PBR"], "uvLayers": {"S02DeskLeg": ["UVMap"]}, "textures": ["models/lux3d/S02/export/textures/S02DeskLeg_BaseColor.png", "models/lux3d/S02/export/textures/S02DeskLeg_MetallicRoughness.png", "models/lux3d/S02/export/textures/S02DeskLeg_MetallicSmoothness.png"], "blenderVersion": "5.2.3 LTS", "notes": ["Dimensions normalized uniformly; source preserved.", "MetallicSmoothness uses glTF B \u2192 R and 1 minus G \u2192 A, linear data.", "No claim of independent moving parts or architectural fit."]}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

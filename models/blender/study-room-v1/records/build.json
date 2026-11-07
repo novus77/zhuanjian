@@ -1,0 +1,45 @@
+{
+  "builtAt": "2026-11-06T11:37:44.219430+00:00",
+  "dimensionsMeters": [
+    9,
+    7,
+    3.2
+  ],
+  "eyeHeightMeters": 1.4,
+  "sourceAssets": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "meshObjects": 1220,
+  "doorHinges": [
+    "Door_0_Hinge",
+    "Door_1_Hinge",
+    "Door_2_Hinge",
+    "Door_3_Hinge"
+  ],
+  "newGenerationCredits": 0,
+  "renderedShots": [
+    "overview",
+    "interior",
+    "doors",
+    "reading",
+    "clue-books",
+    "mechanism",
+    "drawer-open",
+    "sun-mirror"
+  ],
+  "runtimeIntegration": false,
+  "notes": [
+    "Full south wall and ceiling exist; cutaway visibility is a presentation setting.",
+    "Transom glass objects supplied but hidden for sightline inspection; runtime glass setup still required.",
+    "Family-memory card has a separate locally authored placeholder face; final family artwork pending.",
+    "Existing generated gramophone uniformly resized to 0.67 for a table-top presentation; source preserved."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/source/S07BookcaseCrest_glb.glb",
+  "format": "glb",
+  "size": 5188124,
+  "sha256": "684a5f39f7d236cb51e07fd7e1d37928446d52229ddfd5119ad3cb49d9cb1c05",
+  "validation": {
+    "valid": true,
+    "glbVersion": 2,
+    "assetVersion": "2.0",
+    "scenes": 1,
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4736756",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1"
+  },
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S03/source/S03DeskChair_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S03/source/S03DeskChair_glb.glb",
+      "format": "glb"
+    }
+  ]
+}

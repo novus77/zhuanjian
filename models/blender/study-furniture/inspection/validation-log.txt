@@ -1,0 +1,9 @@
+00:00.583  blend            | Read blend: "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/blender/study-furniture/S02WritingDesk.blend"
+DESK_CLEARANCE {"drawerTravelMeters": 0.55, "sampledPositions": 12, "movingParts": 6, "staticParts": 12, "intersectionMethod": "Conservative evaluated mesh AABBs, >1 mm overlap in all axes", "collisions": [], "result": "passed"}
+FBX version: 7400
+ASSEMBLED_FBX {"result": "passed", "export": "models/blender/study-furniture/S02WritingDesk.fbx", "meshCount": 18, "separateParts": ["S02CarvedLeg_0", "S02CarvedLeg_1", "S02CarvedLeg_2", "S02CarvedLeg_3", "S02DeskTop", "S02DrawerBack", "S02DrawerBottom", "S02DrawerFront", "S02DrawerHandle", "S02DrawerHeader", "S02DrawerSide_-1", "S02DrawerSide_1", "S02FrontApronWing_-1", "S02FrontApronWing_1", "S02LeatherInset", "S02RearApron", "S02SideApron_-1", "S02SideApron_1"], "check": "Actual FBX reimport and named part/parent checks"}
+FBX version: 7400
+ASSEMBLED_FBX {"result": "passed", "export": "models/lux3d/S06/export/S06FlowerLamp_assembled.fbx", "meshCount": 4, "separateParts": ["S06LampBase", "S06LampBulb", "S06LampFixture", "S06LampShade"], "check": "Actual FBX reimport and named part/parent checks"}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

@@ -1,0 +1,18 @@
+16:02:04 | INFO: Data are loaded, start creating Blender stuff
+16:02:04 | INFO: Blender create Mesh node geometry_0
+16:02:04 | INFO: glTF import finished in 0.01s
+/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/tools/prepare_lux3d_prop.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:02.001  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/inspection/front.png'
+00:03.219  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/inspection/back.png'
+00:04.308  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/inspection/side.png'
+Info: Packed 1 file(s)
+Info: Saved as "S08MirrorLeafCorner_clean.blend"
+
+FBX export starting... '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/export/S08MirrorLeafCorner.fbx'
+export finished in 0.0122 sec.
+Info: Saved as "S08MirrorLeafCorner_clean.blend"
+PROP_PREPARED {"asset": "S08", "dimensionsMeters": [0.21903321146965027, 0.027008462697267532, 0.2199999988079071], "boundsMeters": [[-0.10951661318540573, -0.01350423227995634, 0.0], [0.10951660573482513, 0.013504231348633766, 0.2199999988079071]], "triangles": 9980, "meshCount": 1, "materials": ["Designer_Logic_PBR"], "uvLayers": {"S08MirrorLeafCorner": ["UVMap"]}, "textures": ["models/lux3d/S08/export/textures/S08MirrorLeafCorner_BaseColor.png", "models/lux3d/S08/export/textures/S08MirrorLeafCorner_MetallicRoughness.png", "models/lux3d/S08/export/textures/S08MirrorLeafCorner_MetallicSmoothness.png"], "blenderVersion": "5.2.3 LTS", "notes": ["Dimensions normalized uniformly; source preserved.", "MetallicSmoothness uses glTF B \u2192 R and 1 minus G \u2192 A, linear data.", "No claim of independent moving parts or architectural fit."]}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

@@ -1,0 +1,22 @@
+{
+  "sourceLeg": "models/lux3d/S02/source/S02DeskLeg_glb.glb",
+  "legTaskId": "4747293",
+  "sourceLegInstances": 4,
+  "widthMeters": 1.65,
+  "depthMeters": 0.85,
+  "topSurfaceMeters": 0.895,
+  "drawerClosedCenter": [
+    0,
+    -0.1,
+    0.69
+  ],
+  "drawerOpenTranslation": [
+    0,
+    -0.55,
+    0
+  ],
+  "sourceLegHeightAdjustedMeters": 0.805,
+  "drawerIsIndependent": true,
+  "generatedSourcesPreserved": true,
+  "scope": "local Blender desk assembly, not integrated into Unity"
+}

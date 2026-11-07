@@ -1,0 +1,47 @@
+{
+  "attemptId": "s09-a1",
+  "asset": "S09",
+  "name": "S09FlowerVase",
+  "region": "cn",
+  "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "One small antique cream glazed ceramic vase holding one sparse static arrangement of five ivory daisy-like flowers with muted sage leaves and warm brown stems, restrained Art Nouveau leaf motif embossed on the rounded vase, stable flat base, vase and flowers composed as one decorative prop, clear robust flower and stem geometry, realistic English country-house study decoration, approximately 420 mm overall height, vase about 160 mm high, no table, no room, no other objects, no floating petals, no text, no glowing lights, isolated game asset.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 20000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 420
+  },
+  "quoteId": "quote_b798fddb0df340cba1d5d405f7ca4264",
+  "quotedCredits": 20,
+  "approval": "Current conversation: automatic execution within cumulative 500 credits, prior commitments preserved",
+  "retryCount": 0,
+  "state": "downloaded",
+  "createdAt": "2026-11-06T07:55:55.679943+00:00",
+  "taskId": "4752183",
+  "submittedAt": "2026-11-06T07:55:56.084268+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-06T08:01:05.022246+00:00",
+  "downloadedAt": "2026-11-06T08:01:07.156382+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S09/source/S09FlowerVase_zip.zip",
+      "bytes": 10467067
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S09/source/S09FlowerVase_glb.glb",
+      "bytes": 7737964
+    }
+  ],
+  "preparation": {
+    "state": "prepared",
+    "report": "inspection/inspection.json",
+    "fbx": "export/S09FlowerVase.fbx",
+    "blend": "work/S09FlowerVase_clean.blend",
+    "unityIntegrated": false
+  }
+}

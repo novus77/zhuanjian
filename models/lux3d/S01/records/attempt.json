@@ -1,0 +1,45 @@
+{
+  "attemptId": "s01-gramophone-a1",
+  "itemId": "s01-gramophone",
+  "region": "cn",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "A single early-20th-century English gramophone music player as one freestanding antique object: a dark walnut wood cabinet with paneled doors and a circular turntable platter on top, a large polished brass horn with restrained Art Nouveau floral engraving and gently flared bell, a brass winding crank on the side, brass corner fittings and a small carved leaf motif. Realistic warm worn wood grain, aged brass patina, subtle scratches and plausible furniture construction with natural proportions; approximately 1.65 m tall including the horn. The horn must be a clearly separate volume from the wooden cabinet with a visible flange/seam at its base so it can be separated in Blender later; the turntable and side crank should be visually distinct. Complete horn, cabinet front, back, sides and underside; no records, no loose discs, no separate stand, no table, no room, no person, no text. One freestanding static game prop.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 30000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 1650
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "quotedCredits": 20,
+  "quoteId": "quote_3bd00fe952454d0ca1daf09aeb38b228",
+  "reviewId": "review_3bd00fe952454d0ca1daf09aeb38b228",
+  "state": "downloaded",
+  "createdAt": "2026-11-06T06:26:42.975372+00:00",
+  "approval": {
+    "mode": "automatic",
+    "authorizedTotalCredits": 200,
+    "currentPlanEstimatedCredits": 20,
+    "decision": "user authorized automatic execution with a cumulative budget of 200 credits"
+  },
+  "taskId": "4744068",
+  "submittedAt": "2026-11-06T06:26:43.423992+00:00",
+  "downloadedAt": "2026-11-06T06:32:08.569626+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S01/source/S01Gramophone_zip.zip",
+      "bytes": 8083297
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S01/source/S01Gramophone_glb.glb",
+      "bytes": 6363732
+    }
+  ]
+}

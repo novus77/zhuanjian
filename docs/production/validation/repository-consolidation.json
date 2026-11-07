@@ -1,0 +1,18 @@
+{
+  "sourceWorkspace": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏",
+  "canonicalWorkspace": "/Users/a77/Desktop/3d解密游戏",
+  "unityCopied": [
+    "Assets",
+    "Packages",
+    "ProjectSettings"
+  ],
+  "newNonUnityFiles": 112,
+  "conflictsPreserved": [
+    "README.md",
+    ".gitignore",
+    "docs/production/current-project-overview.md",
+    "docs/production/lux3d-blender-unity-asset-plan.md",
+    "docs/superpowers/plans/2026-11-05-unity-development.md"
+  ],
+  "notes": "Existing desktop README/current overview retained; older asset plan and Unity plan archived before adopting advanced worktree versions. Generated Unity caches/builds not copied into source."
+}

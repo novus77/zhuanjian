@@ -1,0 +1,16 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "status": "succeeded",
+  "taskId": "4744068",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1"
+  },
+  "expectedFormats": ["zip", "glb"],
+  "downloadedArtifacts": [
+    {"path": "../source/S01Gramophone_zip.zip", "format": "zip"},
+    {"path": "../source/S01Gramophone_glb.glb", "format": "glb"}
+  ]
+}

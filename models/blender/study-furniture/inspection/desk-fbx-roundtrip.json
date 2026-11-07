@@ -1,0 +1,26 @@
+{
+  "result": "passed",
+  "export": "models/blender/study-furniture/S02WritingDesk.fbx",
+  "meshCount": 18,
+  "separateParts": [
+    "S02CarvedLeg_0",
+    "S02CarvedLeg_1",
+    "S02CarvedLeg_2",
+    "S02CarvedLeg_3",
+    "S02DeskTop",
+    "S02DrawerBack",
+    "S02DrawerBottom",
+    "S02DrawerFront",
+    "S02DrawerHandle",
+    "S02DrawerHeader",
+    "S02DrawerSide_-1",
+    "S02DrawerSide_1",
+    "S02FrontApronWing_-1",
+    "S02FrontApronWing_1",
+    "S02LeatherInset",
+    "S02RearApron",
+    "S02SideApron_-1",
+    "S02SideApron_1"
+  ],
+  "check": "Actual FBX reimport and named part/parent checks"
+}

@@ -1,0 +1,13 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/source/S07BookcaseCrest_zip.zip",
+  "format": "zip",
+  "size": 6632864,
+  "sha256": "dbd729faf1279c0aa8a205f6df509eec087301e01457182360cd6aed5c03f043",
+  "validation": {
+    "valid": true,
+    "zipEntries": 7,
+    "modelEntries": [
+      "MODEL.glb"
+    ]
+  }
+}

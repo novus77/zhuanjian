@@ -1,0 +1,13 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S09/source/S09FlowerVase_zip.zip",
+  "format": "zip",
+  "size": 10467067,
+  "sha256": "99fb64ec1a0852739cce0735fac0c807fdf6ab09a4e4174597ca971eabeb967f",
+  "validation": {
+    "valid": true,
+    "zipEntries": 7,
+    "modelEntries": [
+      "MODEL.glb"
+    ]
+  }
+}

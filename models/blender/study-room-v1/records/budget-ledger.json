@@ -1,0 +1,22 @@
+{
+  "conversation": "01a1b048-d9bc-7bb1-82a4-bbfb6fe3db3d",
+  "authorization": "User authorized generation according to previous plan up to 500 Lux3D credits, emphasizing model detail.",
+  "authorizedTotal": 500,
+  "mode": "automatic",
+  "committed": 0,
+  "reserved": 0,
+  "remaining": 500,
+  "entries": [],
+  "reusedPriorAssets": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ],
+  "note": "Prior conversation spending is not reset or recharged; all nine existing sources are reused at no new cost."
+}

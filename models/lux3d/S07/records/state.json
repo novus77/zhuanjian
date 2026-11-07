@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4752174",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "Exactly one separate horizontal Art Nouveau botanical furniture crest ornament, bilaterally balanced flowing stylized acanthus leaves branching from a central bud, antique muted gilded brass, broad shallow relief with a flat continuous backing for mounting on a wooden bookcase cornice, compact solid connected leaves, approximately 800 mm wide 180 mm high and 25 mm thick, restrained British country house craftsmanship, complete freestanding ornament asset only, no bookcase, no cabinet, no room, no lettering, no surrounding props."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/source/S07BookcaseCrest_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/source/S07BookcaseCrest_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-06T07:55:55.037894+00:00",
+  "updatedAt": "2026-11-06T08:00:00.127639+00:00",
+  "localCompletedAt": "2026-11-06T08:00:01.704654+00:00"
+}

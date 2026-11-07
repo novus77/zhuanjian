@@ -1,0 +1,41 @@
+{
+  "asset": "S05",
+  "dimensionsMeters": [
+    0.4877737760543823,
+    0.3664436936378479,
+    0.6500000357627869
+  ],
+  "boundsMeters": [
+    [
+      -0.24388688802719116,
+      -0.18322184681892395,
+      0.0
+    ],
+    [
+      0.24388688802719116,
+      0.18322183191776276,
+      0.6500000357627869
+    ]
+  ],
+  "triangles": 19284,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "S05Globe": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/S05/export/textures/S05Globe_BaseColor.png",
+    "models/lux3d/S05/export/textures/S05Globe_MetallicRoughness.png",
+    "models/lux3d/S05/export/textures/S05Globe_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4752179",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1",
+    "prompt": "Exactly one small L-shaped Art Nouveau mirror-frame corner ornament, two gently curved mounting branches meeting at one corner with three solid broad stylized iris leaves and a small bud, aged muted gilded brass, shallow relief with flat mounting back, about 220 mm high, coherent elegant British country house decorative detail, connected sturdy construction, intended to attach to a separately built rectangular mirror frame, only one corner ornament, no complete frame, no mirror glass, no reflections, no furniture, no room, isolated game prop."
+  },
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/source/S08MirrorLeafCorner_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S08/source/S08MirrorLeafCorner_glb.glb",
+      "format": "glb"
+    }
+  ],
+  "createdAt": "2026-11-06T07:55:55.327808+00:00",
+  "updatedAt": "2026-11-06T08:00:42.875960+00:00",
+  "localCompletedAt": "2026-11-06T08:00:44.517421+00:00"
+}

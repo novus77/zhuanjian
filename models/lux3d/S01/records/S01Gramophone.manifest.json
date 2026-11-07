@@ -1,0 +1,64 @@
+{
+  "asset": "S01Gramophone",
+  "source": "models/lux3d/S01/source/S01Gramophone_glb.glb",
+  "deliverables": {
+    "blend": "models/lux3d/S01/work/S01Gramophone_clean.blend",
+    "fbx": "models/lux3d/S01/export/S01Gramophone.fbx",
+    "textures": {
+      "baseColor": "models/lux3d/S01/export/textures/S01Gramophone_BaseColor.png",
+      "metallicRoughness": "models/lux3d/S01/export/textures/S01Gramophone_MetallicRoughness.png"
+    },
+    "inspection": "models/lux3d/S01/inspection/inspection.json",
+    "previews": [
+      "models/lux3d/S01/inspection/front-negative-y.png",
+      "models/lux3d/S01/inspection/back-positive-y.png",
+      "models/lux3d/S01/inspection/side-positive-x.png"
+    ]
+  },
+  "dimensionsMeters": [
+    1.0616042613983154,
+    0.9735142588615417,
+    1.6500000953674316
+  ],
+  "boundsMeters": [
+    [
+      -0.5308021306991577,
+      -0.4867571294307709,
+      0.0
+    ],
+    [
+      0.5308021306991577,
+      0.4867571294307709,
+      1.6500000953674316
+    ]
+  ],
+  "targetHeightMeters": 1.65,
+  "renderMesh": {
+    "objects": [
+      {
+        "name": "S01Gramophone_Body",
+        "triangles": 15444
+      },
+      {
+        "name": "S01Gramophone_Horn",
+        "triangles": 14752
+      }
+    ],
+    "materials": [
+      "Designer_Logic_PBR"
+    ],
+    "uvLayers": [
+      "UVMap"
+    ]
+  },
+  "taskId": "4744068",
+  "quotedCredits": 20,
+  "hornSplit": {
+    "method": "exact plane bisect at normalized Z 0.70 m, new cut boundary capped; source UV retained",
+    "hornOriginMeters": [
+      0.05794617533683777,
+      0.2921591103076935,
+      0.699999988079071
+    ]
+  }
+}

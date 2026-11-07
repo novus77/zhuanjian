@@ -1,0 +1,53 @@
+{
+  "fbx": {
+    "bytes": 54166284,
+    "meshObjects": 1242,
+    "floorDimensionsMeters": [
+      9.600000381469727,
+      7.599999904632568,
+      0.18000000715255737
+    ],
+    "missingRequiredNodes": [],
+    "sunDoorChildren": 26,
+    "drawerChildren": 12,
+    "legMaterialSlots": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "legImageNodes": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "passed": true
+  },
+  "glb": {
+    "bytes": 67592640,
+    "meshObjects": 1202,
+    "floorDimensionsMeters": [
+      9.600000381469727,
+      7.599999904632568,
+      0.18000000715255737
+    ],
+    "missingRequiredNodes": [],
+    "sunDoorChildren": 26,
+    "drawerChildren": 12,
+    "legMaterialSlots": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "legImageNodes": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "passed": true
+  },
+  "passed": true
+}

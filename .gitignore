@@ -5,3 +5,37 @@ dist/
 .vite/
 .env
 .env.local
+
+# Unity source is versioned; generated caches and builds are not.
+unity/**/[Ll]ibrary/
+unity/**/[Tt]emp/
+unity/**/[Oo]bj/
+unity/**/[Ll]ogs/
+unity/**/[Uu]ser[Ss]ettings/
+unity/**/[Bb]uilds/
+unity/**/Data/
+unity/**/*.csproj
+unity/**/*.sln
+unity/**/*.slnx
+
+# Local backups, private task stores, and reproducible delivery copies.
+*.blend1
+*.blend2
+*.sqlite
+*.sqlite3
+*.db
+__pycache__/
+.superpowers/
+.release/
+models/lux3d/_deliveries/
+models/blender/study-room-v1/delivery/
+models/blender/study-room-v1/delivery-v2/
+experiments/**/delivery/
+experiments/**/delivery-v2/
+
+# Credentials remain outside version control.
+.env.*
+!.env.example
+credentials.json
+*.key
+*.pem

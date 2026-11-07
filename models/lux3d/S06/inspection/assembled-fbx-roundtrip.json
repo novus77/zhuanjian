@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "export": "models/lux3d/S06/export/S06FlowerLamp_assembled.fbx",
+  "meshCount": 4,
+  "separateParts": [
+    "S06LampBase",
+    "S06LampBulb",
+    "S06LampFixture",
+    "S06LampShade"
+  ],
+  "check": "Actual FBX reimport and named part/parent checks"
+}

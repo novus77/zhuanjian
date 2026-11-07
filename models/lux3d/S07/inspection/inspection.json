@@ -1,0 +1,41 @@
+{
+  "asset": "S07",
+  "dimensionsMeters": [
+    0.6175929307937622,
+    0.06814125180244446,
+    0.18000000715255737
+  ],
+  "boundsMeters": [
+    [
+      -0.3087964355945587,
+      -0.03407062590122223,
+      0.0
+    ],
+    [
+      0.3087964653968811,
+      0.03407062590122223,
+      0.18000000715255737
+    ]
+  ],
+  "triangles": 9262,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "S07BookcaseCrest": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/S07/export/textures/S07BookcaseCrest_BaseColor.png",
+    "models/lux3d/S07/export/textures/S07BookcaseCrest_MetallicRoughness.png",
+    "models/lux3d/S07/export/textures/S07BookcaseCrest_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

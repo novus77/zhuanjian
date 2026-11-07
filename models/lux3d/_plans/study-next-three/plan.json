@@ -1,0 +1,29 @@
+[
+  {
+    "id": "S06",
+    "asset": "Flower-petal desk lamp",
+    "targetFaces": 20000,
+    "heightMillimeters": 450,
+    "quantity": 1,
+    "reuse": 1,
+    "fourView": false
+  },
+  {
+    "id": "S02",
+    "asset": "Carved walnut desk leg",
+    "targetFaces": 15000,
+    "heightMillimeters": 720,
+    "quantity": 1,
+    "reuse": 4,
+    "fourView": false
+  },
+  {
+    "id": "S05",
+    "asset": "Antique globe",
+    "targetFaces": 20000,
+    "heightMillimeters": 650,
+    "quantity": 1,
+    "reuse": 1,
+    "fourView": false
+  }
+]

@@ -1,0 +1,24 @@
+name: Archive integrity
+
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          lfs: false
+      - name: Verify asset and content catalog
+        run: python3 tools/repository_archive.py check
+      - name: Test archive validation
+        working-directory: tools
+        run: python3 -m unittest discover -s tests -v

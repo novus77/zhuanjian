@@ -1,0 +1,13 @@
+{
+  "path": "/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S04/source/S04ReadingArmchair_zip.zip",
+  "format": "zip",
+  "size": 6896926,
+  "sha256": "a71012b25b81f941d4964f9fba90fda4db8320b99a1c837fb72827878892e5be",
+  "validation": {
+    "valid": true,
+    "zipEntries": 7,
+    "modelEntries": [
+      "MODEL.glb"
+    ]
+  }
+}

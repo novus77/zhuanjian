@@ -1,0 +1,18 @@
+16:03:35 | INFO: Data are loaded, start creating Blender stuff
+16:03:35 | INFO: Blender create Mesh node geometry_0
+16:03:35 | INFO: glTF import finished in 0.03s
+/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/tools/prepare_lux3d_prop.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:03.843  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S04/inspection/front.png'
+00:05.541  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S04/inspection/back.png'
+00:07.273  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S04/inspection/side.png'
+Info: Packed 1 file(s)
+Info: Saved as "S04ReadingArmchair_clean.blend"
+
+FBX export starting... '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S04/export/S04ReadingArmchair.fbx'
+export finished in 0.0286 sec.
+Info: Saved as "S04ReadingArmchair_clean.blend"
+PROP_PREPARED {"asset": "S04", "dimensionsMeters": [0.9907834529876709, 0.9579175710678101, 1.0199999809265137], "boundsMeters": [[-0.49539172649383545, -0.47895878553390503, 0.0], [0.49539172649383545, 0.4789588153362274, 1.0199999809265137]], "triangles": 23256, "meshCount": 1, "materials": ["Designer_Logic_PBR"], "uvLayers": {"S04ReadingArmchair": ["UVMap"]}, "textures": ["models/lux3d/S04/export/textures/S04ReadingArmchair_BaseColor.png", "models/lux3d/S04/export/textures/S04ReadingArmchair_MetallicRoughness.png", "models/lux3d/S04/export/textures/S04ReadingArmchair_MetallicSmoothness.png"], "blenderVersion": "5.2.3 LTS", "notes": ["Dimensions normalized uniformly; source preserved.", "MetallicSmoothness uses glTF B \u2192 R and 1 minus G \u2192 A, linear data.", "No claim of independent moving parts or architectural fit."]}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

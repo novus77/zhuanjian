@@ -1,0 +1,119 @@
+{
+  "views": [
+    {
+      "state": "ready",
+      "label": "S01 · 留声机（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S02 · 雕花桌腿（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S03 · 书桌椅（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S04 · 阅读扶手椅（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S05 · 地球仪（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S06 · 花瓣灯（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S07 · 书柜冠饰（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S08 · 镜框叶饰（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "S09 · 花瓶花束（生成源件） 3D 预览"
+    },
+    {
+      "state": "loading",
+      "label": "组装场景 3D 预览"
+    }
+  ],
+  "interactions": [
+    {
+      "index": 0,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 1,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 2,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 3,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 4,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 5,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 6,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 7,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 8,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    },
+    {
+      "index": 9,
+      "before": 1,
+      "after": 3,
+      "state": "ready",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "passed": true,
+  "scope": "Isolated headless Chrome; model load, orbit and wheel verified. Mirrors here are generic PBR surfaces, not Unity puzzle reflections."
+}

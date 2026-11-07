@@ -1,0 +1,110 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "转间 Roomturn · 四门书房（剖切检查与生成源件）",
+  "items": [
+    {
+      "id": "s01",
+      "label": "S01 · 留声机（生成源件）",
+      "selectedAttemptId": "s01-original",
+      "attempts": [
+        {
+          "id": "s01-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S01-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "label": "S02 · 雕花桌腿（生成源件）",
+      "selectedAttemptId": "s02-original",
+      "attempts": [
+        {
+          "id": "s02-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S02-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "label": "S03 · 书桌椅（生成源件）",
+      "selectedAttemptId": "s03-original",
+      "attempts": [
+        {
+          "id": "s03-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S03-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "label": "S04 · 阅读扶手椅（生成源件）",
+      "selectedAttemptId": "s04-original",
+      "attempts": [
+        {
+          "id": "s04-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S04-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "label": "S05 · 地球仪（生成源件）",
+      "selectedAttemptId": "s05-original",
+      "attempts": [
+        {
+          "id": "s05-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S05-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "label": "S06 · 花瓣灯（生成源件）",
+      "selectedAttemptId": "s06-original",
+      "attempts": [
+        {
+          "id": "s06-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S06-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "label": "S07 · 书柜冠饰（生成源件）",
+      "selectedAttemptId": "s07-original",
+      "attempts": [
+        {
+          "id": "s07-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S07-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "label": "S08 · 镜框叶饰（生成源件）",
+      "selectedAttemptId": "s08-original",
+      "attempts": [
+        {
+          "id": "s08-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S08-delivery-state.json"
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "label": "S09 · 花瓶花束（生成源件）",
+      "selectedAttemptId": "s09-original",
+      "attempts": [
+        {
+          "id": "s09-original",
+          "statePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/S09-delivery-state.json"
+        }
+      ]
+    }
+  ],
+  "scene": {
+    "status": "ready",
+    "artifactPath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/scene.glb",
+    "evidencePath": "/Users/a77/Desktop/3d解密游戏/models/blender/study-room-v1/records/scene-execution.json"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "S03 书桌椅 Lux3D 样件",
+  "items": [
+    {
+      "id": "s03-chair",
+      "label": "S03 书桌椅（硬质家具样件）",
+      "selectedAttemptId": "s03-chair-a1",
+      "attempts": [{"id": "s03-chair-a1", "statePath": "state.json"}]
+    }
+  ],
+  "scene": {"status": "not-requested"}
+}

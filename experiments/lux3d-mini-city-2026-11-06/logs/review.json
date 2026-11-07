@@ -1,0 +1,27 @@
+{
+  "pluginTaskId": "plugin_2877b407499e47658bfcb7839765ca33",
+  "planVersion": 1,
+  "plan": "任务：把用户提供的参考图（新加坡微缩城市鸟瞰）转成一个可旋转的 3D 微缩沙盘，并渲染一张静态效果图，用于独立项目的风格试验。\n输入：用户附件 reference-city.jpg（2358x1458，已上传至中国区 Asset 服务）。\n生产方案：\n1) Lux3D 图像生 3D：极速版（G1-Turbo），单张参考图输入，目标面数 200,000，输出 GLB（含 PBR），不启用四视图增强。\n2) 下载 GLB 后在 Blender 中检查模型完整性、朝向与尺度，并添加一个倒角沙盘底座（本地建模，无 Lux3D 生成费用）。\n3) 在 Blender 中布置暖色环境光与主光，使用长焦斜俯视相机、浅景深和轻微移轴式上下渐变虚化，渲染一张 1920x1200 静帧。\n4) 输出：PNG 静帧与 Blender 工作文件；若模型明显崩坏，先报告并最多自动纠正重生成一次（额外费用需先确认）。\n假设与限制：参考图是密集多建筑场景，Lux3D 官方更适合单主体、干净背景输入；整图一次生成可能出现粘连、比例偏差或细节丢失。本小样用于验证风格和可用性，不承诺还原真实新加坡地理。\n交付：experiments/lux3d-mini-city-2026-11-06/renders/ 下的静帧与 .blend 工作文件。",
+  "userInputs": [
+    {
+      "type": "text",
+      "text": "lux3d，能将地图进行渲染吗？做成类似这样的效果",
+      "addedInVersion": 1
+    },
+    {
+      "type": "text",
+      "text": "选择：就用这张参考图做 3D 微缩沙盘；交付静帧效果图；独立项目，仅试验。",
+      "addedInVersion": 1
+    }
+  ],
+  "attachments": [
+    {
+      "type": "image",
+      "name": "reference-city.jpg",
+      "path": "input/reference-city.jpg",
+      "sha256": "736447a2c09df68c22727fbd86c44e671eb110cb443cada1dd8f66713016df28",
+      "width": 2358,
+      "height": 1458
+    }
+  ]
+}

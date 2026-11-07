@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-06",
+  "scope": "First-study source generation and local furniture modeling before whole-room integration",
+  "generatedAssets": [
+    {
+      "asset": "S04",
+      "taskId": "4752169",
+      "triangles": 23256,
+      "dimensionsMeters": [
+        0.9907834529876709,
+        0.9579175710678101,
+        1.0199999809265137
+      ],
+      "fbxRoundtrip": "passed"
+    },
+    {
+      "asset": "S07",
+      "taskId": "4752174",
+      "triangles": 9262,
+      "dimensionsMeters": [
+        0.6175929307937622,
+        0.06814125180244446,
+        0.18000000715255737
+      ],
+      "fbxRoundtrip": "passed"
+    },
+    {
+      "asset": "S08",
+      "taskId": "4752179",
+      "triangles": 9980,
+      "dimensionsMeters": [
+        0.21903321146965027,
+        0.027008462697267532,
+        0.2199999988079071
+      ],
+      "fbxRoundtrip": "passed"
+    },
+    {
+      "asset": "S09",
+      "taskId": "4752183",
+      "triangles": 18708,
+      "dimensionsMeters": [
+        0.25065386295318604,
+        0.17931340634822845,
+        0.42000001668930054
+      ],
+      "fbxRoundtrip": "passed"
+    }
+  ],
+  "sourcePreview": {
+    "path": "models/lux3d/_deliveries/study-finish-v1/preview.html",
+    "verified": [
+      "four assets loaded",
+      "drag rotation and wheel input on each",
+      "zero page errors"
+    ],
+    "represents": "original generation files, not later Blender PBR corrections"
+  },
+  "newUnityIntegrationPerformed": false,
+  "browserBuildChanged": false,
+  "wholeRoomAssembly": "not yet completed",
+  "localFurniture": {
+    "desk": {
+      "drawerTravelMeters": 0.55,
+      "sampledPositions": 12,
+      "movingParts": 6,
+      "staticParts": 12,
+      "intersectionMethod": "Conservative evaluated mesh AABBs, >1 mm overlap in all axes",
+      "collisions": [],
+      "result": "passed"
+    },
+    "deskFbx": {
+      "result": "passed",
+      "export": "models/blender/study-furniture/S02WritingDesk.fbx",
+      "meshCount": 18,
+      "separateParts": [
+        "S02CarvedLeg_0",
+        "S02CarvedLeg_1",
+        "S02CarvedLeg_2",
+        "S02CarvedLeg_3",
+        "S02DeskTop",
+        "S02DrawerBack",
+        "S02DrawerBottom",
+        "S02DrawerFront",
+        "S02DrawerHandle",
+        "S02DrawerHeader",
+        "S02DrawerSide_-1",
+        "S02DrawerSide_1",
+        "S02FrontApronWing_-1",
+        "S02FrontApronWing_1",
+        "S02LeatherInset",
+        "S02RearApron",
+        "S02SideApron_-1",
+        "S02SideApron_1"
+      ],
+      "check": "Actual FBX reimport and named part/parent checks"
+    },
+    "lampFbx": {
+      "result": "passed",
+      "export": "models/lux3d/S06/export/S06FlowerLamp_assembled.fbx",
+      "meshCount": 4,
+      "separateParts": [
+        "S06LampBase",
+        "S06LampBulb",
+        "S06LampFixture",
+        "S06LampShade"
+      ],
+      "check": "Actual FBX reimport and named part/parent checks"
+    },
+    "armchairMaterial": {
+      "file": "models/lux3d/S04/work/S04ReadingArmchair_fabric.blend",
+      "sourceUnchanged": true,
+      "renderInspected": "models/lux3d/S04/inspection/fabric-front.png"
+    }
+  },
+  "review": {
+    "critical": 0,
+    "important": 0,
+    "minor": "stale progress fixed; assembled lamp FBX roundtrip evidence added",
+    "method": "fresh-context read-only subagent"
+  }
+}

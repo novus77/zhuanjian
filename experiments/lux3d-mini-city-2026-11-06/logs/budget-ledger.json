@@ -1,0 +1,18 @@
+{
+  "conversation": "lux3d-mini-city-2026-11-06",
+  "mode": "batch",
+  "authorizedTotal": null,
+  "currency": "credits",
+  "entries": [
+    {
+      "attemptId": "attempt-001",
+      "planVersion": 1,
+      "quoteId": "quote_56b2cfd145dc496197b595b6273b0c5f",
+      "estimatedCredits": 1,
+      "state": "settled",
+      "note": "用户批准：按此计划开始（1 积分）",
+      "taskId": "4745712",
+      "settledNote": "生成成功并完成交付"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Roomturn.Runtime",
+  "rootNamespace": "Roomturn",
+  "references": ["Unity.InputSystem", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "lux3d.delivery-spec/v2",
+  "title": "S01 留声机 Lux3D 样件",
+  "items": [
+    {
+      "id": "s01-gramophone",
+      "label": "S01 留声机（关键道具外观样件）",
+      "selectedAttemptId": "s01-gramophone-a1",
+      "attempts": [{"id": "s01-gramophone-a1", "statePath": "state.json"}]
+    }
+  ],
+  "scene": {"status": "not-requested"}
+}

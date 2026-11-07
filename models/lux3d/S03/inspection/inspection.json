@@ -1,0 +1,95 @@
+{
+  "source": "models/lux3d/S03/source/S03DeskChair_glb.glb",
+  "originalBounds": [
+    [
+      -0.35936227440834045,
+      -0.37904030084609985,
+      -0.5018528699874878
+    ],
+    [
+      0.35959184169769287,
+      0.3781135380268097,
+      0.5016960501670837
+    ]
+  ],
+  "normalizedHeight": 1.05,
+  "meshCount": 1,
+  "triangleCount": 28612,
+  "materials": [
+    {
+      "name": "Designer_Logic_PBR",
+      "nodes": [
+        {
+          "name": "\u539f\u7406\u5316 BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "\u6750\u8d28\u8f93\u51fa",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "\u56fe\u50cf\u7eb9\u7406",
+          "type": "TEX_IMAGE",
+          "image": "Image_0"
+        },
+        {
+          "name": "\u5206\u79bb\u989c\u8272",
+          "type": "SEPARATE_COLOR",
+          "image": null
+        },
+        {
+          "name": "\u56fe\u50cf\u7eb9\u7406.001",
+          "type": "TEX_IMAGE",
+          "image": "Image_1"
+        }
+      ]
+    },
+    {
+      "name": "Dots Stroke",
+      "nodes": [
+        {
+          "name": "Frame",
+          "type": "FRAME",
+          "image": null
+        },
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "name": "Material Output.001",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Diffuse BSDF",
+          "type": "BSDF_DIFFUSE",
+          "image": null
+        }
+      ]
+    },
+    {
+      "name": "Material",
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        }
+      ]
+    }
+  ]
+}

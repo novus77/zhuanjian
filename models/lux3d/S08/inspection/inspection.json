@@ -1,0 +1,41 @@
+{
+  "asset": "S08",
+  "dimensionsMeters": [
+    0.21903321146965027,
+    0.027008462697267532,
+    0.2199999988079071
+  ],
+  "boundsMeters": [
+    [
+      -0.10951661318540573,
+      -0.01350423227995634,
+      0.0
+    ],
+    [
+      0.10951660573482513,
+      0.013504231348633766,
+      0.2199999988079071
+    ]
+  ],
+  "triangles": 9980,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "S08MirrorLeafCorner": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/S08/export/textures/S08MirrorLeafCorner_BaseColor.png",
+    "models/lux3d/S08/export/textures/S08MirrorLeafCorner_MetallicRoughness.png",
+    "models/lux3d/S08/export/textures/S08MirrorLeafCorner_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

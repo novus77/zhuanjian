@@ -1,0 +1,23 @@
+[
+  {
+    "file": "index.html",
+    "status": 200,
+    "type": "text/html",
+    "encoding": null,
+    "bytes": 2255
+  },
+  {
+    "file": "WebArt.wasm.gz",
+    "status": 200,
+    "type": "application/wasm",
+    "encoding": "gzip",
+    "bytes": 9141931
+  },
+  {
+    "file": "WebArt.data.gz",
+    "status": 200,
+    "type": "application/octet-stream",
+    "encoding": "gzip",
+    "bytes": 84234170
+  }
+]

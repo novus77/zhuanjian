@@ -1,0 +1,41 @@
+{
+  "asset": "S04",
+  "dimensionsMeters": [
+    0.9907834529876709,
+    0.9579175710678101,
+    1.0199999809265137
+  ],
+  "boundsMeters": [
+    [
+      -0.49539172649383545,
+      -0.47895878553390503,
+      0.0
+    ],
+    [
+      0.49539172649383545,
+      0.4789588153362274,
+      1.0199999809265137
+    ]
+  ],
+  "triangles": 23256,
+  "meshCount": 1,
+  "materials": [
+    "Designer_Logic_PBR"
+  ],
+  "uvLayers": {
+    "S04ReadingArmchair": [
+      "UVMap"
+    ]
+  },
+  "textures": [
+    "models/lux3d/S04/export/textures/S04ReadingArmchair_BaseColor.png",
+    "models/lux3d/S04/export/textures/S04ReadingArmchair_MetallicRoughness.png",
+    "models/lux3d/S04/export/textures/S04ReadingArmchair_MetallicSmoothness.png"
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "notes": [
+    "Dimensions normalized uniformly; source preserved.",
+    "MetallicSmoothness uses glTF B → R and 1 minus G → A, linear data.",
+    "No claim of independent moving parts or architectural fit."
+  ]
+}

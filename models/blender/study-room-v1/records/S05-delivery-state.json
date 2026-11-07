@@ -1,0 +1,28 @@
+{
+  "schema": "lux3d.workflow-state/v2",
+  "taskId": "4747300",
+  "status": "succeeded",
+  "lastKnownProviderStatus": 3,
+  "expectedFormats": [
+    "zip",
+    "glb"
+  ],
+  "createdAt": "2026-11-06T07:14:27.539371+00:00",
+  "updatedAt": "2026-11-06T07:19:50.264985+00:00",
+  "localCompletedAt": "2026-11-06T07:19:55.022998+00:00",
+  "request": {
+    "operation": "text-to-3d",
+    "region": "cn",
+    "version": "G1"
+  },
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S05/source/S05Globe_zip.zip",
+      "format": "zip"
+    },
+    {
+      "path": "/Users/a77/Desktop/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S05/source/S05Globe_glb.glb",
+      "format": "glb"
+    }
+  ]
+}

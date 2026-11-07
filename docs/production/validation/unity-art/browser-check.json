@@ -1,0 +1,143 @@
+{
+  "ready": true,
+  "sceneRendered": true,
+  "pointerLocked": true,
+  "loadSeconds": 4.253,
+  "shots": [
+    {
+      "name": "browser-start",
+      "bytes": 621606,
+      "sha256": "81dd02eb5991d148c4380281daea78c037533876505a084501463a379f681208"
+    },
+    {
+      "name": "browser-moved",
+      "bytes": 613348,
+      "sha256": "3d9eacd3e64d58e5db4ff9b5c845c9486e76fd84865d9d551f30101693d5658c"
+    },
+    {
+      "name": "browser-turned",
+      "bytes": 522752,
+      "sha256": "06935e2e32d1714a49b52871214d8acaa476e4815e1060e195c617c66f9b25bf"
+    },
+    {
+      "name": "browser-interaction-aim",
+      "bytes": 541733,
+      "sha256": "cf7d30cfdaf977c5588dfb3360d6226cadf01a7370f655ec97d1e3ce64bd41a0"
+    },
+    {
+      "name": "browser-interacted",
+      "bytes": 530520,
+      "sha256": "53780edc7e5e9e8e35663a22e4f11651a6c3cf1ecf6f344f434a2e55b1bcf0d0"
+    },
+    {
+      "name": "browser-restarted",
+      "bytes": 621609,
+      "sha256": "04184024cbbd2d0f64a90a8b6923fd1d14efe78d90889207fd1ef73fb95b6d7f"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [],
+  "messages": [
+    "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n",
+    "    \"memorysetup-bucket-allocator-granularity=16\"\n",
+    "    \"memorysetup-bucket-allocator-bucket-count=8\"\n",
+    "    \"memorysetup-bucket-allocator-block-size=4194304\"\n",
+    "    \"memorysetup-bucket-allocator-block-count=1\"\n",
+    "    \"memorysetup-main-allocator-block-size=16777216\"\n",
+    "    \"memorysetup-thread-allocator-block-size=16777216\"\n",
+    "    \"memorysetup-main-allocator-mimalloc-enabled=1\"\n",
+    "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n",
+    "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n",
+    "    \"memorysetup-cache-allocator-block-size=4194304\"\n",
+    "    \"memorysetup-typetree-allocator-block-size=2097152\"\n",
+    "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n",
+    "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n",
+    "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n",
+    "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n",
+    "    \"memorysetup-profiler-allocator-block-size=16777216\"\n",
+    "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n",
+    "    \"memorysetup-temp-allocator-size-main=4194304\"\n",
+    "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n",
+    "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n",
+    "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n",
+    "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n",
+    "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n",
+    "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n",
+    "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n",
+    "    \"memorysetup-remapper-allocator-initial-capacity=32768\"\n",
+    "CodeReloadManager initialized\n",
+    "Input System module state changed to: Initialized.\n",
+    "[Physics::Module] Initialized fallback backend.\n",
+    "[Physics::Module] Id: 0xdecafbad\n",
+    "Loading player data from data.unity3d\n",
+    "Initialize engine version: 6000.6.8f1 (237b6593792b)\n",
+    "[EntityIdStore] init: page-table path, blockCount=262144, entitiesPerBlock=1024, top-level=2097152 bytes, sizeof(Block)=16512 (lazily allocated per committed block)\n",
+    "Creating WebGL 2.0 context.",
+    "Renderer: WebKit WebGL\n",
+    "Vendor:   WebKit\n",
+    "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n",
+    "GLES:     3\n",
+    " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic NV_shader_noperspective_interpolation OES_texture_float_linear WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_rgtc GL_EXT_texture_filter_anisotropic GL_NV_shader_noperspective_interpolation GL_OES_texture_float_linear GL_WEBGL_clip_cull_distance GL_WEBGL_co\n",
+    "mpressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode\n",
+    "OPENGL LOG: Creating OpenGL ES 3.0 graphics device ; Context level  <OpenGL ES 3.0> ; Context handle 1\n",
+    "[Physics::Module] Selected backend (deferred post-plugins).\n",
+    "[Physics::Module] Name: PhysX\n",
+    "[Physics::Module] Id: 0xf2b8ea05\n",
+    "[Physics::Module] SDK Version: 4.1.2\n",
+    "[Physics::Module] Integration Version: 1.0.0\n",
+    "[Physics::Module] Threading Mode: Single-Threaded\n",
+    "Input System initialize...\n",
+    "UnloadTime: 1.400000 ms\n",
+    "[UnityCache] 'http://127.0.0.1:18769/Build/WebArt.data.gz' successfully downloaded and stored in the browser cache",
+    "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n",
+    "Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.\n",
+    "Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.\n",
+    "Shader 'Hidden/Universal Render Pipeline/BokehDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldBokehPostProcessPass'). PostProcessing render passes will not execute.\n",
+    "Shader 'Hidden/Universal Render Pipeline/PaniniProjection' is not supported or has been stripped from the build (in 'PaniniProjectionPostProcessPass'). PostProcessing render passes will not execute.\n",
+    "Shader 'Hidden/Universal Render Pipeline/Edge Adaptive Spatial Upsampling' is not supported or has been stripped from the build (in 'Blit FSR Upscaling'). PostProcessing render passes will not execute.\n",
+    "Audio context resumed after 6.462 seconds.",
+    "UnloadTime: 7.400001 ms\n",
+    "Unloading 4 Unused Serialized files (Serialized files now loaded: 0)\n",
+    "Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 6907.\n",
+    "Total: 6.800001 ms (FindLiveObjects: 0.300001 ms CreateObjectMapping: 0.000000 ms MarkObjects: 5.900000 ms  DeleteObjects: 0.500000 ms)\n\n",
+    "UnloadTime: 4.699999 ms\n",
+    "Unloading 0 Unused Serialized files (Serialized files now loaded: 0)\n",
+    "Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 6907.\n",
+    "Total: 2.600000 ms (FindLiveObjects: 0.100000 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.099999 ms  DeleteObjects: 0.000000 ms)\n\n"
+  ],
+  "movementFrameChanged": true,
+  "turnFrameChanged": true,
+  "aimText": [
+    "转间 •第一关/四扇门•书房试玩",
+    "照片背面写着：爷爷总从太阳那扇门回家。",
+    "门上的记号留在外侧，试试透过气窗观察走廊高处的镜子。",
+    "E•尝试开门",
+    "WASD 移动 转身90°鼠标环视",
+    "E 交互 R重开 Esc 释放鼠标",
+    "持有："
+  ],
+  "interactionText": [
+    "转间 •第一关/四扇门•书房试玩",
+    "门锁着。先寻找出口钥匙。",
+    "WASD 移动 转身90°鼠标环视",
+    "E交互 R重开 Esc 释放鼠标",
+    "持有：",
+    "E•尝试开门"
+  ],
+  "interactionObserved": true,
+  "resetText": [
+    "转间•第一关/四扇门•书房试玩",
+    "照片背面写着：爷爷总从太阳那扇门回家。",
+    "门上的记号留在外侧，试试透过气窗观察走廊高处的镜子。",
+    "WASD 移动 一转身90°",
+    "持有：",
+    "鼠标环视 E交互 R重开 Esc 释放鼠标"
+  ],
+  "restartObserved": true,
+  "imageMetrics": {
+    "restartChangedFraction": 0.000006172839506172839,
+    "movementChangedFraction": 0.4868155864197531
+  },
+  "scope": "Actual Unity Web loading, Chinese UI, pointer lock, movement, 90-degree turn, E interaction with a real locked door, and restart restoring the starting view/message. Full puzzle chain is separately verified by Unity PlayMode.",
+  "passed": true
+}

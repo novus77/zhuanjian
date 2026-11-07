@@ -1,0 +1,18 @@
+15:21:00 | INFO: Data are loaded, start creating Blender stuff
+15:21:00 | INFO: Blender create Mesh node geometry_0
+15:21:00 | INFO: glTF import finished in 0.04s
+/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/tools/prepare_lux3d_prop.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:04.040  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/inspection/front.png'
+00:06.771  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/inspection/back.png'
+00:09.230  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/inspection/side.png'
+Info: Packed 1 file(s)
+Info: Saved as "S05Globe_clean.blend"
+
+FBX export starting... '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S05/export/S05Globe.fbx'
+export finished in 0.0244 sec.
+Info: Saved as "S05Globe_clean.blend"
+PROP_PREPARED {"asset": "S05", "dimensionsMeters": [0.4877737760543823, 0.3664436936378479, 0.6500000357627869], "boundsMeters": [[-0.24388688802719116, -0.18322184681892395, 0.0], [0.24388688802719116, 0.18322183191776276, 0.6500000357627869]], "triangles": 19284, "meshCount": 1, "materials": ["Designer_Logic_PBR"], "uvLayers": {"S05Globe": ["UVMap"]}, "textures": ["models/lux3d/S05/export/textures/S05Globe_BaseColor.png", "models/lux3d/S05/export/textures/S05Globe_MetallicRoughness.png", "models/lux3d/S05/export/textures/S05Globe_MetallicSmoothness.png"], "blenderVersion": "5.2.3 LTS", "notes": ["Dimensions normalized uniformly; source preserved.", "MetallicSmoothness uses glTF B \u2192 R and 1 minus G \u2192 A, linear data.", "No claim of independent moving parts or architectural fit."]}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

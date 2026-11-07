@@ -1,0 +1,65 @@
+{
+  "schema": "lux3d.scene-execution/v1",
+  "kind": "external-tool",
+  "toolName": "exec_command",
+  "callId": "0283d2",
+  "recordRef": "session:56750/chunk:0283d2",
+  "executedAt": "2026-11-06T11:55:56.530806+00:00",
+  "exportSha256": "4c5f9dd767199bce352902f308c67ef51502e9429bbb179489191b2ce396e3a4",
+  "sources": [
+    {
+      "itemId": "s01",
+      "attemptId": "s01-original",
+      "artifactId": "s01-original:glb",
+      "sha256": "ec2424913f57443b91c23d1abd5cdb2b30c1e399fc9b8e451477ccf1029ecdb6"
+    },
+    {
+      "itemId": "s02",
+      "attemptId": "s02-original",
+      "artifactId": "s02-original:glb",
+      "sha256": "0d1495b9d9c1fbdd4ab8dac5598b14db26aa9621dde50733d508cc1677bd0461"
+    },
+    {
+      "itemId": "s03",
+      "attemptId": "s03-original",
+      "artifactId": "s03-original:glb",
+      "sha256": "6c7e4ad035738be6173c83bcd5514cc60577ad31d4201a1f1778ae8c4591e171"
+    },
+    {
+      "itemId": "s04",
+      "attemptId": "s04-original",
+      "artifactId": "s04-original:glb",
+      "sha256": "1411ddcf2e577aeb08fa1c2834d158563d351bbcce89d8cc77ceb0f93c5e60d7"
+    },
+    {
+      "itemId": "s05",
+      "attemptId": "s05-original",
+      "artifactId": "s05-original:glb",
+      "sha256": "9dc3758e9ab72e04382c781666cab2378c2b361e95fd8cf047feb6af79172ef1"
+    },
+    {
+      "itemId": "s06",
+      "attemptId": "s06-original",
+      "artifactId": "s06-original:glb",
+      "sha256": "2e73840ff57bb1737ccc0446f710d723ed4ab425661d0c216806a3830c8c60b1"
+    },
+    {
+      "itemId": "s07",
+      "attemptId": "s07-original",
+      "artifactId": "s07-original:glb",
+      "sha256": "684a5f39f7d236cb51e07fd7e1d37928446d52229ddfd5119ad3cb49d9cb1c05"
+    },
+    {
+      "itemId": "s08",
+      "attemptId": "s08-original",
+      "artifactId": "s08-original:glb",
+      "sha256": "e0f8089c3c6359f1aca75507349e4348d4966c827605c25688d5cf3fd43f6778"
+    },
+    {
+      "itemId": "s09",
+      "attemptId": "s09-original",
+      "artifactId": "s09-original:glb",
+      "sha256": "f888b9cca31f84b8a993e9df4171f3df4cf81e74bfb22d1d36e7a82a87b00948"
+    }
+  ]
+}

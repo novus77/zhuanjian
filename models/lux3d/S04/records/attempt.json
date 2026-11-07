@@ -1,0 +1,47 @@
+{
+  "attemptId": "s04-a1",
+  "asset": "S04",
+  "name": "S04ReadingArmchair",
+  "region": "cn",
+  "accountRef": "account_78c46c45edb033de7f11f0332e7eb3130f74ae8c19b665acf7a0191ebe21c344",
+  "operation": "text-to-3d",
+  "parameters": {
+    "prompt": "Exactly one antique English country-house reading armchair, compact inviting proportions, olive green velvet fabric with subtle button tufting, rounded padded back and rolled upholstered arms, exposed dark walnut frame and four short sturdy carved wooden feet, restrained Art Nouveau botanical details in the wooden frame, realistic aged materials, complete front back underside and four feet, stable freestanding construction, no ottoman, no cushion lying beside it, no room, no floor, no other furniture, isolated game prop.",
+    "version": "G1",
+    "style": "photorealistic",
+    "faceCount": 25000,
+    "outputFormat": [
+      "glb"
+    ],
+    "aiPredictSize": false,
+    "customSize": 1020
+  },
+  "quoteId": "quote_b798fddb0df340cba1d5d405f7ca4264",
+  "quotedCredits": 20,
+  "approval": "Current conversation: automatic execution within cumulative 500 credits, prior commitments preserved",
+  "retryCount": 0,
+  "state": "downloaded",
+  "createdAt": "2026-11-06T07:55:54.756367+00:00",
+  "taskId": "4752169",
+  "submittedAt": "2026-11-06T07:55:55.035900+00:00",
+  "lastKnownProviderStatus": 3,
+  "updatedAt": "2026-11-06T08:01:47.565351+00:00",
+  "downloadedAt": "2026-11-06T08:01:50.153366+00:00",
+  "downloadedArtifacts": [
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S04/source/S04ReadingArmchair_zip.zip",
+      "bytes": 6896926
+    },
+    {
+      "path": "/Users/a77/.codex/worktrees/unity-graybox/3d\u89e3\u5bc6\u6e38\u620f/models/lux3d/S04/source/S04ReadingArmchair_glb.glb",
+      "bytes": 5713092
+    }
+  ],
+  "preparation": {
+    "state": "prepared",
+    "report": "inspection/inspection.json",
+    "fbx": "export/S04ReadingArmchair.fbx",
+    "blend": "work/S04ReadingArmchair_clean.blend",
+    "unityIntegrated": false
+  }
+}

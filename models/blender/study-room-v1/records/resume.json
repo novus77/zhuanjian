@@ -1,0 +1,19 @@
+{
+  "startedAt": "2026-11-06T10:32:23.585022+00:00",
+  "sourceWorkspace": "/Users/a77/.codex/worktrees/unity-graybox/3d\u89e3\u5bc6\u6e38\u620f",
+  "sourcePlan": "docs/production/study-room-modeling-plan.md",
+  "dimensions": [
+    9,
+    7,
+    3.2
+  ],
+  "scope": "Complete first study Blender model and inspection renders; preserve Unity/browser. Do not generate rooms 2 or 3.",
+  "stages": {
+    "sourceRecovery": "complete",
+    "construction": "complete",
+    "assembly": "complete",
+    "inspection": "complete",
+    "delivery": "complete"
+  },
+  "result": "Editable first-study art assembly v1, sources, exports, renders and verified offline preview delivered; Unity integration remains next stage."
+}

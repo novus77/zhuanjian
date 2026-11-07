@@ -1,0 +1,18 @@
+16:02:00 | INFO: Data are loaded, start creating Blender stuff
+16:02:00 | INFO: Blender create Mesh node geometry_0
+16:02:00 | INFO: glTF import finished in 0.02s
+/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/tools/prepare_lux3d_prop.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:
+00:02.372  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/inspection/front.png'
+00:03.320  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/inspection/back.png'
+00:04.176  render           | Saved: '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/inspection/side.png'
+Info: Packed 1 file(s)
+Info: Saved as "S07BookcaseCrest_clean.blend"
+
+FBX export starting... '/Users/a77/.codex/worktrees/unity-graybox/3d解密游戏/models/lux3d/S07/export/S07BookcaseCrest.fbx'
+export finished in 0.0140 sec.
+Info: Saved as "S07BookcaseCrest_clean.blend"
+PROP_PREPARED {"asset": "S07", "dimensionsMeters": [0.6175929307937622, 0.06814125180244446, 0.18000000715255737], "boundsMeters": [[-0.3087964355945587, -0.03407062590122223, 0.0], [0.3087964653968811, 0.03407062590122223, 0.18000000715255737]], "triangles": 9262, "meshCount": 1, "materials": ["Designer_Logic_PBR"], "uvLayers": {"S07BookcaseCrest": ["UVMap"]}, "textures": ["models/lux3d/S07/export/textures/S07BookcaseCrest_BaseColor.png", "models/lux3d/S07/export/textures/S07BookcaseCrest_MetallicRoughness.png", "models/lux3d/S07/export/textures/S07BookcaseCrest_MetallicSmoothness.png"], "blenderVersion": "5.2.3 LTS", "notes": ["Dimensions normalized uniformly; source preserved.", "MetallicSmoothness uses glTF B \u2192 R and 1 minus G \u2192 A, linear data.", "No claim of independent moving parts or architectural fit."]}
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

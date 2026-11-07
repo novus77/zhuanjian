@@ -1,0 +1,6 @@
+{
+  "name": "Roomturn.EditMode",
+  "references": ["Roomturn.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

@@ -1,0 +1,218 @@
+{
+  "scope": "Actual saved Blender assembly only; no claim of Unity runtime acceptance",
+  "sightlines": [
+    {
+      "door": 0,
+      "firstHit": "CorridorMirrorSurface",
+      "reflectedHit": "OuterSymbol_0",
+      "passed": true
+    },
+    {
+      "door": 1,
+      "firstHit": "CorridorMirrorSurface",
+      "reflectedHit": "OuterSymbol_1",
+      "passed": true
+    },
+    {
+      "door": 2,
+      "firstHit": "CorridorMirrorSurface",
+      "reflectedHit": "OuterSymbol_2",
+      "passed": true
+    },
+    {
+      "door": 3,
+      "firstHit": "CorridorMirrorSurface",
+      "reflectedHit": "OuterSymbol_3_Glyph_KeyStem",
+      "passed": true
+    }
+  ],
+  "supportContacts": [
+    {
+      "asset": "S03_DeskChair",
+      "meshBottom": 0.023000000044703484,
+      "supportHeight": 0.022,
+      "gap": 0.0010000000447034849,
+      "passed": true
+    },
+    {
+      "asset": "S04_ReadingArmchair",
+      "meshBottom": 0.00800000037997961,
+      "supportHeight": 0.005,
+      "gap": 0.0030000003799796103,
+      "passed": true
+    },
+    {
+      "asset": "S01_Gramophone",
+      "meshBottom": 0.6399999856948853,
+      "supportHeight": 0.64,
+      "gap": -1.4305114759416426e-08,
+      "passed": true
+    },
+    {
+      "asset": "S05_Globe",
+      "meshBottom": 0.7799999713897705,
+      "supportHeight": 0.78,
+      "gap": -2.8610229518832853e-08,
+      "passed": true
+    },
+    {
+      "asset": "S06_DeskLamp",
+      "meshBottom": 0.9179999828338623,
+      "supportHeight": 0.918,
+      "gap": -1.7166137733504172e-08,
+      "passed": true
+    }
+  ],
+  "drawer": {
+    "samples": 12,
+    "travelMeters": 0.55,
+    "collisions": []
+  },
+  "sunDoor": {
+    "samples": 10,
+    "sweepDegrees": 90,
+    "meshSurfaceIntersections": []
+  },
+  "playerSpace": {
+    "radiusMeters": 0.26,
+    "probeCount": 26,
+    "blocked": []
+  },
+  "packedImages": [
+    {
+      "name": "Botanical_woven_rug",
+      "packed": true
+    },
+    {
+      "name": "Image_0",
+      "packed": true
+    },
+    {
+      "name": "Image_0.001",
+      "packed": true
+    },
+    {
+      "name": "Image_0.002",
+      "packed": true
+    },
+    {
+      "name": "Image_0.003",
+      "packed": true
+    },
+    {
+      "name": "Image_0.004",
+      "packed": true
+    },
+    {
+      "name": "Image_0.005",
+      "packed": true
+    },
+    {
+      "name": "Image_0.006",
+      "packed": true
+    },
+    {
+      "name": "Image_0.007",
+      "packed": true
+    },
+    {
+      "name": "Image_0.008",
+      "packed": true
+    },
+    {
+      "name": "Image_0.009",
+      "packed": true
+    },
+    {
+      "name": "Image_0.010",
+      "packed": true
+    },
+    {
+      "name": "Image_0.011",
+      "packed": true
+    },
+    {
+      "name": "Image_0.012",
+      "packed": true
+    },
+    {
+      "name": "Image_0.013",
+      "packed": true
+    },
+    {
+      "name": "Image_0.014",
+      "packed": true
+    },
+    {
+      "name": "Image_1",
+      "packed": true
+    },
+    {
+      "name": "Image_1.001",
+      "packed": true
+    },
+    {
+      "name": "Image_1.002",
+      "packed": true
+    },
+    {
+      "name": "Image_1.003",
+      "packed": true
+    },
+    {
+      "name": "Image_1.004",
+      "packed": true
+    },
+    {
+      "name": "Image_1.005",
+      "packed": true
+    },
+    {
+      "name": "Image_1.006",
+      "packed": true
+    },
+    {
+      "name": "Image_1.007",
+      "packed": true
+    },
+    {
+      "name": "Image_1.008",
+      "packed": true
+    },
+    {
+      "name": "Image_1.009",
+      "packed": true
+    },
+    {
+      "name": "Image_1.010",
+      "packed": true
+    },
+    {
+      "name": "Image_1.011",
+      "packed": true
+    },
+    {
+      "name": "Image_1.012",
+      "packed": true
+    },
+    {
+      "name": "Image_1.013",
+      "packed": true
+    },
+    {
+      "name": "S04_FabricMetallicRoughness",
+      "packed": true
+    },
+    {
+      "name": "StudyWalnut_BaseColor",
+      "packed": true
+    },
+    {
+      "name": "Walnut_joinery",
+      "packed": true
+    }
+  ],
+  "meshCount": 1254,
+  "triangles": 443146,
+  "passed": true
+}
